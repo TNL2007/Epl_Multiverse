@@ -35,6 +35,7 @@
   const photos = {
     "Mohamed Salah": ["https://commons.wikimedia.org/wiki/Special:FilePath/Mo_Salah.jpg?width=320", "https://commons.wikimedia.org/wiki/File:Mo_Salah.jpg", "Eric The Fish · CC BY 2.0"],
     "Darwin Núñez": ["https://commons.wikimedia.org/wiki/Special:FilePath/Darwin_N%C3%BA%C3%B1ez_(cropped).jpg?width=320", "https://commons.wikimedia.org/wiki/File:Darwin_N%C3%BA%C3%B1ez_(cropped).jpg", "Steffen Prößdorf · CC BY-SA 4.0"],
+    "Virgil van Dijk": ["https://commons.wikimedia.org/wiki/Special:FilePath/Virgil_van_Dijk_2019.jpg?width=320", "https://commons.wikimedia.org/wiki/File:Virgil_van_Dijk_2019.jpg", "Fleets · CC BY-SA 2.0"],
     "Trent Alexander-Arnold": ["https://commons.wikimedia.org/wiki/Special:FilePath/Trent_Alexander-Arnold_2018_(cropped).jpg?width=320", "https://commons.wikimedia.org/wiki/File:Trent_Alexander-Arnold_2018_(cropped).jpg", "Anton Zaitsev · via soccer.ru · CC BY-SA 3.0"],
     "Bukayo Saka": ["https://commons.wikimedia.org/wiki/Special:FilePath/RC_Lens_-_Arsenal_FC_(03-10-2023)_16_(cropped).jpg?width=320", "https://commons.wikimedia.org/wiki/File:RC_Lens_-_Arsenal_FC_(03-10-2023)_16_(cropped).jpg", "Supporterhéninois · CC0"],
     "William Saliba": ["https://commons.wikimedia.org/wiki/Special:FilePath/1_william_saliba_arsenal_2025_(cropped).jpg?width=320", "https://commons.wikimedia.org/wiki/File:1_william_saliba_arsenal_2025_(cropped).jpg", "Chensiyuan · CC BY-SA 4.0"],
@@ -394,25 +395,25 @@
     }
     drawParticipants(participants);
     pitch.querySelectorAll(".match-player").forEach(player => player.classList.toggle("involved", participants.includes(player.dataset.name)));
-    document.querySelector(".play-context-label").textContent = "SIMULATED FORK · " + ["68:14", "75:02", "82:31"][phase];
+    document.querySelector(".play-context-label").textContent = phase === 0 && choice === "through-ball" ? "REAL EVENT · 72’ · POSITIONS ILLUSTRATIVE" : "COUNTERFACTUAL FORK · " + ["72:00", "75:02", "82:31"][phase];
   }
   game.addEventListener("click", event => {
     const choice = event.target.closest(".choice");
     if (choice) animateChoice(choice.dataset.choice);
     if (event.target.closest("#continue-button")) {
       if (phase < 2) phase++;
-      document.querySelector(".play-context-label").textContent = "SIMULATED FORK · " + ["68:14", "75:02", "82:31"][phase];
+      document.querySelector(".play-context-label").textContent = "COUNTERFACTUAL FORK · " + ["72:00", "75:02", "82:31"][phase];
     }
     if (event.target.closest("#rewind-button, #reset-button")) {
-      phase = 0; setBall(64, 56); drawParticipants(["Mohamed Salah", "Darwin Núñez"]);
-      pitch.querySelectorAll(".match-player").forEach(player => player.classList.toggle("involved", ["Mohamed Salah", "Darwin Núñez"].includes(player.dataset.name)));
-      document.querySelector(".play-context-label").textContent = "SIMULATED FORK · 68:14";
+      phase = 0; setBall(69, 25); drawParticipants(["Mohamed Salah", "Trent Alexander-Arnold"]);
+      pitch.querySelectorAll(".match-player").forEach(player => player.classList.toggle("involved", ["Mohamed Salah", "Trent Alexander-Arnold"].includes(player.dataset.name)));
+      document.querySelector(".play-context-label").textContent = "REAL MOMENT · 72’";
     }
   }, true);
 
   installPitchPlayers();
   const commentary = document.querySelector("#commentary-feed");
-  commentary.innerHTML = '<article class="commentary-entry"><time>REAL</time><p>The match is level at 1–1. Darwin Núñez has just replaced Cody Gakpo.</p></article><article class="commentary-entry featured"><time>68:14</time><p><strong>Counterfactual fork.</strong> Choose what Salah does next. This possession and its commentary are simulated, not historical match events.</p></article>';
+  commentary.innerHTML = '<article class="commentary-entry"><time>REAL</time><p>Liverpool are level at 1–1. At 72’, their counter from an Arsenal corner ends with Trent Alexander-Arnold hitting the crossbar.</p></article><article class="commentary-entry featured"><time>72:00</time><p><strong>Real match moment.</strong> Replay Salah’s pass to Trent, or explore a clearly labelled counterfactual.</p></article>';
   document.querySelector(".commentary-footer").textContent = "SIMULATED COMMENTARY · HISTORICAL EVENTS IN HIGHLIGHTS";
   document.querySelector(".momentum-card .eyebrow").textContent = "SIMULATION METER";
   document.querySelector(".momentum-card h2").textContent = "Scenario pressure";
