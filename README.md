@@ -24,14 +24,14 @@ Historical fixture/result data: [openfootball/football.json](https://github.com/
 
 ## Counterfactual match prototype
 
-The featured Liverpool–Arsenal scenario demonstrates the decision → outcome → commentary loop. Its alternate events are simulated. The bundled archive contains fixtures and scores—not player tracking or minute-by-minute event timelines—so it cannot verify details such as a specific penalty, save, or chance. Broader factual event replays need an appropriate event-data source and usage rights.
+The featured Liverpool–Arsenal scenario now starts from the verified 72nd-minute counter: Liverpool break after an Arsenal corner, Salah squares for Alexander-Arnold, and Trent hits the crossbar. That is the historical trunk; changed choices and outcomes are clearly counterfactual. The bundled archive contains fixtures and scores—not minute-by-minute event timelines or player tracking—so it cannot support factual replays for every archived fixture. Broader coverage needs an event-data source and appropriate usage rights.
 
 Win probabilities and season-ripple figures are illustrative prototype estimates, not betting or forecasting advice.
 
 ## Match-centre prototype
 
-The Liverpool–Arsenal match centre now separates **verified match events** from the **simulated 68th-minute fork**. It includes the official starting XIs and shirt numbers, the 67th-minute substitutions, an animated illustrative pitch, sourced player portraits for participants, a real-event highlights timeline, and an Eye Test tab that presents a fan-style reading with a counterpoint.
+The match centre includes the official starting XIs and shirt numbers, correctly updated 72nd-minute personnel, a coordinated illustrative reenactment of the real counter, larger credited player portraits, a real-event highlights timeline, and an Eye Test tab with a fan-style reading and counterpoint.
 
-The pitch positions and alternate commentary are simulated; they are not tracking data or a historical play-by-play. The pressure meter and score probabilities are prototype estimates. The Ratings tab lets a fan enter personal ratings locally; it does not fabricate per-player statistical ratings because the bundled results archive has no event feed. A single score can miss off-ball work, role context and positioning. FotMob and Sofascore publish broad descriptions of their rating inputs, but not enough of their exact weighting to reproduce them faithfully. The Eye Test is an evidence-led viewpoint, not a claim of perfect neutrality.
+Feature 2 now has an event-only Kalman-filter prototype. It updates a latent pressure estimate from three verified high-impact events (two goals and the crossbar chance). Its noise settings are hand-set, its sample is sparse, and it is not calibrated; it has no tracking, pressing-intensity or pitch-control input. The pitch movement likewise illustrates the event sequence rather than reproducing tracking coordinates. The Ratings tab lets a fan enter personal scores locally instead of fabricating player ratings from a results-only dataset. A single event-based score can miss off-ball work, role context and positioning. FotMob and Sofascore publish broad descriptions of rating inputs, but not enough exact weighting to reproduce them faithfully. The Eye Test is an evidence-led viewpoint, not a claim of perfect neutrality.
 
 Team sheets and real match moments are checked against the linked Liverpool and Arsenal official reports in the app. Player photos link to their Wikimedia Commons file pages and license/credit information.
