@@ -7089,7 +7089,7 @@
           "id": "moment-1",
           "minute": "17′",
           "title": "Erling Haaland — Goal",
-          "summary": "هدف! فولهام 0, مانشستر سيتي 1. إيرلينج هالاند (مانشستر سيتي) تسديدة بالقدم اليسرى من منتصف منطقة الجزاء إلى أعلى منتصف المرمى. تمريرة حاسمة بواسطة جيريمي دوكو بعرضية.",
+          "summary": "Erling Haaland scored.",
           "source": 0,
           "players": [
             "Erling Haaland",
@@ -7135,7 +7135,7 @@
           "id": "moment-2",
           "minute": "37′",
           "title": "Tijjani Reijnders — Goal",
-          "summary": "هدف! فولهام 0, مانشستر سيتي 2. تيجاني ريينديرس (مانشستر سيتي) تسديدة بالقدم اليمنى من منتصف منطقة الجزاء إلى منتصف المرمى. تمريرة حاسمة بواسطة إيرلينج هالاند بتمريرة بينية.",
+          "summary": "Tijjani Reijnders scored.",
           "source": 0,
           "players": [
             "Tijjani Reijnders",
@@ -7181,7 +7181,7 @@
           "id": "moment-3",
           "minute": "44′",
           "title": "Phil Foden — Goal",
-          "summary": "هدف! فولهام 0, مانشستر سيتي 3. فيليب فودين (مانشستر سيتي) تسديدة بالقدم اليسرى من خارج منطقة الجزاء إلى أعلى الزاوية اليسرى بعد ضربة ركنية.",
+          "summary": "Phil Foden scored.",
           "source": 0,
           "players": [
             "Phil Foden"
@@ -7225,7 +7225,7 @@
           "id": "moment-4",
           "minute": "45′+2′",
           "title": "Emile Smith Rowe — Goal",
-          "summary": "هدف! فولهام 1, مانشستر سيتي 3. إميل سميث رو (فولهام) ضربة رأسية من منتصف منطقة الجزاء إلى أعلى الزاوية اليسرى. تمريرة حاسمة بواسطة هاري ويلسون بعرضية بعد ضربة ركنية.",
+          "summary": "Emile Smith Rowe scored.",
           "source": 0,
           "players": [
             "Emile Smith Rowe",
@@ -7271,7 +7271,7 @@
           "id": "moment-5",
           "minute": "48′",
           "title": "Phil Foden — Goal",
-          "summary": "هدف! فولهام 1, مانشستر سيتي 4. فيليب فودين (مانشستر سيتي) تسديدة بالقدم اليمنى من الجهة اليمنى من داخل منطقة الـست ياردات إلى الزاوية الأرضية اليمنى. تمريرة حاسمة بواسطة إيرلينج هالاند بعد هجمة مرتدة.",
+          "summary": "Phil Foden scored.",
           "source": 0,
           "players": [
             "Phil Foden",
@@ -7317,7 +7317,7 @@
           "id": "moment-6",
           "minute": "54′",
           "title": "Sander Berge — Own goal",
-          "summary": "هدف ذاتي بـ ساندر بيرج, فولهام. فولهام 1, مانشستر سيتي 5.",
+          "summary": "Sander Berge scored an own goal.",
           "source": 0,
           "players": [
             "Sander Berge"
@@ -7361,7 +7361,7 @@
           "id": "moment-7",
           "minute": "57′",
           "title": "Alex Iwobi — Goal",
-          "summary": "هدف! فولهام 2, مانشستر سيتي 5. أليكس أيوبي (فولهام) تسديدة بالقدم اليمنى من خارج منطقة الجزاء إلى الزاوية الأرضية اليمنى.",
+          "summary": "Alex Iwobi scored.",
           "source": 0,
           "players": [
             "Alex Iwobi"
@@ -7405,7 +7405,7 @@
           "id": "moment-8",
           "minute": "72′",
           "title": "Samuel Chukwueze — Goal",
-          "summary": "هدف! فولهام 3, مانشستر سيتي 5. صامويل تشيكويزي (فولهام) تسديدة بالقدم اليسرى من منتصف منطقة الجزاء إلى الزاوية الأرضية اليسرى.",
+          "summary": "Samuel Chukwueze scored.",
           "source": 0,
           "players": [
             "Samuel Chukwueze"
