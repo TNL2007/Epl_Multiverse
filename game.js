@@ -594,6 +594,7 @@
     const statusText = status === "completed" ? "Full-time score in the included dataset." : status === "upcoming" ? "Fixture is scheduled; no result is recorded yet." : status === "today" ? "Today’s fixture; no final result is recorded in this snapshot yet." : "This fixture has no score in the current data snapshot.";
     $("#archive-selection-copy").textContent = season.season.replace("-", "/") + " · " + formatArchiveDate(match.date) + " · " + (match.round || "Premier League") + ". " + statusText + " This archive has scores, not a verified event timeline.";
     archiveSelection.classList.remove("hidden");
+    document.dispatchEvent(new CustomEvent("fixture:selected", { detail: { season: season.season, match, status, hasFinalScore: matchHasFinalScore(match) } }));
     archiveSelection.scrollIntoView({ behavior: "smooth", block: "nearest" });
   }
 
