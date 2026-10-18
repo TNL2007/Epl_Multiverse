@@ -403,7 +403,7 @@
   function renderTimelines() {
     $("#branch-count").textContent = branches.length + (branches.length === 1 ? " timeline" : " timelines");
     if (!branches.length) {
-      timelineList.innerHTML = '<div class="timeline-row current"><span class="timeline-index">1</span><span class="timeline-summary"><strong>Current timeline</strong><small>Waiting for your first decision…</small></span><span class="timeline-state">LIVE</span></div>';
+      timelineList.innerHTML = "<div class=\"timeline-row\"><span class=\"timeline-index\">0</span><span class=\"timeline-summary\"><strong>Historical trunk · Liverpool 1–1 Arsenal</strong><small>Actual 2023/24 match · 23 Dec 2023</small></span><span class=\"timeline-state\">ACTUAL</span></div><div class=\"timeline-row current\"><span class=\"timeline-index\">1</span><span class=\"timeline-summary\"><strong>Current timeline</strong><small>Waiting for your first decision…</small></span><span class=\"timeline-state\">LIVE</span></div>";
       return;
     }
     timelineList.replaceChildren();
