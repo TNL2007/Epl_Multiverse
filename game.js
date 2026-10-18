@@ -8,7 +8,7 @@
   const choiceButtons = [...document.querySelectorAll(".choice")];
   const commentaryFeed = $("#commentary-feed");
   const timelineList = $("#timeline-list");
-  const originalMatch = { home: 1, away: 1, minute: 68, seconds: 14, momentum: 18, winChance: 0 };
+  const originalMatch = { home: 1, away: 1, minute: 72, seconds: 0, momentum: 0, winChance: 0 };
   let seasonData = null;
   let seasonStats = null;
   let actualMatch = null;
@@ -16,12 +16,12 @@
   let lastCommentary = "";
   const scenarios = [
     {
-      minute: 68, clock: "68:14", title: "Salah has space on the right",
-      copy: "Núñez is attacking the near channel. The keeper is set, but the back line is scrambling. What should Mo do?",
-      callout: "⚡ BREAKING INTO THE BOX", caption: "LIVERPOOL COUNTER-ATTACK",
-      options: [["through-ball", "Slip Núñez through", "High reward · Tight angle"], ["shoot", "Take the shot himself", "Good position · Keeper ready"], ["switch", "Switch play to the left", "Keep the ball · Reset the attack"]],
+      minute: 72, clock: "72:00", title: "Liverpool break after Arsenal’s corner",
+      copy: "The real match reached this moment at 1–1: Salah led the counter and squared for Trent, whose shot hit the bar. Replay that actual choice, or branch before it.",
+      callout: "⚡ VERIFIED REAL MATCH MOMENT", caption: "LIVERPOOL COUNTER-ATTACK · 72’",
+      options: [["through-ball", "Replay Salah’s pass to Trent", "Real match · shot hits the bar"], ["shoot", "Salah shoots instead", "Counterfactual · change the pass"], ["switch", "Hold the ball wider", "Counterfactual · change the move"]],
       models: {
-        "through-ball": { outcomes: [["goal", .22], ["miss", .50], ["cut-out", .28]] },
+        "through-ball": { outcomes: [["historic-bar", 1]] },
         shoot: { outcomes: [["goal", .18], ["saved", .48], ["miss", .34]] },
         switch: { outcomes: [["build", .72], ["cut-out", .28]] }
       }
@@ -69,9 +69,9 @@
     updateImpact(null);
     resultPanel.classList.add("hidden");
     decisionPanel.classList.remove("hidden");
-    commentaryFeed.innerHTML = '<article class="commentary-entry"><time>REAL</time><p>At 1–1, Darwin Núñez has just replaced Cody Gakpo in Liverpool’s 67th-minute triple change.</p></article><article class="commentary-entry featured"><time>68:14</time><p><strong>Counterfactual fork.</strong> Choose what Salah does next. This possession and its commentary are simulated, not historical match events.</p></article>';
+    commentaryFeed.innerHTML = '<article class="commentary-entry"><time>REAL</time><p>At 1–1, Liverpool break after an Arsenal corner. Salah squares for Trent Alexander-Arnold, who hits the crossbar.</p></article><article class="commentary-entry featured"><time>72:00</time><p><strong>Real moment.</strong> Replay the documented pass and crossbar, or explore a clearly labelled counterfactual.</p></article>';
     renderTimelines();
-    lastCommentary = "Choose a simulated alternate action from the 68th minute.";
+    lastCommentary = "Replay the real 72nd-minute counter or choose a counterfactual.";
     choiceButtons.forEach(button => button.disabled = false);
   }
 
@@ -298,12 +298,13 @@
 
   function describeOutcome(phase, choice, outcome) {
     if (phase === 0) {
-      const names = { "through-ball": "Salah plays Núñez in", shoot: "Salah shoots", switch: "Salah switches play" };
+      const names = { "through-ball": "Real play: Salah squares to Trent", shoot: "Counterfactual: Salah shoots", switch: "Counterfactual: Salah holds the ball" };
       const result = {
-        goal: { label: "GOAL", tag: "GOAL · LIVERPOOL", headline: choice === "through-ball" ? "Núñez gets there… and scores!" : "Salah bends it into the corner!", body: choice === "through-ball" ? "Salah threads the pass between the centre-backs. Núñez takes it in stride and lifts the finish over the keeper. Liverpool lead 2–1." : "Salah shapes to curl it across goal and finds the far corner. The Kop erupts. Liverpool lead 2–1.", commentary: choice === "through-ball" ? "Salah slips Núñez through… he takes it early… GOOOAL! Darwin Núñez gives Liverpool the lead!" : "Salah cuts inside and lets fly… what a finish! Liverpool lead with minutes to play!", momentumDelta: 22, winDelta: 24, ripple: 88 },
-        miss: { label: "CHANCE MISSED", tag: "CHANCE MISSED", headline: choice === "through-ball" ? "Salah slips Núñez in…" : "Salah takes it on…", body: choice === "through-ball" ? "Núñez gets the shot away under pressure, but drags it just wide of the far post. A huge chance goes begging." : "He gets it onto his left and curls one towards the far corner. It bends away at the last second — Raya watches it wide.", commentary: choice === "through-ball" ? "Salah slips Núñez in… he opens his body… wide of the far post! That was the moment." : "Salah curls one towards the far corner… and it drifts wide. So close from Liverpool.", momentumDelta: -5, winDelta: -4, ripple: 52 },
-        saved: { label: "SAVE", tag: "BIG SAVE", headline: "The keeper keeps Arsenal level", body: "Salah gets the shot away through a crowd of bodies, but Raya reacts sharply and pushes it around the post.", commentary: "Salah shoots through traffic… Raya gets down brilliantly! Arsenal survive, for now.", momentumDelta: 3, winDelta: 2, ripple: 43 },
-        "cut-out": { label: "ATTACK BROKEN UP", tag: "TURNOVER", headline: choice === "through-ball" ? "The passing lane is shut" : "Arsenal get a foot in", body: choice === "through-ball" ? "Salah tries to thread the ball into the channel, but Saliba reads it and steps across Núñez. Arsenal clear their lines." : "The shot is charged down and Arsenal recover possession. Liverpool's counter is over.", commentary: choice === "through-ball" ? "Salah looks for Núñez, but Saliba reads it well. Arsenal get bodies back behind the ball." : "Salah winds it up… blocked! Arsenal scramble the ball clear.", momentumDelta: -8, winDelta: -5, ripple: 33 },
+        "historic-bar": { label: "REAL EVENT", tag: "HISTORICAL · CROSSBAR", headline: "Trent’s shot crashes off the bar", body: "This is what happened: after Liverpool broke from an Arsenal corner, Salah squared the ball to Alexander-Arnold. Trent hit the crossbar; the match stayed 1–1.", commentary: "Salah squares it for Trent… he strikes it… off the crossbar! Liverpool come within inches.", momentumDelta: 0, winDelta: 0, ripple: 0 },
+        goal: { label: "SIMULATED GOAL", tag: "COUNTERFACTUAL · LIVERPOOL", headline: "Liverpool turn the counter into a goal", body: "In this simulated branch, Liverpool finish the move and take the lead. This did not happen in the historical match.", commentary: "A different finish changes the score in this simulated branch.", momentumDelta: 22, winDelta: 24, ripple: 88 },
+        miss: { label: "SIMULATED MISS", tag: "COUNTERFACTUAL · MISSED", headline: "The altered counter ends without a goal", body: "In this simulated branch, Liverpool do not score. The real match moment was Salah’s pass to Trent and the shot against the crossbar.", commentary: "The altered move ends without a goal; the real crossbar moment remains the historical reference.", momentumDelta: -5, winDelta: -4, ripple: 52 },
+        saved: { label: "SIMULATED SAVE", tag: "COUNTERFACTUAL · SAVE", headline: "Raya keeps the altered attack out", body: "In this simulated branch, Raya saves the changed attempt. This is not a recorded event from the match.", commentary: "Raya makes the save in this simulated alternative.", momentumDelta: 3, winDelta: 2, ripple: 43 },
+        "cut-out": { label: "SIMULATED TURNOVER", tag: "COUNTERFACTUAL · TURNOVER", headline: "Arsenal stop the altered counter", body: "In this simulated branch, Arsenal regain possession. No such turnover is claimed as a historical event.", commentary: "Arsenal stop the altered attack in this simulated branch.", momentumDelta: -8, winDelta: -5, ripple: 33 },
         build: { label: "ATTACK BUILDS", tag: "PRESSURE BUILDS", headline: "Liverpool keep the attack alive", body: "Salah finds the free man on the far side. Liverpool recycle possession and pin Arsenal back around their box.", commentary: "Salah switches it quickly… Liverpool have space on the far side. The pressure builds again.", momentumDelta: 8, winDelta: 3, ripple: 36 }
       }[outcome];
       return { ...result, choiceLabel: names[choice] };
