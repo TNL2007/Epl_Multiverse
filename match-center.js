@@ -42,8 +42,8 @@
   };
 
   const startersAt68 = {
-    liverpool: teams.liverpool.starters.filter(player => player[1] !== "Cody Gakpo")
-      .concat([[9, "Darwin Núñez", "CF", 80, 49]]),
+    liverpool: teams.liverpool.starters.filter(player => !["Cody Gakpo", "Luis Díaz", "Curtis Jones"].includes(player[1]))
+      .concat([[9, "Darwin Núñez", "CF", 80, 49], [19, "Harvey Elliott", "CM", 58, 69], [38, "Ryan Gravenberch", "CM", 55, 31]]),
     arsenal: teams.arsenal.starters
   };
   const events = [
@@ -108,14 +108,14 @@
     }
     const context = document.createElement("div");
     context.className = "play-context";
-    context.innerHTML = '<span class="play-context-label">SIMULATED FORK · 68:14</span><div class="play-participants" id="play-participants"></div>';
+    context.innerHTML = '<span class="play-context-label">REAL MOMENT · 72’</span><div class="play-participants" id="play-participants"></div>';
     pitch.after(context);
     const disclaimer = document.createElement("span");
     disclaimer.className = "pitch-simulation-note";
-    disclaimer.textContent = "68’ personnel · positions illustrative · this attack is simulated";
+    disclaimer.textContent = "REAL 72’ event · player positions are illustrative, not tracking data";
     pitch.append(disclaimer);
-    document.querySelector(".legend-hint").textContent = "REAL 68’ PERSONNEL · SIMULATED POSITIONS";
-    drawParticipants(["Mohamed Salah", "Darwin Núñez"]);
+    document.querySelector(".legend-hint").textContent = "REAL 72’ PERSONNEL · ILLUSTRATIVE POSITIONS";
+    drawParticipants(["Mohamed Salah", "Trent Alexander-Arnold"]);
   }
   function photoCard(name, detail) {
     const card = document.createElement("span");
@@ -167,6 +167,48 @@
     return section;
   }
 
+  function playVerifiedCounter() {
+    const label = document.querySelector(".play-context-label");
+    const note = document.querySelector(".pitch-simulation-note");
+    if (label) label.textContent = "REAL HIGHLIGHT · 72’ · POSITIONS ILLUSTRATIVE";
+    if (note) note.textContent = "REAL EVENT · exact player tracking is unavailable";
+    drawParticipants(["Mohamed Salah", "Trent Alexander-Arnold"]);
+    const move = (name, x, y) => movePlayer(name, x, y);
+    // Reenact the sourced sequence, not exact tracking coordinates:
+    // Arsenal corner -> Liverpool counter -> Salah squares -> Trent hits the bar.
+    setBall(7, 18);
+    setTimeout(() => {
+      setBall(34, 39);
+      move("Mohamed Salah", 34, 39);
+      move("Trent Alexander-Arnold", 42, 47);
+      move("Dominik Szoboszlai", 40, 30);
+      move("Darwin Núñez", 48, 43);
+      move("Harvey Elliott", 43, 66);
+      move("Ryan Gravenberch", 38, 55);
+      move("Declan Rice", 56, 47);
+      move("Ben White", 65, 38);
+      move("William Saliba", 72, 48);
+      move("David Raya", 94, 50);
+    }, 180);
+    setTimeout(() => {
+      setBall(75, 43);
+      move("Mohamed Salah", 73, 42);
+      move("Trent Alexander-Arnold", 83, 45);
+      move("Dominik Szoboszlai", 69, 31);
+      move("Darwin Núñez", 78, 39);
+      move("Harvey Elliott", 71, 59);
+      move("Ryan Gravenberch", 67, 52);
+      move("Declan Rice", 79, 47);
+      move("Ben White", 85, 38);
+      move("William Saliba", 88, 51);
+    }, 900);
+    setTimeout(() => {
+      setBall(96, 25);
+      move("Trent Alexander-Arnold", 93, 43);
+      move("David Raya", 96, 50);
+    }, 1650);
+  }
+
   function renderHighlights() {
     insightPanel.replaceChildren();
     const intro = panelCard("The real match, in six moments", "VERIFIED MATCH HIGHLIGHTS", "Liverpool 1–1 Arsenal · Anfield · 23 December 2023. These events are from the real match; the playable branch remains simulated.");
@@ -183,7 +225,8 @@
       button.addEventListener("click", () => {
         nav.querySelector('[data-view="match"]').click();
         const targets = index === 1 || index === 4 ? ["Trent Alexander-Arnold", "Mohamed Salah"] : index === 3 ? ["Darwin Núñez", "Mohamed Salah"] : ["Gabriel Magalhães", "David Raya"];
-        drawParticipants(targets);
+        if (index === 4) playVerifiedCounter();
+        else drawParticipants(targets);
         pitch.scrollIntoView({ behavior: "smooth", block: "center" });
       });
       item.append(time, copy, button); list.append(item);
@@ -328,8 +371,26 @@
     ball.classList.add("ball-in-flight");
     setBall(x, y);
     movePlayer(receiver, x, y);
-    if (phase === 0 && choice === "through-ball") {
-      movePlayer("Darwin Núñez", 82, 47); movePlayer("William Saliba", 78, 40);
+    if (phase === 0) {
+      if (choice === "through-ball") {
+        movePlayer("Mohamed Salah", 72, 43);
+        movePlayer("Trent Alexander-Arnold", 84, 45);
+        movePlayer("Darwin Núñez", 78, 39);
+        movePlayer("Dominik Szoboszlai", 69, 31);
+        movePlayer("Harvey Elliott", 71, 59);
+        movePlayer("Ryan Gravenberch", 67, 52);
+        movePlayer("Declan Rice", 79, 47);
+        movePlayer("Ben White", 85, 38);
+        movePlayer("William Saliba", 88, 51);
+        movePlayer("David Raya", 96, 50);
+      } else {
+        movePlayer("Mohamed Salah", 75, 44);
+        movePlayer("Trent Alexander-Arnold", 72, 40);
+        movePlayer("Darwin Núñez", 81, 37);
+        movePlayer("Dominik Szoboszlai", 67, 30);
+        movePlayer("Declan Rice", 77, 47);
+        movePlayer("William Saliba", 88, 50);
+      }
     }
     drawParticipants(participants);
     pitch.querySelectorAll(".match-player").forEach(player => player.classList.toggle("involved", participants.includes(player.dataset.name)));
