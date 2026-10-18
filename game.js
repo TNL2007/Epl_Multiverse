@@ -484,5 +484,150 @@
       else window.speechSynthesis.cancel();
     });
   }
+
+  const archiveSeasonSelect = $("#archive-season");
+  const archiveSearch = $("#archive-search");
+  const archiveFilter = $("#archive-status-filter");
+  const archiveStatus = $("#archive-status");
+  const archiveList = $("#archive-list");
+  const archiveTotal = $("#archive-total");
+  const archivePageLabel = $("#archive-page");
+  const archivePrev = $("#archive-prev");
+  const archiveNext = $("#archive-next");
+  const archiveSelection = $("#archive-selection");
+  const ARCHIVE_PAGE_SIZE = 20;
+  const ARCHIVE_FILES = [
+    ["2026-27", "./data/epl-2026-27-results.json"],
+    ["2025-26", "./data/epl-2025-26-results.json"],
+    ["2024-25", "./data/epl-2024-25-results.json"],
+    ["2023-24", "./data/epl-2023-24-results.json"],
+    ["2022-23", "./data/epl-2022-23-results.json"]
+  ];
+  let archiveData = [];
+  let archivePageNumber = 0;
+  let archiveVisibleMatches = [];
+
+  function matchHasFinalScore(match) {
+    return Array.isArray(match.score?.ft) && match.score.ft.length === 2;
+  }
+
+  function matchArchiveState(match) {
+    if (matchHasFinalScore(match)) return "completed";
+    const today = new Date().toISOString().slice(0, 10);
+    return match.date > today ? "upcoming" : "missing";
+  }
+
+  function formatArchiveDate(value) {
+    if (!value) return "Date TBC";
+    const date = new Date(value + "T00:00:00");
+    return Number.isNaN(date.getTime()) ? value : new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "short", year: "numeric" }).format(date);
+  }
+
+  function formatArchiveScore(match) {
+    return matchHasFinalScore(match) ? match.score.ft[0] + "–" + match.score.ft[1] : "v";
+  }
+
+  function renderMatchArchive() {
+    if (!archiveData.length) return;
+    const season = archiveData.find(item => item.season === archiveSeasonSelect.value) || archiveData[0];
+    const query = archiveSearch.value.trim().toLowerCase();
+    const filter = archiveFilter.value;
+    archiveVisibleMatches = season.matches.map((match, index) => ({ match, index }))
+      .filter(({ match }) => {
+        const status = matchArchiveState(match);
+        const matchesFilter = filter === "all" || filter === status;
+        const searchable = [match.date, match.round, match.team1, match.team2].join(" ").toLowerCase();
+        return matchesFilter && (!query || searchable.includes(query));
+      })
+      .sort((a, b) => (b.match.date || "").localeCompare(a.match.date || "") || (b.match.time || "").localeCompare(a.match.time || ""));
+    const pageCount = Math.max(1, Math.ceil(archiveVisibleMatches.length / ARCHIVE_PAGE_SIZE));
+    archivePageNumber = Math.min(archivePageNumber, pageCount - 1);
+    const pageItems = archiveVisibleMatches.slice(archivePageNumber * ARCHIVE_PAGE_SIZE, (archivePageNumber + 1) * ARCHIVE_PAGE_SIZE);
+    const finalCount = season.matches.filter(matchHasFinalScore).length;
+    const missingCount = season.matches.length - finalCount;
+    archiveTotal.textContent = season.matches.length.toLocaleString("en-GB") + " fixtures";
+    archiveStatus.textContent = season.season.replace("-", "/") + " · " + finalCount + " final scores · " + missingCount + " without a score in this snapshot";
+    archivePageLabel.textContent = (archivePageNumber + 1) + " / " + pageCount;
+    archivePrev.disabled = archivePageNumber === 0;
+    archiveNext.disabled = archivePageNumber >= pageCount - 1;
+    archiveList.replaceChildren();
+    if (!pageItems.length) {
+      archiveList.innerHTML = '<p class="archive-empty">No matches found for this search.</p>';
+      return;
+    }
+    for (const { match, index } of pageItems) {
+      const status = matchArchiveState(match);
+      const row = document.createElement("button");
+      row.type = "button";
+      row.className = "archive-row";
+      row.setAttribute("role", "listitem");
+      const date = document.createElement("span");
+      date.className = "archive-date";
+      date.textContent = formatArchiveDate(match.date);
+      const teams = document.createElement("span");
+      teams.className = "archive-teams";
+      const home = document.createElement("strong");
+      home.textContent = match.team1;
+      const score = document.createElement("b");
+      score.textContent = formatArchiveScore(match);
+      const away = document.createElement("strong");
+      away.textContent = match.team2;
+      teams.append(home, score, away);
+      const meta = document.createElement("span");
+      meta.className = "archive-meta";
+      const round = document.createElement("small");
+      round.textContent = match.round || "Fixture";
+      const badge = document.createElement("i");
+      badge.className = "archive-badge " + status;
+      badge.textContent = status === "completed" ? "FT" : status === "upcoming" ? "UPCOMING" : "NO SCORE";
+      meta.append(round, badge);
+      row.append(date, teams, meta);
+      row.addEventListener("click", () => showArchiveSelection(season, match, index));
+      archiveList.append(row);
+    }
+  }
+
+  function showArchiveSelection(season, match, index) {
+    const score = matchHasFinalScore(match) ? " " + match.score.ft[0] + "–" + match.score.ft[1] + " " : " v ";
+    $("#archive-selection-title").textContent = match.team1 + score + match.team2;
+    const status = matchArchiveState(match);
+    const statusText = status === "completed" ? "Full-time score in the included dataset." : status === "upcoming" ? "Fixture is scheduled; no result is recorded yet." : "This fixture has no score in the current data snapshot.";
+    $("#archive-selection-copy").textContent = season.season.replace("-", "/") + " · " + formatArchiveDate(match.date) + " · " + (match.round || "Premier League") + ". " + statusText + " This archive has scores, not a verified event timeline.";
+    archiveSelection.classList.remove("hidden");
+    archiveSelection.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }
+
+  async function loadMatchArchive() {
+    try {
+      const loaded = await Promise.all(ARCHIVE_FILES.map(async ([season, path]) => {
+        const response = await fetch(path);
+        if (!response.ok) throw new Error("Could not load " + season);
+        const data = await response.json();
+        return { season, matches: Array.isArray(data.matches) ? data.matches : [], source: data.source };
+      }));
+      archiveData = loaded;
+      for (const item of archiveData) {
+        const option = document.createElement("option");
+        option.value = item.season;
+        option.textContent = item.season.replace("-", "/") + (item.season === "2026-27" ? " · current" : "");
+        archiveSeasonSelect.append(option);
+      }
+      archiveSeasonSelect.value = "2026-27";
+      const total = archiveData.reduce((sum, item) => sum + item.matches.length, 0);
+      const finalScores = archiveData.reduce((sum, item) => sum + item.matches.filter(matchHasFinalScore).length, 0);
+      archiveTotal.title = total.toLocaleString("en-GB") + " fixtures across five seasons; " + finalScores.toLocaleString("en-GB") + " with full-time scores in the snapshot.";
+      archiveSeasonSelect.addEventListener("change", () => { archivePageNumber = 0; archiveSelection.classList.add("hidden"); renderMatchArchive(); });
+      archiveSearch.addEventListener("input", () => { archivePageNumber = 0; renderMatchArchive(); });
+      archiveFilter.addEventListener("change", () => { archivePageNumber = 0; renderMatchArchive(); });
+      archivePrev.addEventListener("click", () => { archivePageNumber--; renderMatchArchive(); });
+      archiveNext.addEventListener("click", () => { archivePageNumber++; renderMatchArchive(); });
+      renderMatchArchive();
+    } catch (error) {
+      archiveStatus.textContent = "The match archive could not be loaded. The featured simulation is still available.";
+      archiveList.replaceChildren();
+    }
+  }
+
   loadSeasonData().then(newMatch);
+  loadMatchArchive();
 })();
