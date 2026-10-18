@@ -1,0 +1,3110 @@
+{
+  "schemaVersion": 2,
+  "matches": {
+    "2026-10-17|Brentford FC|Liverpool FC": {
+      "date": "2026-10-17",
+      "home": "Brentford FC",
+      "away": "Liverpool FC",
+      "score": "1–2",
+      "season": "2026-27",
+      "players": [
+        {
+          "name": "Caoimhín Kelleher",
+          "number": 1,
+          "role": "Goalkeeper",
+          "team": "Brentford FC"
+        },
+        {
+          "name": "Sepp van den Berg",
+          "number": 4,
+          "role": "Defender",
+          "team": "Brentford FC"
+        },
+        {
+          "name": "Yehor Yarmoliuk",
+          "number": 6,
+          "role": "Midfielder",
+          "team": "Brentford FC"
+        },
+        {
+          "name": "Mathias Jensen",
+          "number": 8,
+          "role": "Midfielder",
+          "team": "Brentford FC"
+        },
+        {
+          "name": "Igor Thiago",
+          "number": 9,
+          "role": "Forward",
+          "team": "Brentford FC"
+        },
+        {
+          "name": "Dango Ouattara",
+          "number": 11,
+          "role": "Midfielder",
+          "team": "Brentford FC"
+        },
+        {
+          "name": "Jaidon Anthony",
+          "number": 19,
+          "role": "Midfielder",
+          "team": "Brentford FC"
+        },
+        {
+          "name": "Kristoffer Ajer",
+          "number": 20,
+          "role": "Defender",
+          "team": "Brentford FC"
+        },
+        {
+          "name": "Keane Lewis-Potter",
+          "number": 23,
+          "role": "Defender",
+          "team": "Brentford FC"
+        },
+        {
+          "name": "Vitaly Janelt",
+          "number": 27,
+          "role": "Midfielder",
+          "team": "Brentford FC"
+        },
+        {
+          "name": "Michael Kayode",
+          "number": 33,
+          "role": "Defender",
+          "team": "Brentford FC"
+        },
+        {
+          "name": "Hákon Valdimarsson",
+          "number": 12,
+          "role": "Goalkeeper",
+          "team": "Brentford FC"
+        },
+        {
+          "name": "Aaron Hickey",
+          "number": 2,
+          "role": "Defender",
+          "team": "Brentford FC"
+        },
+        {
+          "name": "Kevin Schade",
+          "number": 7,
+          "role": "Midfielder",
+          "team": "Brentford FC"
+        },
+        {
+          "name": "Callum Wilson",
+          "number": 13,
+          "role": "Forward",
+          "team": "Brentford FC"
+        },
+        {
+          "name": "Fábio Carvalho",
+          "number": 14,
+          "role": "Midfielder",
+          "team": "Brentford FC"
+        },
+        {
+          "name": "Mamadou Sangaré",
+          "number": 18,
+          "role": "Midfielder",
+          "team": "Brentford FC"
+        },
+        {
+          "name": "Nathan Collins",
+          "number": 22,
+          "role": "Defender",
+          "team": "Brentford FC"
+        },
+        {
+          "name": "Mikkel Damsgaard",
+          "number": 24,
+          "role": "Midfielder",
+          "team": "Brentford FC"
+        },
+        {
+          "name": "El Hadji Malick Diouf",
+          "number": 25,
+          "role": "Defender",
+          "team": "Brentford FC"
+        },
+        {
+          "name": "Alisson Becker",
+          "number": 1,
+          "role": "Goalkeeper",
+          "team": "Liverpool FC"
+        },
+        {
+          "name": "Virgil van Dijk",
+          "number": 4,
+          "role": "Defender",
+          "team": "Liverpool FC"
+        },
+        {
+          "name": "Jérémy Jacquet",
+          "number": 5,
+          "role": "Defender",
+          "team": "Liverpool FC"
+        },
+        {
+          "name": "Milos Kerkez",
+          "number": 6,
+          "role": "Defender",
+          "team": "Liverpool FC"
+        },
+        {
+          "name": "Florian Wirtz",
+          "number": 7,
+          "role": "Midfielder",
+          "team": "Liverpool FC"
+        },
+        {
+          "name": "Dominik Szoboszlai",
+          "number": 8,
+          "role": "Midfielder",
+          "team": "Liverpool FC"
+        },
+        {
+          "name": "Alexander Isak",
+          "number": 9,
+          "role": "Forward",
+          "team": "Liverpool FC"
+        },
+        {
+          "name": "Alexis Mac Allister",
+          "number": 10,
+          "role": "Midfielder",
+          "team": "Liverpool FC"
+        },
+        {
+          "name": "Víctor Muñoz",
+          "number": 23,
+          "role": "Midfielder",
+          "team": "Liverpool FC"
+        },
+        {
+          "name": "Bradley Barcola",
+          "number": 29,
+          "role": "Midfielder",
+          "team": "Liverpool FC"
+        },
+        {
+          "name": "Ronald Araujo",
+          "number": 33,
+          "role": "Defender",
+          "team": "Liverpool FC"
+        },
+        {
+          "name": "Giorgi Mamardashvili",
+          "number": 25,
+          "role": "Goalkeeper",
+          "team": "Liverpool FC"
+        },
+        {
+          "name": "Joe Gomez",
+          "number": 2,
+          "role": "Defender",
+          "team": "Liverpool FC"
+        },
+        {
+          "name": "Wataru Endo",
+          "number": 3,
+          "role": "Midfielder",
+          "team": "Liverpool FC"
+        },
+        {
+          "name": "Cody Gakpo",
+          "number": 18,
+          "role": "Forward",
+          "team": "Liverpool FC"
+        },
+        {
+          "name": "Kostas Tsimikas",
+          "number": 21,
+          "role": "Defender",
+          "team": "Liverpool FC"
+        },
+        {
+          "name": "Jeremie Frimpong",
+          "number": 30,
+          "role": "Defender",
+          "team": "Liverpool FC"
+        },
+        {
+          "name": "Trey Nyoni",
+          "number": 42,
+          "role": "Midfielder",
+          "team": "Liverpool FC"
+        },
+        {
+          "name": "Lewis Koumas",
+          "number": 67,
+          "role": "Forward",
+          "team": "Liverpool FC"
+        },
+        {
+          "name": "Rio Ngumoha",
+          "number": 73,
+          "role": "Forward",
+          "team": "Liverpool FC"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Premier League match commentary and lineups",
+          "url": "https://www.premierleague.com/en/match/2645256"
+        }
+      ],
+      "moments": [
+        {
+          "id": "moment-1",
+          "minute": "44′",
+          "title": "Keane Lewis-Potter — Goal",
+          "summary": "هدف! برينتفورد 1, ليفربول 0. كين لويس بوتير (برينتفورد) ضربة رأسية من منتصف منطقة الجزاء إلى أعلى الزاوية اليمنى. تمريرة حاسمة بواسطة تياغو.",
+          "source": 0,
+          "players": [
+            "Keane Lewis-Potter",
+            "Igor Thiago"
+          ],
+          "event": {
+            "type": "goal",
+            "playerIds": [
+              "249231",
+              "502500"
+            ],
+            "teamId": "94",
+            "evidence": "هدف! برينتفورد 1, ليفربول 0. كين لويس بوتير (برينتفورد) ضربة رأسية من منتصف منطقة الجزاء إلى أعلى الزاوية اليمنى. تمريرة حاسمة بواسطة تياغو."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot first time",
+              "detail": "Take the earliest finish",
+              "outcome": "The attacker shoots immediately; this is a hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry into space",
+              "detail": "Improve the angle before shooting",
+              "outcome": "The attacker carries the ball; this is a hypothetical branch."
+            },
+            {
+              "type": "pass",
+              "label": "Square to a teammate",
+              "detail": "Choose the pass instead",
+              "outcome": "A teammate receives the square ball; this is a hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Keep possession",
+              "detail": "Reset the attack",
+              "outcome": "The attack is recycled; this is a hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-2",
+          "minute": "45′+8′",
+          "title": "Yehor Yarmoliuk — Red card",
+          "summary": "إيهور يارموليوك (برينتفورد) تحصّل على بطاقة حمراء لسلوك عنيف.",
+          "source": 0,
+          "players": [
+            "Yehor Yarmoliuk"
+          ],
+          "event": {
+            "type": "red card",
+            "playerIds": [
+              "508395"
+            ],
+            "teamId": "94",
+            "evidence": "إيهور يارموليوك (برينتفورد) تحصّل على بطاقة حمراء لسلوك عنيف."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot",
+              "detail": "Take the attempt",
+              "outcome": "The attempt is taken. Hypothetical branch; no outcome is presented as fact."
+            },
+            {
+              "type": "pass",
+              "label": "Pass to a teammate",
+              "detail": "Choose a pass instead",
+              "outcome": "Possession is played to a teammate. Hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry the ball",
+              "detail": "Try to improve the angle",
+              "outcome": "The carrier tries to beat the next defender. Hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Recycle possession",
+              "detail": "Keep the move alive",
+              "outcome": "The attack is reset. Hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-3",
+          "minute": "53′",
+          "title": "Jaidon Anthony — Big chance saved",
+          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليمنى(برينتفورد) جايدون أنتونيتم التصدي في الزاوية الأرضية اليمنى.",
+          "source": 0,
+          "players": [
+            "Jaidon Anthony"
+          ],
+          "event": {
+            "type": "attempt saved",
+            "playerIds": [
+              "444180"
+            ],
+            "teamId": "94",
+            "evidence": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليمنى(برينتفورد) جايدون أنتونيتم التصدي في الزاوية الأرضية اليمنى."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot",
+              "detail": "Take the attempt",
+              "outcome": "The attempt is taken. Hypothetical branch; no outcome is presented as fact."
+            },
+            {
+              "type": "pass",
+              "label": "Pass to a teammate",
+              "detail": "Choose a pass instead",
+              "outcome": "Possession is played to a teammate. Hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry the ball",
+              "detail": "Try to improve the angle",
+              "outcome": "The carrier tries to beat the next defender. Hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Recycle possession",
+              "detail": "Keep the move alive",
+              "outcome": "The attack is reset. Hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-4",
+          "minute": "59′",
+          "title": "Alexis Mac Allister — Big chance saved",
+          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(ليفربول) أليكسيز ماك أليسترتم التصدي. تمريرة حاسمة بواسطة ميلوش كيركز في أعلى الزاوية اليمنى.",
+          "source": 0,
+          "players": [
+            "Alexis Mac Allister",
+            "Milos Kerkez"
+          ],
+          "event": {
+            "type": "attempt saved",
+            "playerIds": [
+              "243016",
+              "544877"
+            ],
+            "teamId": "14",
+            "evidence": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(ليفربول) أليكسيز ماك أليسترتم التصدي. تمريرة حاسمة بواسطة ميلوش كيركز في أعلى الزاوية اليمنى."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot",
+              "detail": "Take the attempt",
+              "outcome": "The attempt is taken. Hypothetical branch; no outcome is presented as fact."
+            },
+            {
+              "type": "pass",
+              "label": "Pass to a teammate",
+              "detail": "Choose a pass instead",
+              "outcome": "Possession is played to a teammate. Hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry the ball",
+              "detail": "Try to improve the angle",
+              "outcome": "The carrier tries to beat the next defender. Hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Recycle possession",
+              "detail": "Keep the move alive",
+              "outcome": "The attack is reset. Hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-5",
+          "minute": "62′",
+          "title": "Víctor Muñoz — Goal",
+          "summary": "هدف! برينتفورد 1, ليفربول 1. فيكتور مونيوز (ليفربول) تسديدة بالقدم اليسرى من الجهة اليمنى من منطقة الجزاء إلى الزاوية الأرضية اليسرى. تمريرة حاسمة بواسطة فلوريان ويرتز بعد هجمة مرتدة.",
+          "source": 0,
+          "players": [
+            "Víctor Muñoz",
+            "Florian Wirtz"
+          ],
+          "event": {
+            "type": "goal",
+            "playerIds": [
+              "551499",
+              "494595"
+            ],
+            "teamId": "14",
+            "evidence": "هدف! برينتفورد 1, ليفربول 1. فيكتور مونيوز (ليفربول) تسديدة بالقدم اليسرى من الجهة اليمنى من منطقة الجزاء إلى الزاوية الأرضية اليسرى. تمريرة حاسمة بواسطة فلوريان ويرتز بعد هجمة مرتدة."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot first time",
+              "detail": "Take the earliest finish",
+              "outcome": "The attacker shoots immediately; this is a hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry into space",
+              "detail": "Improve the angle before shooting",
+              "outcome": "The attacker carries the ball; this is a hypothetical branch."
+            },
+            {
+              "type": "pass",
+              "label": "Square to a teammate",
+              "detail": "Choose the pass instead",
+              "outcome": "A teammate receives the square ball; this is a hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Keep possession",
+              "detail": "Reset the attack",
+              "outcome": "The attack is recycled; this is a hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-6",
+          "minute": "70′",
+          "title": "Alexander Isak — Goal",
+          "summary": "هدف! برينتفورد 1, ليفربول 2. أليكساندر إيزاك (ليفربول) تسديدة بالقدم اليسرى من مسافة قريبة جداً إلى الزاوية الأرضية اليمنى. تمريرة حاسمة بواسطة برادلي باركولا تمريرة بضربة رأسية.",
+          "source": 0,
+          "players": [
+            "Alexander Isak",
+            "Bradley Barcola"
+          ],
+          "event": {
+            "type": "goal",
+            "playerIds": [
+              "219168",
+              "482616"
+            ],
+            "teamId": "14",
+            "evidence": "هدف! برينتفورد 1, ليفربول 2. أليكساندر إيزاك (ليفربول) تسديدة بالقدم اليسرى من مسافة قريبة جداً إلى الزاوية الأرضية اليمنى. تمريرة حاسمة بواسطة برادلي باركولا تمريرة بضربة رأسية."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot first time",
+              "detail": "Take the earliest finish",
+              "outcome": "The attacker shoots immediately; this is a hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry into space",
+              "detail": "Improve the angle before shooting",
+              "outcome": "The attacker carries the ball; this is a hypothetical branch."
+            },
+            {
+              "type": "pass",
+              "label": "Square to a teammate",
+              "detail": "Choose the pass instead",
+              "outcome": "A teammate receives the square ball; this is a hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Keep possession",
+              "detail": "Reset the attack",
+              "outcome": "The attack is recycled; this is a hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-7",
+          "minute": "72′",
+          "title": "Víctor Muñoz — Big chance saved",
+          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(ليفربول) فيكتور مونيوزتم التصدي. تمريرة حاسمة بواسطة تريماوريس نيوني في منتصف المرمى.",
+          "source": 0,
+          "players": [
+            "Víctor Muñoz",
+            "Trey Nyoni"
+          ],
+          "event": {
+            "type": "attempt saved",
+            "playerIds": [
+              "551499",
+              "591386"
+            ],
+            "teamId": "14",
+            "evidence": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(ليفربول) فيكتور مونيوزتم التصدي. تمريرة حاسمة بواسطة تريماوريس نيوني في منتصف المرمى."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot",
+              "detail": "Take the attempt",
+              "outcome": "The attempt is taken. Hypothetical branch; no outcome is presented as fact."
+            },
+            {
+              "type": "pass",
+              "label": "Pass to a teammate",
+              "detail": "Choose a pass instead",
+              "outcome": "Possession is played to a teammate. Hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry the ball",
+              "detail": "Try to improve the angle",
+              "outcome": "The carrier tries to beat the next defender. Hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Recycle possession",
+              "detail": "Keep the move alive",
+              "outcome": "The attack is reset. Hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-8",
+          "minute": "90′+4′",
+          "title": "Lewis Koumas — Big chance saved",
+          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(ليفربول) لويس كوماستم التصدي. تمريرة حاسمة بواسطة فيرجيل فان دايك في منتصف المرمى.",
+          "source": 0,
+          "players": [
+            "Lewis Koumas",
+            "Virgil van Dijk"
+          ],
+          "event": {
+            "type": "attempt saved",
+            "playerIds": [
+              "514514",
+              "97032"
+            ],
+            "teamId": "14",
+            "evidence": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(ليفربول) لويس كوماستم التصدي. تمريرة حاسمة بواسطة فيرجيل فان دايك في منتصف المرمى."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot",
+              "detail": "Take the attempt",
+              "outcome": "The attempt is taken. Hypothetical branch; no outcome is presented as fact."
+            },
+            {
+              "type": "pass",
+              "label": "Pass to a teammate",
+              "detail": "Choose a pass instead",
+              "outcome": "Possession is played to a teammate. Hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry the ball",
+              "detail": "Try to improve the angle",
+              "outcome": "The carrier tries to beat the next defender. Hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Recycle possession",
+              "detail": "Keep the move alive",
+              "outcome": "The attack is reset. Hypothetical branch."
+            }
+          ]
+        }
+      ]
+    },
+    "2026-10-17|Everton FC|Chelsea FC": {
+      "date": "2026-10-17",
+      "home": "Everton FC",
+      "away": "Chelsea FC",
+      "score": "0–2",
+      "season": "2026-27",
+      "players": [
+        {
+          "name": "Jordan Pickford",
+          "number": 1,
+          "role": "Goalkeeper",
+          "team": "Everton FC"
+        },
+        {
+          "name": "Ainsley Maitland-Niles",
+          "number": 2,
+          "role": "Defender",
+          "team": "Everton FC"
+        },
+        {
+          "name": "Jarrad Branthwaite",
+          "number": 4,
+          "role": "Defender",
+          "team": "Everton FC"
+        },
+        {
+          "name": "James Tarkowski",
+          "number": 6,
+          "role": "Defender",
+          "team": "Everton FC"
+        },
+        {
+          "name": "Kiernan Dewsbury-Hall",
+          "number": 8,
+          "role": "Midfielder",
+          "team": "Everton FC"
+        },
+        {
+          "name": "Jack Grealish",
+          "number": 10,
+          "role": "Midfielder",
+          "team": "Everton FC"
+        },
+        {
+          "name": "Thierno Barry",
+          "number": 11,
+          "role": "Forward",
+          "team": "Everton FC"
+        },
+        {
+          "name": "Vitalii Mykolenko",
+          "number": 16,
+          "role": "Defender",
+          "team": "Everton FC"
+        },
+        {
+          "name": "Merlin Röhl",
+          "number": 34,
+          "role": "Midfielder",
+          "team": "Everton FC"
+        },
+        {
+          "name": "James Garner",
+          "number": 37,
+          "role": "Midfielder",
+          "team": "Everton FC"
+        },
+        {
+          "name": "Harrison Armstrong",
+          "number": 45,
+          "role": "Midfielder",
+          "team": "Everton FC"
+        },
+        {
+          "name": "Mark Travers",
+          "number": 12,
+          "role": "Goalkeeper",
+          "team": "Everton FC"
+        },
+        {
+          "name": "Jake O'Brien",
+          "number": 15,
+          "role": "Defender",
+          "team": "Everton FC"
+        },
+        {
+          "name": "Tyrique George",
+          "number": 19,
+          "role": "Forward",
+          "team": "Everton FC"
+        },
+        {
+          "name": "Tyler Dibling",
+          "number": 20,
+          "role": "Forward",
+          "team": "Everton FC"
+        },
+        {
+          "name": "Brennan Johnson",
+          "number": 22,
+          "role": "Forward",
+          "team": "Everton FC"
+        },
+        {
+          "name": "Christian Nørgaard",
+          "number": 23,
+          "role": "Midfielder",
+          "team": "Everton FC"
+        },
+        {
+          "name": "Charly Alcaraz",
+          "number": 24,
+          "role": "Midfielder",
+          "team": "Everton FC"
+        },
+        {
+          "name": "Braiden Graham",
+          "number": 58,
+          "role": "Forward",
+          "team": "Everton FC"
+        },
+        {
+          "name": "Hayden Hackney",
+          "number": 30,
+          "role": "Midfielder",
+          "team": "Everton FC"
+        },
+        {
+          "name": "Emiliano Martínez",
+          "number": 1,
+          "role": "Goalkeeper",
+          "team": "Chelsea FC"
+        },
+        {
+          "name": "Maxence Lacroix",
+          "number": 5,
+          "role": "Defender",
+          "team": "Chelsea FC"
+        },
+        {
+          "name": "Levi Colwill",
+          "number": 6,
+          "role": "Defender",
+          "team": "Chelsea FC"
+        },
+        {
+          "name": "Pedro Neto",
+          "number": 7,
+          "role": "Midfielder",
+          "team": "Chelsea FC"
+        },
+        {
+          "name": "João Pedro",
+          "number": 9,
+          "role": "Forward",
+          "team": "Chelsea FC"
+        },
+        {
+          "name": "Cole Palmer",
+          "number": 10,
+          "role": "Midfielder",
+          "team": "Chelsea FC"
+        },
+        {
+          "name": "Jordan Henderson",
+          "number": 14,
+          "role": "Midfielder",
+          "team": "Chelsea FC"
+        },
+        {
+          "name": "Morgan Rogers",
+          "number": 17,
+          "role": "Midfielder",
+          "team": "Chelsea FC"
+        },
+        {
+          "name": "Jorrel Hato",
+          "number": 21,
+          "role": "Defender",
+          "team": "Chelsea FC"
+        },
+        {
+          "name": "Moisés Caicedo",
+          "number": 25,
+          "role": "Midfielder",
+          "team": "Chelsea FC"
+        },
+        {
+          "name": "Josh Acheampong",
+          "number": 34,
+          "role": "Defender",
+          "team": "Chelsea FC"
+        },
+        {
+          "name": "Mike Penders",
+          "number": 39,
+          "role": "Goalkeeper",
+          "team": "Chelsea FC"
+        },
+        {
+          "name": "Marco Palestra",
+          "number": 2,
+          "role": "Defender",
+          "team": "Chelsea FC"
+        },
+        {
+          "name": "Wesley Fofana",
+          "number": 3,
+          "role": "Defender",
+          "team": "Chelsea FC"
+        },
+        {
+          "name": "Valentín Barco",
+          "number": 4,
+          "role": "Midfielder",
+          "team": "Chelsea FC"
+        },
+        {
+          "name": "Danny Welbeck",
+          "number": 18,
+          "role": "Forward",
+          "team": "Chelsea FC"
+        },
+        {
+          "name": "Geovany Quenda",
+          "number": 23,
+          "role": "Midfielder",
+          "team": "Chelsea FC"
+        },
+        {
+          "name": "Mahdi Nicoll-Jazuli",
+          "number": 32,
+          "role": "Midfielder",
+          "team": "Chelsea FC"
+        },
+        {
+          "name": "Estêvão",
+          "number": 41,
+          "role": "Forward",
+          "team": "Chelsea FC"
+        },
+        {
+          "name": "Roméo Lavia",
+          "number": 45,
+          "role": "Midfielder",
+          "team": "Chelsea FC"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Premier League match commentary and lineups",
+          "url": "https://www.premierleague.com/en/match/2645258"
+        }
+      ],
+      "moments": [
+        {
+          "id": "moment-1",
+          "minute": "15′",
+          "title": "Cole Palmer — Big chance saved",
+          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليسرى(تشيلسي) كول بالميرتم التصدي. تمريرة حاسمة بواسطة بيدرو نيتو في الزاوية الأرضية اليمنى.",
+          "source": 0,
+          "players": [
+            "Cole Palmer",
+            "Pedro Neto"
+          ],
+          "event": {
+            "type": "attempt saved",
+            "playerIds": [
+              "244851",
+              "247632"
+            ],
+            "teamId": "8",
+            "evidence": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليسرى(تشيلسي) كول بالميرتم التصدي. تمريرة حاسمة بواسطة بيدرو نيتو في الزاوية الأرضية اليمنى."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot",
+              "detail": "Take the attempt",
+              "outcome": "The attempt is taken. Hypothetical branch; no outcome is presented as fact."
+            },
+            {
+              "type": "pass",
+              "label": "Pass to a teammate",
+              "detail": "Choose a pass instead",
+              "outcome": "Possession is played to a teammate. Hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry the ball",
+              "detail": "Try to improve the angle",
+              "outcome": "The carrier tries to beat the next defender. Hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Recycle possession",
+              "detail": "Keep the move alive",
+              "outcome": "The attack is reset. Hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-2",
+          "minute": "26′",
+          "title": "Merlin Röhl — Big chance saved",
+          "summary": "تم التصدي للمحاولة من الجهة اليمنى من منطقة الجزاء تسديدة بالقدم اليمنى(إيفرتون) ميرلين رولتم التصدي. تمريرة حاسمة بواسطة كيرنان ديوسبري هول في منتصف المرمى.",
+          "source": 0,
+          "players": [
+            "Merlin Röhl",
+            "Kiernan Dewsbury-Hall"
+          ],
+          "event": {
+            "type": "attempt saved",
+            "playerIds": [
+              "513466",
+              "215413"
+            ],
+            "teamId": "11",
+            "evidence": "تم التصدي للمحاولة من الجهة اليمنى من منطقة الجزاء تسديدة بالقدم اليمنى(إيفرتون) ميرلين رولتم التصدي. تمريرة حاسمة بواسطة كيرنان ديوسبري هول في منتصف المرمى."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot",
+              "detail": "Take the attempt",
+              "outcome": "The attempt is taken. Hypothetical branch; no outcome is presented as fact."
+            },
+            {
+              "type": "pass",
+              "label": "Pass to a teammate",
+              "detail": "Choose a pass instead",
+              "outcome": "Possession is played to a teammate. Hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry the ball",
+              "detail": "Try to improve the angle",
+              "outcome": "The carrier tries to beat the next defender. Hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Recycle possession",
+              "detail": "Keep the move alive",
+              "outcome": "The attack is reset. Hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-3",
+          "minute": "27′",
+          "title": "Thierno Barry — Big chance saved",
+          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء ضربة رأسية(إيفرتون) ثيرنو باريتم التصدي. تمريرة حاسمة بواسطة جاك جريليش بعرضية في منتصف المرمى.",
+          "source": 0,
+          "players": [
+            "Thierno Barry",
+            "Jack Grealish"
+          ],
+          "event": {
+            "type": "attempt saved",
+            "playerIds": [
+              "586309",
+              "114283"
+            ],
+            "teamId": "11",
+            "evidence": "تم التصدي للمحاولة من منتصف منطقة الجزاء ضربة رأسية(إيفرتون) ثيرنو باريتم التصدي. تمريرة حاسمة بواسطة جاك جريليش بعرضية في منتصف المرمى."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot",
+              "detail": "Take the attempt",
+              "outcome": "The attempt is taken. Hypothetical branch; no outcome is presented as fact."
+            },
+            {
+              "type": "pass",
+              "label": "Pass to a teammate",
+              "detail": "Choose a pass instead",
+              "outcome": "Possession is played to a teammate. Hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry the ball",
+              "detail": "Try to improve the angle",
+              "outcome": "The carrier tries to beat the next defender. Hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Recycle possession",
+              "detail": "Keep the move alive",
+              "outcome": "The attack is reset. Hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-4",
+          "minute": "30′",
+          "title": "Jack Grealish — Big chance saved",
+          "summary": "تم التصدي للمحاولة من الجهة اليسرى من منطقة الجزاء تسديدة بالقدم اليمنى(إيفرتون) جاك جريليشتم التصدي. تمريرة حاسمة بواسطة جيمس تاركوفسكي في سقف المرمى.",
+          "source": 0,
+          "players": [
+            "Jack Grealish",
+            "James Tarkowski"
+          ],
+          "event": {
+            "type": "attempt saved",
+            "playerIds": [
+              "114283",
+              "17761"
+            ],
+            "teamId": "11",
+            "evidence": "تم التصدي للمحاولة من الجهة اليسرى من منطقة الجزاء تسديدة بالقدم اليمنى(إيفرتون) جاك جريليشتم التصدي. تمريرة حاسمة بواسطة جيمس تاركوفسكي في سقف المرمى."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot",
+              "detail": "Take the attempt",
+              "outcome": "The attempt is taken. Hypothetical branch; no outcome is presented as fact."
+            },
+            {
+              "type": "pass",
+              "label": "Pass to a teammate",
+              "detail": "Choose a pass instead",
+              "outcome": "Possession is played to a teammate. Hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry the ball",
+              "detail": "Try to improve the angle",
+              "outcome": "The carrier tries to beat the next defender. Hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Recycle possession",
+              "detail": "Keep the move alive",
+              "outcome": "The attack is reset. Hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-5",
+          "minute": "37′",
+          "title": "Thierno Barry — Big chance saved",
+          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليمنى(إيفرتون) ثيرنو باريتم التصدي. تمريرة حاسمة بواسطة فيتالي ميكولينكو في منتصف المرمى.",
+          "source": 0,
+          "players": [
+            "Thierno Barry",
+            "Vitalii Mykolenko"
+          ],
+          "event": {
+            "type": "attempt saved",
+            "playerIds": [
+              "586309",
+              "224967"
+            ],
+            "teamId": "11",
+            "evidence": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليمنى(إيفرتون) ثيرنو باريتم التصدي. تمريرة حاسمة بواسطة فيتالي ميكولينكو في منتصف المرمى."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot",
+              "detail": "Take the attempt",
+              "outcome": "The attempt is taken. Hypothetical branch; no outcome is presented as fact."
+            },
+            {
+              "type": "pass",
+              "label": "Pass to a teammate",
+              "detail": "Choose a pass instead",
+              "outcome": "Possession is played to a teammate. Hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry the ball",
+              "detail": "Try to improve the angle",
+              "outcome": "The carrier tries to beat the next defender. Hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Recycle possession",
+              "detail": "Keep the move alive",
+              "outcome": "The attack is reset. Hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-6",
+          "minute": "45′+1′",
+          "title": "Pedro Neto — Big chance saved",
+          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليسرى(تشيلسي) بيدرو نيتوتم التصدي. تمريرة حاسمة بواسطة كول بالمير في سقف المرمى.",
+          "source": 0,
+          "players": [
+            "Pedro Neto",
+            "Cole Palmer"
+          ],
+          "event": {
+            "type": "attempt saved",
+            "playerIds": [
+              "247632",
+              "244851"
+            ],
+            "teamId": "8",
+            "evidence": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليسرى(تشيلسي) بيدرو نيتوتم التصدي. تمريرة حاسمة بواسطة كول بالمير في سقف المرمى."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot",
+              "detail": "Take the attempt",
+              "outcome": "The attempt is taken. Hypothetical branch; no outcome is presented as fact."
+            },
+            {
+              "type": "pass",
+              "label": "Pass to a teammate",
+              "detail": "Choose a pass instead",
+              "outcome": "Possession is played to a teammate. Hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry the ball",
+              "detail": "Try to improve the angle",
+              "outcome": "The carrier tries to beat the next defender. Hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Recycle possession",
+              "detail": "Keep the move alive",
+              "outcome": "The attack is reset. Hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-7",
+          "minute": "46′",
+          "title": "Pedro Neto — Goal",
+          "summary": "هدف! إيفرتون 0, تشيلسي 1. بيدرو نيتو (تشيلسي) تسديدة بالقدم اليسرى من منتصف منطقة الجزاء إلى الزاوية الأرضية اليمنى.",
+          "source": 0,
+          "players": [
+            "Pedro Neto"
+          ],
+          "event": {
+            "type": "goal",
+            "playerIds": [
+              "247632"
+            ],
+            "teamId": "8",
+            "evidence": "هدف! إيفرتون 0, تشيلسي 1. بيدرو نيتو (تشيلسي) تسديدة بالقدم اليسرى من منتصف منطقة الجزاء إلى الزاوية الأرضية اليمنى."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot first time",
+              "detail": "Take the earliest finish",
+              "outcome": "The attacker shoots immediately; this is a hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry into space",
+              "detail": "Improve the angle before shooting",
+              "outcome": "The attacker carries the ball; this is a hypothetical branch."
+            },
+            {
+              "type": "pass",
+              "label": "Square to a teammate",
+              "detail": "Choose the pass instead",
+              "outcome": "A teammate receives the square ball; this is a hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Keep possession",
+              "detail": "Reset the attack",
+              "outcome": "The attack is recycled; this is a hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-8",
+          "minute": "90′",
+          "title": "Pedro Neto — Goal",
+          "summary": "هدف! إيفرتون 0, تشيلسي 2. بيدرو نيتو (تشيلسي) تسديدة بالقدم اليسرى من منتصف منطقة الجزاء إلى الزاوية الأرضية اليسرى بعد ضربة ثابتة.",
+          "source": 0,
+          "players": [
+            "Pedro Neto"
+          ],
+          "event": {
+            "type": "goal",
+            "playerIds": [
+              "247632"
+            ],
+            "teamId": "8",
+            "evidence": "هدف! إيفرتون 0, تشيلسي 2. بيدرو نيتو (تشيلسي) تسديدة بالقدم اليسرى من منتصف منطقة الجزاء إلى الزاوية الأرضية اليسرى بعد ضربة ثابتة."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot first time",
+              "detail": "Take the earliest finish",
+              "outcome": "The attacker shoots immediately; this is a hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry into space",
+              "detail": "Improve the angle before shooting",
+              "outcome": "The attacker carries the ball; this is a hypothetical branch."
+            },
+            {
+              "type": "pass",
+              "label": "Square to a teammate",
+              "detail": "Choose the pass instead",
+              "outcome": "A teammate receives the square ball; this is a hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Keep possession",
+              "detail": "Reset the attack",
+              "outcome": "The attack is recycled; this is a hypothetical branch."
+            }
+          ]
+        }
+      ]
+    },
+    "2026-10-17|Fulham FC|Hull City AFC": {
+      "date": "2026-10-17",
+      "home": "Fulham FC",
+      "away": "Hull City AFC",
+      "score": "1–0",
+      "season": "2026-27",
+      "players": [
+        {
+          "name": "Bernd Leno",
+          "number": 1,
+          "role": "Goalkeeper",
+          "team": "Fulham FC"
+        },
+        {
+          "name": "Calvin Bassey",
+          "number": 3,
+          "role": "Defender",
+          "team": "Fulham FC"
+        },
+        {
+          "name": "Gonzalo García",
+          "number": 7,
+          "role": "Forward",
+          "team": "Fulham FC"
+        },
+        {
+          "name": "Oscar Bobb",
+          "number": 14,
+          "role": "Midfielder",
+          "team": "Fulham FC"
+        },
+        {
+          "name": "Sander Berge",
+          "number": 16,
+          "role": "Midfielder",
+          "team": "Fulham FC"
+        },
+        {
+          "name": "Alex Iwobi",
+          "number": 17,
+          "role": "Midfielder",
+          "team": "Fulham FC"
+        },
+        {
+          "name": "Shea Charles",
+          "number": 19,
+          "role": "Midfielder",
+          "team": "Fulham FC"
+        },
+        {
+          "name": "Timothy Castagne",
+          "number": 21,
+          "role": "Defender",
+          "team": "Fulham FC"
+        },
+        {
+          "name": "David Affengruber",
+          "number": 22,
+          "role": "Defender",
+          "team": "Fulham FC"
+        },
+        {
+          "name": "Josh King",
+          "number": 24,
+          "role": "Midfielder",
+          "team": "Fulham FC"
+        },
+        {
+          "name": "Antonee Robinson",
+          "number": 33,
+          "role": "Defender",
+          "team": "Fulham FC"
+        },
+        {
+          "name": "Benjamin Lecomte",
+          "number": 23,
+          "role": "Goalkeeper",
+          "team": "Fulham FC"
+        },
+        {
+          "name": "Kenny Tete",
+          "number": 2,
+          "role": "Defender",
+          "team": "Fulham FC"
+        },
+        {
+          "name": "Joachim Andersen",
+          "number": 5,
+          "role": "Defender",
+          "team": "Fulham FC"
+        },
+        {
+          "name": "César Palacios",
+          "number": 8,
+          "role": "Midfielder",
+          "team": "Fulham FC"
+        },
+        {
+          "name": "Rodrigo Muniz",
+          "number": 9,
+          "role": "Forward",
+          "team": "Fulham FC"
+        },
+        {
+          "name": "Tom Cairney",
+          "number": 10,
+          "role": "Midfielder",
+          "team": "Fulham FC"
+        },
+        {
+          "name": "Kevin",
+          "number": 11,
+          "role": "Forward",
+          "team": "Fulham FC"
+        },
+        {
+          "name": "Manuel Ángel",
+          "number": 20,
+          "role": "Midfielder",
+          "team": "Fulham FC"
+        },
+        {
+          "name": "Ryan Sessegnon",
+          "number": 30,
+          "role": "Midfielder",
+          "team": "Fulham FC"
+        },
+        {
+          "name": "Konstantinos Tzolakis",
+          "number": 19,
+          "role": "Goalkeeper",
+          "team": "Hull City AFC"
+        },
+        {
+          "name": "Lewie Coyle",
+          "number": 2,
+          "role": "Defender",
+          "team": "Hull City AFC"
+        },
+        {
+          "name": "Semi Ajayi",
+          "number": 6,
+          "role": "Defender",
+          "team": "Hull City AFC"
+        },
+        {
+          "name": "Sorba Thomas",
+          "number": 7,
+          "role": "Midfielder",
+          "team": "Hull City AFC"
+        },
+        {
+          "name": "Oliver McBurnie",
+          "number": 9,
+          "role": "Forward",
+          "team": "Hull City AFC"
+        },
+        {
+          "name": "Mohamed Belloumi",
+          "number": 10,
+          "role": "Midfielder",
+          "team": "Hull City AFC"
+        },
+        {
+          "name": "John Egan",
+          "number": 15,
+          "role": "Defender",
+          "team": "Hull City AFC"
+        },
+        {
+          "name": "Brooke Norton-Cuffy",
+          "number": 18,
+          "role": "Defender",
+          "team": "Hull City AFC"
+        },
+        {
+          "name": "Lucas Herrington",
+          "number": 22,
+          "role": "Defender",
+          "team": "Hull City AFC"
+        },
+        {
+          "name": "Matt Crooks",
+          "number": 25,
+          "role": "Midfielder",
+          "team": "Hull City AFC"
+        },
+        {
+          "name": "Regan Slater",
+          "number": 27,
+          "role": "Midfielder",
+          "team": "Hull City AFC"
+        },
+        {
+          "name": "Dillon Phillips",
+          "number": 12,
+          "role": "Goalkeeper",
+          "team": "Hull City AFC"
+        },
+        {
+          "name": "Ryan Giles",
+          "number": 3,
+          "role": "Defender",
+          "team": "Hull City AFC"
+        },
+        {
+          "name": "Hidemasa Morita",
+          "number": 5,
+          "role": "Midfielder",
+          "team": "Hull City AFC"
+        },
+        {
+          "name": "Joe Gelhardt",
+          "number": 11,
+          "role": "Forward",
+          "team": "Hull City AFC"
+        },
+        {
+          "name": "Jens Hjertø-Dahl",
+          "number": 14,
+          "role": "Midfielder",
+          "team": "Hull City AFC"
+        },
+        {
+          "name": "Paddy McNair",
+          "number": 17,
+          "role": "Defender",
+          "team": "Hull City AFC"
+        },
+        {
+          "name": "Elliot Stroud",
+          "number": 21,
+          "role": "Midfielder",
+          "team": "Hull City AFC"
+        },
+        {
+          "name": "Tim Iroegbunam",
+          "number": 42,
+          "role": "Midfielder",
+          "team": "Hull City AFC"
+        },
+        {
+          "name": "Robinio Vaz",
+          "number": 47,
+          "role": "Forward",
+          "team": "Hull City AFC"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Premier League match commentary and lineups",
+          "url": "https://www.premierleague.com/en/match/2645259"
+        }
+      ],
+      "moments": [
+        {
+          "id": "moment-1",
+          "minute": "3′",
+          "title": "Alex Iwobi — Shot blocked",
+          "summary": "تسديدة تم اعتراضها. أليكس أيوبي (فولهام) تسديدة بالقدم اليمنى من الجهة اليسرى من منطقة الجزاء تم اعتراض التسديدة. تمريرة حاسمة بواسطة جوشوا كينغ.",
+          "source": 0,
+          "players": [
+            "Alex Iwobi",
+            "Josh King"
+          ],
+          "event": {
+            "type": "attempt blocked",
+            "playerIds": [
+              "153133",
+              "577725"
+            ],
+            "teamId": "54",
+            "evidence": "تسديدة تم اعتراضها. أليكس أيوبي (فولهام) تسديدة بالقدم اليمنى من الجهة اليسرى من منطقة الجزاء تم اعتراض التسديدة. تمريرة حاسمة بواسطة جوشوا كينغ."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot",
+              "detail": "Take the attempt",
+              "outcome": "The attempt is taken. Hypothetical branch; no outcome is presented as fact."
+            },
+            {
+              "type": "pass",
+              "label": "Pass to a teammate",
+              "detail": "Choose a pass instead",
+              "outcome": "Possession is played to a teammate. Hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry the ball",
+              "detail": "Try to improve the angle",
+              "outcome": "The carrier tries to beat the next defender. Hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Recycle possession",
+              "detail": "Keep the move alive",
+              "outcome": "The attack is reset. Hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-2",
+          "minute": "23′",
+          "title": "Oscar Bobb — Big chance saved",
+          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليسرى(فولهام) أوسكار بوبتم التصدي في الزاوية الأرضية اليسرى.",
+          "source": 0,
+          "players": [
+            "Oscar Bobb"
+          ],
+          "event": {
+            "type": "attempt saved",
+            "playerIds": [
+              "477555"
+            ],
+            "teamId": "54",
+            "evidence": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليسرى(فولهام) أوسكار بوبتم التصدي في الزاوية الأرضية اليسرى."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot",
+              "detail": "Take the attempt",
+              "outcome": "The attempt is taken. Hypothetical branch; no outcome is presented as fact."
+            },
+            {
+              "type": "pass",
+              "label": "Pass to a teammate",
+              "detail": "Choose a pass instead",
+              "outcome": "Possession is played to a teammate. Hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry the ball",
+              "detail": "Try to improve the angle",
+              "outcome": "The carrier tries to beat the next defender. Hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Recycle possession",
+              "detail": "Keep the move alive",
+              "outcome": "The attack is reset. Hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-3",
+          "minute": "33′",
+          "title": "Alex Iwobi — Goal",
+          "summary": "هدف! فولهام 1, هال سيتي 0. أليكس أيوبي (فولهام) تسديدة بالقدم اليمنى من منتصف منطقة الجزاء إلى الزاوية الأرضية اليمنى. تمريرة حاسمة بواسطة ساندر بيرج.",
+          "source": 0,
+          "players": [
+            "Alex Iwobi",
+            "Sander Berge"
+          ],
+          "event": {
+            "type": "goal",
+            "playerIds": [
+              "153133",
+              "207189"
+            ],
+            "teamId": "54",
+            "evidence": "هدف! فولهام 1, هال سيتي 0. أليكس أيوبي (فولهام) تسديدة بالقدم اليمنى من منتصف منطقة الجزاء إلى الزاوية الأرضية اليمنى. تمريرة حاسمة بواسطة ساندر بيرج."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot first time",
+              "detail": "Take the earliest finish",
+              "outcome": "The attacker shoots immediately; this is a hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry into space",
+              "detail": "Improve the angle before shooting",
+              "outcome": "The attacker carries the ball; this is a hypothetical branch."
+            },
+            {
+              "type": "pass",
+              "label": "Square to a teammate",
+              "detail": "Choose the pass instead",
+              "outcome": "A teammate receives the square ball; this is a hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Keep possession",
+              "detail": "Reset the attack",
+              "outcome": "The attack is recycled; this is a hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-4",
+          "minute": "42′",
+          "title": "Josh King — Big chance saved",
+          "summary": "تم التصدي للمحاولة من زاوية صعبة في الجهة اليمنى تسديدة بالقدم اليمنى(فولهام) جوشوا كينغتم التصدي. تمريرة حاسمة بواسطة أوسكار بوب في منتصف المرمى.",
+          "source": 0,
+          "players": [
+            "Josh King",
+            "Oscar Bobb"
+          ],
+          "event": {
+            "type": "attempt saved",
+            "playerIds": [
+              "577725",
+              "477555"
+            ],
+            "teamId": "54",
+            "evidence": "تم التصدي للمحاولة من زاوية صعبة في الجهة اليمنى تسديدة بالقدم اليمنى(فولهام) جوشوا كينغتم التصدي. تمريرة حاسمة بواسطة أوسكار بوب في منتصف المرمى."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot",
+              "detail": "Take the attempt",
+              "outcome": "The attempt is taken. Hypothetical branch; no outcome is presented as fact."
+            },
+            {
+              "type": "pass",
+              "label": "Pass to a teammate",
+              "detail": "Choose a pass instead",
+              "outcome": "Possession is played to a teammate. Hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry the ball",
+              "detail": "Try to improve the angle",
+              "outcome": "The carrier tries to beat the next defender. Hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Recycle possession",
+              "detail": "Keep the move alive",
+              "outcome": "The attack is reset. Hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-5",
+          "minute": "53′",
+          "title": "Josh King — Big chance saved",
+          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليمنى(فولهام) جوشوا كينغتم التصدي. تمريرة حاسمة بواسطة شيا تشارلز في منتصف المرمى.",
+          "source": 0,
+          "players": [
+            "Josh King",
+            "Shea Charles"
+          ],
+          "event": {
+            "type": "attempt saved",
+            "playerIds": [
+              "577725",
+              "463210"
+            ],
+            "teamId": "54",
+            "evidence": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليمنى(فولهام) جوشوا كينغتم التصدي. تمريرة حاسمة بواسطة شيا تشارلز في منتصف المرمى."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot",
+              "detail": "Take the attempt",
+              "outcome": "The attempt is taken. Hypothetical branch; no outcome is presented as fact."
+            },
+            {
+              "type": "pass",
+              "label": "Pass to a teammate",
+              "detail": "Choose a pass instead",
+              "outcome": "Possession is played to a teammate. Hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry the ball",
+              "detail": "Try to improve the angle",
+              "outcome": "The carrier tries to beat the next defender. Hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Recycle possession",
+              "detail": "Keep the move alive",
+              "outcome": "The attack is reset. Hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-6",
+          "minute": "58′",
+          "title": "Alex Iwobi — Big chance saved",
+          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليمنى(فولهام) أليكس أيوبيتم التصدي. تمريرة حاسمة بواسطة جونزالو غارسيا تمريرة بضربة رأسية في منتصف المرمى.",
+          "source": 0,
+          "players": [
+            "Alex Iwobi",
+            "Gonzalo García"
+          ],
+          "event": {
+            "type": "attempt saved",
+            "playerIds": [
+              "153133",
+              "551466"
+            ],
+            "teamId": "54",
+            "evidence": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليمنى(فولهام) أليكس أيوبيتم التصدي. تمريرة حاسمة بواسطة جونزالو غارسيا تمريرة بضربة رأسية في منتصف المرمى."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot",
+              "detail": "Take the attempt",
+              "outcome": "The attempt is taken. Hypothetical branch; no outcome is presented as fact."
+            },
+            {
+              "type": "pass",
+              "label": "Pass to a teammate",
+              "detail": "Choose a pass instead",
+              "outcome": "Possession is played to a teammate. Hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry the ball",
+              "detail": "Try to improve the angle",
+              "outcome": "The carrier tries to beat the next defender. Hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Recycle possession",
+              "detail": "Keep the move alive",
+              "outcome": "The attack is reset. Hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-7",
+          "minute": "90′+3′",
+          "title": "Tom Cairney — Big chance saved",
+          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليسرى(فولهام) توم كاينريتم التصدي. تمريرة حاسمة بواسطة سيزار بالاسيوس في الزاوية الأرضية اليمنى.",
+          "source": 0,
+          "players": [
+            "Tom Cairney",
+            "César Palacios"
+          ],
+          "event": {
+            "type": "attempt saved",
+            "playerIds": [
+              "76357",
+              "571779"
+            ],
+            "teamId": "54",
+            "evidence": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليسرى(فولهام) توم كاينريتم التصدي. تمريرة حاسمة بواسطة سيزار بالاسيوس في الزاوية الأرضية اليمنى."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot",
+              "detail": "Take the attempt",
+              "outcome": "The attempt is taken. Hypothetical branch; no outcome is presented as fact."
+            },
+            {
+              "type": "pass",
+              "label": "Pass to a teammate",
+              "detail": "Choose a pass instead",
+              "outcome": "Possession is played to a teammate. Hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry the ball",
+              "detail": "Try to improve the angle",
+              "outcome": "The carrier tries to beat the next defender. Hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Recycle possession",
+              "detail": "Keep the move alive",
+              "outcome": "The attack is reset. Hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-8",
+          "minute": "90′+4′",
+          "title": "Ryan Sessegnon — Red card",
+          "summary": "ريان سيسينيون (فولهام) تحصّل على بطاقة حمراء.",
+          "source": 0,
+          "players": [
+            "Ryan Sessegnon"
+          ],
+          "event": {
+            "type": "red card",
+            "playerIds": [
+              "184349"
+            ],
+            "teamId": "54",
+            "evidence": "ريان سيسينيون (فولهام) تحصّل على بطاقة حمراء."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot",
+              "detail": "Take the attempt",
+              "outcome": "The attempt is taken. Hypothetical branch; no outcome is presented as fact."
+            },
+            {
+              "type": "pass",
+              "label": "Pass to a teammate",
+              "detail": "Choose a pass instead",
+              "outcome": "Possession is played to a teammate. Hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry the ball",
+              "detail": "Try to improve the angle",
+              "outcome": "The carrier tries to beat the next defender. Hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Recycle possession",
+              "detail": "Keep the move alive",
+              "outcome": "The attack is reset. Hypothetical branch."
+            }
+          ]
+        }
+      ]
+    },
+    "2026-10-17|Manchester City FC|Ipswich Town FC": {
+      "date": "2026-10-17",
+      "home": "Manchester City FC",
+      "away": "Ipswich Town FC",
+      "score": "3–2",
+      "season": "2026-27",
+      "players": [
+        {
+          "name": "Gianluigi Donnarumma",
+          "number": 1,
+          "role": "Goalkeeper",
+          "team": "Manchester City FC"
+        },
+        {
+          "name": "Rúben Dias",
+          "number": 3,
+          "role": "Defender",
+          "team": "Manchester City FC"
+        },
+        {
+          "name": "Marc Guéhi",
+          "number": 6,
+          "role": "Defender",
+          "team": "Manchester City FC"
+        },
+        {
+          "name": "Iliman Ndiaye",
+          "number": 7,
+          "role": "Midfielder",
+          "team": "Manchester City FC"
+        },
+        {
+          "name": "Mateo Kovacic",
+          "number": 8,
+          "role": "Midfielder",
+          "team": "Manchester City FC"
+        },
+        {
+          "name": "Erling Haaland",
+          "number": 9,
+          "role": "Forward",
+          "team": "Manchester City FC"
+        },
+        {
+          "name": "Jérémy Doku",
+          "number": 11,
+          "role": "Midfielder",
+          "team": "Manchester City FC"
+        },
+        {
+          "name": "Matheus Nunes",
+          "number": 27,
+          "role": "Defender",
+          "team": "Manchester City FC"
+        },
+        {
+          "name": "Ayyoub Bouaddi",
+          "number": 32,
+          "role": "Midfielder",
+          "team": "Manchester City FC"
+        },
+        {
+          "name": "Nico O'Reilly",
+          "number": 33,
+          "role": "Defender",
+          "team": "Manchester City FC"
+        },
+        {
+          "name": "Phil Foden",
+          "number": 47,
+          "role": "Midfielder",
+          "team": "Manchester City FC"
+        },
+        {
+          "name": "Gerónimo Rulli",
+          "number": 28,
+          "role": "Goalkeeper",
+          "team": "Manchester City FC"
+        },
+        {
+          "name": "Elliot Anderson",
+          "number": 5,
+          "role": "Midfielder",
+          "team": "Manchester City FC"
+        },
+        {
+          "name": "Rayan Cherki",
+          "number": 10,
+          "role": "Midfielder",
+          "team": "Manchester City FC"
+        },
+        {
+          "name": "Enzo Fernández",
+          "number": 17,
+          "role": "Midfielder",
+          "team": "Manchester City FC"
+        },
+        {
+          "name": "Rayan Aït-Nouri",
+          "number": 21,
+          "role": "Defender",
+          "team": "Manchester City FC"
+        },
+        {
+          "name": "Josko Gvardiol",
+          "number": 24,
+          "role": "Defender",
+          "team": "Manchester City FC"
+        },
+        {
+          "name": "Allan",
+          "number": 37,
+          "role": "Forward",
+          "team": "Manchester City FC"
+        },
+        {
+          "name": "Antoine Semenyo",
+          "number": 42,
+          "role": "Forward",
+          "team": "Manchester City FC"
+        },
+        {
+          "name": "Abdukodir Khusanov",
+          "number": 45,
+          "role": "Defender",
+          "team": "Manchester City FC"
+        },
+        {
+          "name": "Christian Walton",
+          "number": 28,
+          "role": "Goalkeeper",
+          "team": "Ipswich Town FC"
+        },
+        {
+          "name": "Leif Davis",
+          "number": 3,
+          "role": "Midfielder",
+          "team": "Ipswich Town FC"
+        },
+        {
+          "name": "Issa Diop",
+          "number": 6,
+          "role": "Defender",
+          "team": "Ipswich Town FC"
+        },
+        {
+          "name": "Julio Enciso",
+          "number": 10,
+          "role": "Forward",
+          "team": "Ipswich Town FC"
+        },
+        {
+          "name": "Florentino",
+          "number": 12,
+          "role": "Midfielder",
+          "team": "Ipswich Town FC"
+        },
+        {
+          "name": "Emersonn",
+          "number": 19,
+          "role": "Forward",
+          "team": "Ipswich Town FC"
+        },
+        {
+          "name": "Jacob Greaves",
+          "number": 24,
+          "role": "Defender",
+          "team": "Ipswich Town FC"
+        },
+        {
+          "name": "Exequiel Palacios",
+          "number": 25,
+          "role": "Midfielder",
+          "team": "Ipswich Town FC"
+        },
+        {
+          "name": "Dara O'Shea",
+          "number": 26,
+          "role": "Defender",
+          "team": "Ipswich Town FC"
+        },
+        {
+          "name": "Daizen Maeda",
+          "number": 38,
+          "role": "Forward",
+          "team": "Ipswich Town FC"
+        },
+        {
+          "name": "Abdoul Ouattara",
+          "number": 42,
+          "role": "Midfielder",
+          "team": "Ipswich Town FC"
+        },
+        {
+          "name": "Kjell Scherpen",
+          "number": 37,
+          "role": "Goalkeeper",
+          "team": "Ipswich Town FC"
+        },
+        {
+          "name": "Darnell Furlong",
+          "number": 2,
+          "role": "Defender",
+          "team": "Ipswich Town FC"
+        },
+        {
+          "name": "Cédric Kipré",
+          "number": 4,
+          "role": "Defender",
+          "team": "Ipswich Town FC"
+        },
+        {
+          "name": "Azor Matusiwa",
+          "number": 5,
+          "role": "Midfielder",
+          "team": "Ipswich Town FC"
+        },
+        {
+          "name": "Abdul Fatawu",
+          "number": 7,
+          "role": "Forward",
+          "team": "Ipswich Town FC"
+        },
+        {
+          "name": "Zian Flemming",
+          "number": 9,
+          "role": "Forward",
+          "team": "Ipswich Town FC"
+        },
+        {
+          "name": "Jaden Philogene",
+          "number": 11,
+          "role": "Forward",
+          "team": "Ipswich Town FC"
+        },
+        {
+          "name": "Chuba Akpom",
+          "number": 29,
+          "role": "Forward",
+          "team": "Ipswich Town FC"
+        },
+        {
+          "name": "Jack Clarke",
+          "number": 47,
+          "role": "Forward",
+          "team": "Ipswich Town FC"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Premier League match commentary and lineups",
+          "url": "https://www.premierleague.com/en/match/2645261"
+        }
+      ],
+      "moments": [
+        {
+          "id": "moment-1",
+          "minute": "17′",
+          "title": "Rúben Dias — Big chance saved",
+          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(مانشستر سيتي) روبن دياشتم التصدي. تمريرة حاسمة بواسطة ماتيو كوفاتشيتش في سقف المرمى.",
+          "source": 0,
+          "players": [
+            "Rúben Dias",
+            "Mateo Kovacic"
+          ],
+          "event": {
+            "type": "attempt saved",
+            "playerIds": [
+              "171314",
+              "91651"
+            ],
+            "teamId": "43",
+            "evidence": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(مانشستر سيتي) روبن دياشتم التصدي. تمريرة حاسمة بواسطة ماتيو كوفاتشيتش في سقف المرمى."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot",
+              "detail": "Take the attempt",
+              "outcome": "The attempt is taken. Hypothetical branch; no outcome is presented as fact."
+            },
+            {
+              "type": "pass",
+              "label": "Pass to a teammate",
+              "detail": "Choose a pass instead",
+              "outcome": "Possession is played to a teammate. Hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry the ball",
+              "detail": "Try to improve the angle",
+              "outcome": "The carrier tries to beat the next defender. Hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Recycle possession",
+              "detail": "Keep the move alive",
+              "outcome": "The attack is reset. Hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-2",
+          "minute": "19′",
+          "title": "Phil Foden — Goal",
+          "summary": "هدف! مانشستر سيتي 1, إبسويتش تاون 0. فيليب فودين (مانشستر سيتي) تسديدة بالقدم اليسرى من منتصف منطقة الجزاء إلى منتصف المرمى. تمريرة حاسمة بواسطة جيريمي دوكو بعد هجمة مرتدة.",
+          "source": 0,
+          "players": [
+            "Phil Foden",
+            "Jérémy Doku"
+          ],
+          "event": {
+            "type": "goal",
+            "playerIds": [
+              "209244",
+              "248875"
+            ],
+            "teamId": "43",
+            "evidence": "هدف! مانشستر سيتي 1, إبسويتش تاون 0. فيليب فودين (مانشستر سيتي) تسديدة بالقدم اليسرى من منتصف منطقة الجزاء إلى منتصف المرمى. تمريرة حاسمة بواسطة جيريمي دوكو بعد هجمة مرتدة."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot first time",
+              "detail": "Take the earliest finish",
+              "outcome": "The attacker shoots immediately; this is a hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry into space",
+              "detail": "Improve the angle before shooting",
+              "outcome": "The attacker carries the ball; this is a hypothetical branch."
+            },
+            {
+              "type": "pass",
+              "label": "Square to a teammate",
+              "detail": "Choose the pass instead",
+              "outcome": "A teammate receives the square ball; this is a hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Keep possession",
+              "detail": "Reset the attack",
+              "outcome": "The attack is recycled; this is a hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-3",
+          "minute": "21′",
+          "title": "Daizen Maeda — Goal",
+          "summary": "هدف! مانشستر سيتي 1, إبسويتش تاون 1. دايزن مايدا (إبسويتش تاون) تسديدة بالقدم اليسرى من منتصف منطقة الجزاء إلى الزاوية الأرضية اليمنى. تمريرة حاسمة بواسطة عبدول واتارا.",
+          "source": 0,
+          "players": [
+            "Daizen Maeda",
+            "Abdoul Ouattara"
+          ],
+          "event": {
+            "type": "goal",
+            "playerIds": [
+              "442967",
+              "572584"
+            ],
+            "teamId": "40",
+            "evidence": "هدف! مانشستر سيتي 1, إبسويتش تاون 1. دايزن مايدا (إبسويتش تاون) تسديدة بالقدم اليسرى من منتصف منطقة الجزاء إلى الزاوية الأرضية اليمنى. تمريرة حاسمة بواسطة عبدول واتارا."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot first time",
+              "detail": "Take the earliest finish",
+              "outcome": "The attacker shoots immediately; this is a hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry into space",
+              "detail": "Improve the angle before shooting",
+              "outcome": "The attacker carries the ball; this is a hypothetical branch."
+            },
+            {
+              "type": "pass",
+              "label": "Square to a teammate",
+              "detail": "Choose the pass instead",
+              "outcome": "A teammate receives the square ball; this is a hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Keep possession",
+              "detail": "Reset the attack",
+              "outcome": "The attack is recycled; this is a hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-4",
+          "minute": "34′",
+          "title": "Erling Haaland — Goal",
+          "summary": "هدف! مانشستر سيتي 2, إبسويتش تاون 1. إيرلينج هالاند (مانشستر سيتي) ضربة رأسية من منتصف منطقة الجزاء إلى الزاوية الأرضية اليسرى. تمريرة حاسمة بواسطة ماتيو كوفاتشيتش بعرضية.",
+          "source": 0,
+          "players": [
+            "Erling Haaland",
+            "Mateo Kovacic"
+          ],
+          "event": {
+            "type": "goal",
+            "playerIds": [
+              "223094",
+              "91651"
+            ],
+            "teamId": "43",
+            "evidence": "هدف! مانشستر سيتي 2, إبسويتش تاون 1. إيرلينج هالاند (مانشستر سيتي) ضربة رأسية من منتصف منطقة الجزاء إلى الزاوية الأرضية اليسرى. تمريرة حاسمة بواسطة ماتيو كوفاتشيتش بعرضية."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot first time",
+              "detail": "Take the earliest finish",
+              "outcome": "The attacker shoots immediately; this is a hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry into space",
+              "detail": "Improve the angle before shooting",
+              "outcome": "The attacker carries the ball; this is a hypothetical branch."
+            },
+            {
+              "type": "pass",
+              "label": "Square to a teammate",
+              "detail": "Choose the pass instead",
+              "outcome": "A teammate receives the square ball; this is a hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Keep possession",
+              "detail": "Reset the attack",
+              "outcome": "The attack is recycled; this is a hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-5",
+          "minute": "43′",
+          "title": "Rúben Dias — Big chance saved",
+          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(مانشستر سيتي) روبن دياشتم التصدي. تمريرة حاسمة بواسطة مارك جويهي في أعلى الزاوية اليمنى.",
+          "source": 0,
+          "players": [
+            "Rúben Dias",
+            "Marc Guéhi"
+          ],
+          "event": {
+            "type": "attempt saved",
+            "playerIds": [
+              "171314",
+              "209036"
+            ],
+            "teamId": "43",
+            "evidence": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(مانشستر سيتي) روبن دياشتم التصدي. تمريرة حاسمة بواسطة مارك جويهي في أعلى الزاوية اليمنى."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot",
+              "detail": "Take the attempt",
+              "outcome": "The attempt is taken. Hypothetical branch; no outcome is presented as fact."
+            },
+            {
+              "type": "pass",
+              "label": "Pass to a teammate",
+              "detail": "Choose a pass instead",
+              "outcome": "Possession is played to a teammate. Hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry the ball",
+              "detail": "Try to improve the angle",
+              "outcome": "The carrier tries to beat the next defender. Hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Recycle possession",
+              "detail": "Keep the move alive",
+              "outcome": "The attack is reset. Hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-6",
+          "minute": "69′",
+          "title": "Erling Haaland — Goal",
+          "summary": "هدف! مانشستر سيتي 3, إبسويتش تاون 1. إيرلينج هالاند (مانشستر سيتي) تسديدة بالقدم اليسرى من منتصف منطقة الجزاء إلى منتصف المرمى. تمريرة حاسمة بواسطة إليمان ندياي بعد هجمة مرتدة.",
+          "source": 0,
+          "players": [
+            "Erling Haaland",
+            "Iliman Ndiaye"
+          ],
+          "event": {
+            "type": "goal",
+            "playerIds": [
+              "223094",
+              "440993"
+            ],
+            "teamId": "43",
+            "evidence": "هدف! مانشستر سيتي 3, إبسويتش تاون 1. إيرلينج هالاند (مانشستر سيتي) تسديدة بالقدم اليسرى من منتصف منطقة الجزاء إلى منتصف المرمى. تمريرة حاسمة بواسطة إليمان ندياي بعد هجمة مرتدة."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot first time",
+              "detail": "Take the earliest finish",
+              "outcome": "The attacker shoots immediately; this is a hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry into space",
+              "detail": "Improve the angle before shooting",
+              "outcome": "The attacker carries the ball; this is a hypothetical branch."
+            },
+            {
+              "type": "pass",
+              "label": "Square to a teammate",
+              "detail": "Choose the pass instead",
+              "outcome": "A teammate receives the square ball; this is a hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Keep possession",
+              "detail": "Reset the attack",
+              "outcome": "The attack is recycled; this is a hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-7",
+          "minute": "80′",
+          "title": "Zian Flemming — Big chance saved",
+          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليسرى(إبسويتش تاون) زيان فليمنغتم التصدي. تمريرة حاسمة بواسطة جاكوب غريفز تمريرة بضربة رأسية في الزاوية الأرضية اليسرى.",
+          "source": 0,
+          "players": [
+            "Zian Flemming",
+            "Jacob Greaves"
+          ],
+          "event": {
+            "type": "attempt saved",
+            "playerIds": [
+              "431639",
+              "449429"
+            ],
+            "teamId": "40",
+            "evidence": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليسرى(إبسويتش تاون) زيان فليمنغتم التصدي. تمريرة حاسمة بواسطة جاكوب غريفز تمريرة بضربة رأسية في الزاوية الأرضية اليسرى."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot",
+              "detail": "Take the attempt",
+              "outcome": "The attempt is taken. Hypothetical branch; no outcome is presented as fact."
+            },
+            {
+              "type": "pass",
+              "label": "Pass to a teammate",
+              "detail": "Choose a pass instead",
+              "outcome": "Possession is played to a teammate. Hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry the ball",
+              "detail": "Try to improve the angle",
+              "outcome": "The carrier tries to beat the next defender. Hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Recycle possession",
+              "detail": "Keep the move alive",
+              "outcome": "The attack is reset. Hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-8",
+          "minute": "85′",
+          "title": "Enzo Fernández — Big chance saved",
+          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليمنى(مانشستر سيتي) إنزو فرنانديزتم التصدي. تمريرة حاسمة بواسطة إيرلينج هالاند في الزاوية الأرضية اليسرى.",
+          "source": 0,
+          "players": [
+            "Enzo Fernández",
+            "Erling Haaland"
+          ],
+          "event": {
+            "type": "attempt saved",
+            "playerIds": [
+              "448047",
+              "223094"
+            ],
+            "teamId": "43",
+            "evidence": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليمنى(مانشستر سيتي) إنزو فرنانديزتم التصدي. تمريرة حاسمة بواسطة إيرلينج هالاند في الزاوية الأرضية اليسرى."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot",
+              "detail": "Take the attempt",
+              "outcome": "The attempt is taken. Hypothetical branch; no outcome is presented as fact."
+            },
+            {
+              "type": "pass",
+              "label": "Pass to a teammate",
+              "detail": "Choose a pass instead",
+              "outcome": "Possession is played to a teammate. Hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry the ball",
+              "detail": "Try to improve the angle",
+              "outcome": "The carrier tries to beat the next defender. Hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Recycle possession",
+              "detail": "Keep the move alive",
+              "outcome": "The attack is reset. Hypothetical branch."
+            }
+          ]
+        }
+      ]
+    },
+    "2026-10-17|Newcastle United FC|Aston Villa FC": {
+      "date": "2026-10-17",
+      "home": "Newcastle United FC",
+      "away": "Aston Villa FC",
+      "score": "0–1",
+      "season": "2026-27",
+      "players": [
+        {
+          "name": "Lukás Hornícek",
+          "number": 21,
+          "role": "Goalkeeper",
+          "team": "Newcastle United FC"
+        },
+        {
+          "name": "Lewis Hall",
+          "number": 3,
+          "role": "Defender",
+          "team": "Newcastle United FC"
+        },
+        {
+          "name": "Sven Botman",
+          "number": 4,
+          "role": "Defender",
+          "team": "Newcastle United FC"
+        },
+        {
+          "name": "Nico González",
+          "number": 6,
+          "role": "Midfielder",
+          "team": "Newcastle United FC"
+        },
+        {
+          "name": "Joelinton",
+          "number": 7,
+          "role": "Midfielder",
+          "team": "Newcastle United FC"
+        },
+        {
+          "name": "Yoane Wissa",
+          "number": 9,
+          "role": "Forward",
+          "team": "Newcastle United FC"
+        },
+        {
+          "name": "Harvey Barnes",
+          "number": 11,
+          "role": "Midfielder",
+          "team": "Newcastle United FC"
+        },
+        {
+          "name": "Malick Thiaw",
+          "number": 12,
+          "role": "Defender",
+          "team": "Newcastle United FC"
+        },
+        {
+          "name": "Matias Fernandez-Pardo",
+          "number": 20,
+          "role": "Midfielder",
+          "team": "Newcastle United FC"
+        },
+        {
+          "name": "Joe Willock",
+          "number": 28,
+          "role": "Midfielder",
+          "team": "Newcastle United FC"
+        },
+        {
+          "name": "Lewis Miley",
+          "number": 67,
+          "role": "Defender",
+          "team": "Newcastle United FC"
+        },
+        {
+          "name": "Nick Pope",
+          "number": 1,
+          "role": "Goalkeeper",
+          "team": "Newcastle United FC"
+        },
+        {
+          "name": "Fabian Schär",
+          "number": 5,
+          "role": "Defender",
+          "team": "Newcastle United FC"
+        },
+        {
+          "name": "Aladji Bamba",
+          "number": 8,
+          "role": "Midfielder",
+          "team": "Newcastle United FC"
+        },
+        {
+          "name": "William Osula",
+          "number": 10,
+          "role": "Forward",
+          "team": "Newcastle United FC"
+        },
+        {
+          "name": "Sean Steur",
+          "number": 14,
+          "role": "Midfielder",
+          "team": "Newcastle United FC"
+        },
+        {
+          "name": "Bazoumana Touré",
+          "number": 17,
+          "role": "Forward",
+          "team": "Newcastle United FC"
+        },
+        {
+          "name": "Jacob Murphy",
+          "number": 23,
+          "role": "Midfielder",
+          "team": "Newcastle United FC"
+        },
+        {
+          "name": "Dan Burn",
+          "number": 33,
+          "role": "Defender",
+          "team": "Newcastle United FC"
+        },
+        {
+          "name": "Amar Dedic",
+          "number": 37,
+          "role": "Defender",
+          "team": "Newcastle United FC"
+        },
+        {
+          "name": "Zion Suzuki",
+          "number": 1,
+          "role": "Goalkeeper",
+          "team": "Aston Villa FC"
+        },
+        {
+          "name": "Matty Cash",
+          "number": 2,
+          "role": "Defender",
+          "team": "Aston Villa FC"
+        },
+        {
+          "name": "Victor Lindelöf",
+          "number": 3,
+          "role": "Defender",
+          "team": "Aston Villa FC"
+        },
+        {
+          "name": "Tyrone Mings",
+          "number": 5,
+          "role": "Defender",
+          "team": "Aston Villa FC"
+        },
+        {
+          "name": "Boubacar Kamara",
+          "number": 8,
+          "role": "Midfielder",
+          "team": "Aston Villa FC"
+        },
+        {
+          "name": "Emiliano Buendía",
+          "number": 10,
+          "role": "Midfielder",
+          "team": "Aston Villa FC"
+        },
+        {
+          "name": "Nicolas Jackson",
+          "number": 11,
+          "role": "Forward",
+          "team": "Aston Villa FC"
+        },
+        {
+          "name": "Aaron Wan-Bissaka",
+          "number": 29,
+          "role": "Defender",
+          "team": "Aston Villa FC"
+        },
+        {
+          "name": "João Gomes",
+          "number": 35,
+          "role": "Midfielder",
+          "team": "Aston Villa FC"
+        },
+        {
+          "name": "Johan Manzambi",
+          "number": 44,
+          "role": "Midfielder",
+          "team": "Aston Villa FC"
+        },
+        {
+          "name": "Alysson",
+          "number": 47,
+          "role": "Midfielder",
+          "team": "Aston Villa FC"
+        },
+        {
+          "name": "Marco Bizot",
+          "number": 40,
+          "role": "Goalkeeper",
+          "team": "Aston Villa FC"
+        },
+        {
+          "name": "Taylor Harwood-Bellis",
+          "number": 4,
+          "role": "Defender",
+          "team": "Aston Villa FC"
+        },
+        {
+          "name": "Ross Barkley",
+          "number": 6,
+          "role": "Midfielder",
+          "team": "Aston Villa FC"
+        },
+        {
+          "name": "John McGinn",
+          "number": 7,
+          "role": "Midfielder",
+          "team": "Aston Villa FC"
+        },
+        {
+          "name": "Pau Torres",
+          "number": 14,
+          "role": "Defender",
+          "team": "Aston Villa FC"
+        },
+        {
+          "name": "Ibrahim Mbaye",
+          "number": 19,
+          "role": "Forward",
+          "team": "Aston Villa FC"
+        },
+        {
+          "name": "Lamare Bogarde",
+          "number": 26,
+          "role": "Midfielder",
+          "team": "Aston Villa FC"
+        },
+        {
+          "name": "Leon Goretzka",
+          "number": 27,
+          "role": "Midfielder",
+          "team": "Aston Villa FC"
+        },
+        {
+          "name": "Brian Madjo",
+          "number": 39,
+          "role": "Forward",
+          "team": "Aston Villa FC"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Premier League match commentary and lineups",
+          "url": "https://www.premierleague.com/en/match/2645262"
+        }
+      ],
+      "moments": [
+        {
+          "id": "moment-1",
+          "minute": "7′",
+          "title": "Harvey Barnes — Shot blocked",
+          "summary": "تسديدة تم اعتراضها. هارفي لويس بارنز (نيوكاسل) تسديدة بالقدم اليمنى من خارج منطقة الجزاء تم اعتراض التسديدة.",
+          "source": 0,
+          "players": [
+            "Harvey Barnes"
+          ],
+          "event": {
+            "type": "attempt blocked",
+            "playerIds": [
+              "201666"
+            ],
+            "teamId": "4",
+            "evidence": "تسديدة تم اعتراضها. هارفي لويس بارنز (نيوكاسل) تسديدة بالقدم اليمنى من خارج منطقة الجزاء تم اعتراض التسديدة."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot",
+              "detail": "Take the attempt",
+              "outcome": "The attempt is taken. Hypothetical branch; no outcome is presented as fact."
+            },
+            {
+              "type": "pass",
+              "label": "Pass to a teammate",
+              "detail": "Choose a pass instead",
+              "outcome": "Possession is played to a teammate. Hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry the ball",
+              "detail": "Try to improve the angle",
+              "outcome": "The carrier tries to beat the next defender. Hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Recycle possession",
+              "detail": "Keep the move alive",
+              "outcome": "The attack is reset. Hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-2",
+          "minute": "9′",
+          "title": "Nicolas Jackson — Big chance saved",
+          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليمنى(أستون فيلا) نيكولاس جاكسونتم التصدي. تمريرة حاسمة بواسطة أليسون إدوارد في منتصف المرمى.",
+          "source": 0,
+          "players": [
+            "Nicolas Jackson",
+            "Alysson"
+          ],
+          "event": {
+            "type": "attempt saved",
+            "playerIds": [
+              "517052",
+              "653481"
+            ],
+            "teamId": "7",
+            "evidence": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليمنى(أستون فيلا) نيكولاس جاكسونتم التصدي. تمريرة حاسمة بواسطة أليسون إدوارد في منتصف المرمى."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot",
+              "detail": "Take the attempt",
+              "outcome": "The attempt is taken. Hypothetical branch; no outcome is presented as fact."
+            },
+            {
+              "type": "pass",
+              "label": "Pass to a teammate",
+              "detail": "Choose a pass instead",
+              "outcome": "Possession is played to a teammate. Hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry the ball",
+              "detail": "Try to improve the angle",
+              "outcome": "The carrier tries to beat the next defender. Hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Recycle possession",
+              "detail": "Keep the move alive",
+              "outcome": "The attack is reset. Hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-3",
+          "minute": "16′",
+          "title": "Johan Manzambi — Shot blocked",
+          "summary": "تسديدة تم اعتراضها. يوهان مانزامبي (أستون فيلا) تسديدة بالقدم اليسرى من الجهة اليمنى من منطقة الجزاء تم اعتراض التسديدة. تمريرة حاسمة بواسطة نيكولاس جاكسون.",
+          "source": 0,
+          "players": [
+            "Johan Manzambi",
+            "Nicolas Jackson"
+          ],
+          "event": {
+            "type": "attempt blocked",
+            "playerIds": [
+              "614071",
+              "517052"
+            ],
+            "teamId": "7",
+            "evidence": "تسديدة تم اعتراضها. يوهان مانزامبي (أستون فيلا) تسديدة بالقدم اليسرى من الجهة اليمنى من منطقة الجزاء تم اعتراض التسديدة. تمريرة حاسمة بواسطة نيكولاس جاكسون."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot",
+              "detail": "Take the attempt",
+              "outcome": "The attempt is taken. Hypothetical branch; no outcome is presented as fact."
+            },
+            {
+              "type": "pass",
+              "label": "Pass to a teammate",
+              "detail": "Choose a pass instead",
+              "outcome": "Possession is played to a teammate. Hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry the ball",
+              "detail": "Try to improve the angle",
+              "outcome": "The carrier tries to beat the next defender. Hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Recycle possession",
+              "detail": "Keep the move alive",
+              "outcome": "The attack is reset. Hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-4",
+          "minute": "23′",
+          "title": "Yoane Wissa — Shot blocked",
+          "summary": "تسديدة تم اعتراضها. يون ويسا (نيوكاسل) ضربة رأسية من منتصف منطقة الجزاء تم اعتراض التسديدة. تمريرة حاسمة بواسطة هارفي لويس بارنز بعرضية.",
+          "source": 0,
+          "players": [
+            "Yoane Wissa",
+            "Harvey Barnes"
+          ],
+          "event": {
+            "type": "attempt blocked",
+            "playerIds": [
+              "216646",
+              "201666"
+            ],
+            "teamId": "4",
+            "evidence": "تسديدة تم اعتراضها. يون ويسا (نيوكاسل) ضربة رأسية من منتصف منطقة الجزاء تم اعتراض التسديدة. تمريرة حاسمة بواسطة هارفي لويس بارنز بعرضية."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot",
+              "detail": "Take the attempt",
+              "outcome": "The attempt is taken. Hypothetical branch; no outcome is presented as fact."
+            },
+            {
+              "type": "pass",
+              "label": "Pass to a teammate",
+              "detail": "Choose a pass instead",
+              "outcome": "Possession is played to a teammate. Hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry the ball",
+              "detail": "Try to improve the angle",
+              "outcome": "The carrier tries to beat the next defender. Hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Recycle possession",
+              "detail": "Keep the move alive",
+              "outcome": "The attack is reset. Hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-5",
+          "minute": "26′",
+          "title": "Yoane Wissa — Shot blocked",
+          "summary": "تسديدة تم اعتراضها. يون ويسا (نيوكاسل) تسديدة بالقدم اليمنى من خارج منطقة الجزاء تم اعتراض التسديدة.",
+          "source": 0,
+          "players": [
+            "Yoane Wissa"
+          ],
+          "event": {
+            "type": "attempt blocked",
+            "playerIds": [
+              "216646"
+            ],
+            "teamId": "4",
+            "evidence": "تسديدة تم اعتراضها. يون ويسا (نيوكاسل) تسديدة بالقدم اليمنى من خارج منطقة الجزاء تم اعتراض التسديدة."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot",
+              "detail": "Take the attempt",
+              "outcome": "The attempt is taken. Hypothetical branch; no outcome is presented as fact."
+            },
+            {
+              "type": "pass",
+              "label": "Pass to a teammate",
+              "detail": "Choose a pass instead",
+              "outcome": "Possession is played to a teammate. Hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry the ball",
+              "detail": "Try to improve the angle",
+              "outcome": "The carrier tries to beat the next defender. Hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Recycle possession",
+              "detail": "Keep the move alive",
+              "outcome": "The attack is reset. Hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-6",
+          "minute": "36′",
+          "title": "Johan Manzambi — Goal",
+          "summary": "هدف! نيوكاسل 0, أستون فيلا 1. يوهان مانزامبي (أستون فيلا) ضربة رأسية من مسافة قريبة جداً إلى الزاوية الأرضية اليسرى. تمريرة حاسمة بواسطة جواو جوميز بعرضية.",
+          "source": 0,
+          "players": [
+            "Johan Manzambi",
+            "João Gomes"
+          ],
+          "event": {
+            "type": "goal",
+            "playerIds": [
+              "614071",
+              "448089"
+            ],
+            "teamId": "7",
+            "evidence": "هدف! نيوكاسل 0, أستون فيلا 1. يوهان مانزامبي (أستون فيلا) ضربة رأسية من مسافة قريبة جداً إلى الزاوية الأرضية اليسرى. تمريرة حاسمة بواسطة جواو جوميز بعرضية."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot first time",
+              "detail": "Take the earliest finish",
+              "outcome": "The attacker shoots immediately; this is a hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry into space",
+              "detail": "Improve the angle before shooting",
+              "outcome": "The attacker carries the ball; this is a hypothetical branch."
+            },
+            {
+              "type": "pass",
+              "label": "Square to a teammate",
+              "detail": "Choose the pass instead",
+              "outcome": "A teammate receives the square ball; this is a hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Keep possession",
+              "detail": "Reset the attack",
+              "outcome": "The attack is recycled; this is a hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-7",
+          "minute": "49′",
+          "title": "Sven Botman — Big chance saved",
+          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليسرى(نيوكاسل) سفين بوتمانتم التصدي في أعلى الزاوية اليمنى.",
+          "source": 0,
+          "players": [
+            "Sven Botman"
+          ],
+          "event": {
+            "type": "attempt saved",
+            "playerIds": [
+              "220237"
+            ],
+            "teamId": "4",
+            "evidence": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليسرى(نيوكاسل) سفين بوتمانتم التصدي في أعلى الزاوية اليمنى."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot",
+              "detail": "Take the attempt",
+              "outcome": "The attempt is taken. Hypothetical branch; no outcome is presented as fact."
+            },
+            {
+              "type": "pass",
+              "label": "Pass to a teammate",
+              "detail": "Choose a pass instead",
+              "outcome": "Possession is played to a teammate. Hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry the ball",
+              "detail": "Try to improve the angle",
+              "outcome": "The carrier tries to beat the next defender. Hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Recycle possession",
+              "detail": "Keep the move alive",
+              "outcome": "The attack is reset. Hypothetical branch."
+            }
+          ]
+        },
+        {
+          "id": "moment-8",
+          "minute": "74′",
+          "title": "Ross Barkley — Big chance saved",
+          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(أستون فيلا) روس باركليتم التصدي في الزاوية الأرضية اليسرى.",
+          "source": 0,
+          "players": [
+            "Ross Barkley"
+          ],
+          "event": {
+            "type": "attempt saved",
+            "playerIds": [
+              "88894"
+            ],
+            "teamId": "7",
+            "evidence": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(أستون فيلا) روس باركليتم التصدي في الزاوية الأرضية اليسرى."
+          },
+          "actions": [
+            {
+              "type": "shoot",
+              "label": "Shoot",
+              "detail": "Take the attempt",
+              "outcome": "The attempt is taken. Hypothetical branch; no outcome is presented as fact."
+            },
+            {
+              "type": "pass",
+              "label": "Pass to a teammate",
+              "detail": "Choose a pass instead",
+              "outcome": "Possession is played to a teammate. Hypothetical branch."
+            },
+            {
+              "type": "dribble",
+              "label": "Carry the ball",
+              "detail": "Try to improve the angle",
+              "outcome": "The carrier tries to beat the next defender. Hypothetical branch."
+            },
+            {
+              "type": "recycle",
+              "label": "Recycle possession",
+              "detail": "Keep the move alive",
+              "outcome": "The attack is reset. Hypothetical branch."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

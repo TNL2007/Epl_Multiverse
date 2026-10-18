@@ -386,8 +386,14 @@
       "team1": "Nottingham Forest FC",
       "team2": "Tottenham Hotspur FC",
       "score": {
-        "ht": null,
-        "ft": null
+        "ht": [
+          0,
+          0
+        ],
+        "ft": [
+          0,
+          0
+        ]
       }
     },
     {
@@ -465,8 +471,14 @@
       "team1": "Hull City AFC",
       "team2": "Aston Villa FC",
       "score": {
-        "ht": null,
-        "ft": null
+        "ht": [
+          0,
+          0
+        ],
+        "ft": [
+          0,
+          0
+        ]
       }
     },
     {
@@ -527,8 +539,14 @@
       "team1": "Liverpool FC",
       "team2": "Fulham FC",
       "score": {
-        "ht": null,
-        "ft": null
+        "ht": [
+          0,
+          0
+        ],
+        "ft": [
+          0,
+          0
+        ]
       }
     },
     {
@@ -589,8 +607,14 @@
       "team1": "Tottenham Hotspur FC",
       "team2": "Everton FC",
       "score": {
-        "ht": null,
-        "ft": null
+        "ht": [
+          0,
+          0
+        ],
+        "ft": [
+          0,
+          0
+        ]
       }
     },
     {
@@ -787,8 +811,14 @@
       "team1": "Leeds United FC",
       "team2": "Crystal Palace FC",
       "score": {
-        "ht": null,
-        "ft": null
+        "ht": [
+          0,
+          0
+        ],
+        "ft": [
+          0,
+          0
+        ]
       }
     },
     {
@@ -832,8 +862,14 @@
       "team1": "Arsenal FC",
       "team2": "Leeds United FC",
       "score": {
-        "ht": null,
-        "ft": null
+        "ht": [
+          0,
+          0
+        ],
+        "ft": [
+          2,
+          1
+        ]
       }
     },
     {
@@ -843,8 +879,14 @@
       "team1": "Sunderland AFC",
       "team2": "Brighton & Hove Albion FC",
       "score": {
-        "ht": null,
-        "ft": null
+        "ht": [
+          0,
+          0
+        ],
+        "ft": [
+          0,
+          2
+        ]
       }
     },
     {
@@ -854,8 +896,14 @@
       "team1": "Chelsea FC",
       "team2": "AFC Bournemouth",
       "score": {
-        "ht": null,
-        "ft": null
+        "ht": [
+          2,
+          0
+        ],
+        "ft": [
+          5,
+          1
+        ]
       }
     },
     {
@@ -865,8 +913,14 @@
       "team1": "Ipswich Town FC",
       "team2": "Fulham FC",
       "score": {
-        "ht": null,
-        "ft": null
+        "ht": [
+          0,
+          0
+        ],
+        "ft": [
+          2,
+          1
+        ]
       }
     },
     {
@@ -876,8 +930,14 @@
       "team1": "Aston Villa FC",
       "team2": "Brentford FC",
       "score": {
-        "ht": null,
-        "ft": null
+        "ht": [
+          1,
+          1
+        ],
+        "ft": [
+          2,
+          2
+        ]
       }
     },
     {
@@ -887,8 +947,14 @@
       "team1": "Manchester United FC",
       "team2": "Tottenham Hotspur FC",
       "score": {
-        "ht": null,
-        "ft": null
+        "ht": [
+          0,
+          0
+        ],
+        "ft": [
+          1,
+          1
+        ]
       }
     },
     {
@@ -898,8 +964,14 @@
       "team1": "Hull City AFC",
       "team2": "Everton FC",
       "score": {
-        "ht": null,
-        "ft": null
+        "ht": [
+          0,
+          0
+        ],
+        "ft": [
+          2,
+          2
+        ]
       }
     },
     {
@@ -909,8 +981,14 @@
       "team1": "Crystal Palace FC",
       "team2": "Nottingham Forest FC",
       "score": {
-        "ht": null,
-        "ft": null
+        "ht": [
+          2,
+          1
+        ],
+        "ft": [
+          3,
+          1
+        ]
       }
     },
     {
@@ -920,8 +998,14 @@
       "team1": "Liverpool FC",
       "team2": "Manchester City FC",
       "score": {
-        "ht": null,
-        "ft": null
+        "ht": [
+          0,
+          0
+        ],
+        "ft": [
+          0,
+          3
+        ]
       }
     },
     {
@@ -931,8 +1015,14 @@
       "team1": "Coventry City FC",
       "team2": "Newcastle United FC",
       "score": {
-        "ht": null,
-        "ft": null
+        "ht": [
+          1,
+          0
+        ],
+        "ft": [
+          4,
+          1
+        ]
       }
     },
     {
