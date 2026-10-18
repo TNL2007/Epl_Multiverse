@@ -16,14 +16,16 @@
   let selected = null;
   let catalog = null;
   let activeMoment = null;
+  let renderToken = 0;
+  const shardCache = new Map();
 
   const clean = value => (value || "").replace(/ (FC|AFC)$/, "");
   const keyFor = match => [match.date, match.team1, match.team2].join("|");
 
-  fetch("data/report-scenarios.json")
+  fetch("data/report-scenarios.json", { cache: "no-cache" })
     .then(response => { if (!response.ok) throw new Error("Scenario data unavailable"); return response.json(); })
     .then(data => { catalog = data; })
-    .catch(() => { catalog = { matches: {} }; });
+    .catch(() => { catalog = { matchIndex: {} }; });
 
   function showFixture(detail) {
     selected = detail;
@@ -47,14 +49,39 @@
   function renderWhenReady() {
     if (!selected || !catalog) return;
     const match = selected.match;
-    const record = catalog.matches[keyFor(match)];
-    if (!record) {
+    const shardName = catalog.matchIndex?.[keyFor(match)];
+    if (!shardName) {
       momentPicker.replaceChildren();
       workspace.classList.add("hidden");
       empty.textContent = "No Premier League report moments have been imported for this fixture yet. We’re keeping this match selectable, but won’t invent moments or players.";
       empty.classList.remove("hidden");
       return;
     }
+    const token = ++renderToken;
+    const selection = selected;
+    empty.textContent = "Loading sourced match moments…";
+    empty.classList.remove("hidden");
+    const cached = shardCache.get(shardName);
+    const shardRequest = cached
+      ? Promise.resolve(cached)
+      : fetch("data/" + shardName).then(response => {
+          if (!response.ok) throw new Error("Scenario shard unavailable");
+          return response.json();
+        }).then(data => { shardCache.set(shardName, data); return data; });
+    shardRequest.then(shard => {
+      if (token !== renderToken || selected !== selection) return;
+      const record = shard.matches?.[keyFor(match)];
+      if (!record) throw new Error("Fixture record missing from its scenario shard");
+      renderRecord(record);
+    }).catch(() => {
+      if (token !== renderToken || selected !== selection) return;
+      empty.textContent = "We couldn’t load the report moments for this fixture. Please try selecting it again.";
+      empty.classList.remove("hidden");
+    });
+  }
+
+  function renderRecord(record) {
+    empty.classList.add("hidden");
     const sourceLinks = (record.sources || []).map(source => {
       const link = document.createElement("a");
       link.href = source.url; link.target = "_blank"; link.rel = "noreferrer";
@@ -111,14 +138,15 @@
     const names = new Set(moment.players || []);
     const participants = (record.players || []).filter(player => names.has(player.name));
     const stage = $("#camera-action");
+    const home = clean(record.home).replace(/^AFC /, "");
     stage.replaceChildren(...participants.map((player, index) => {
       const node = document.createElement("span");
-      node.className = "camera-player " + (player.team === "Liverpool" ? "home" : "away");
+      node.className = "camera-player " + (clean(player.team).replace(/^AFC /, "") === home ? "home" : "away");
       node.style.setProperty("--player-index", index);
       node.innerHTML = '<b class="shirt-number"></b><span class="player-caption"><strong></strong><small></small></span>';
       node.querySelector(".shirt-number").textContent = String(player.number);
       node.querySelector(".player-caption strong").textContent = player.name;
-      node.querySelector(".player-caption small").textContent = player.team + " · #" + player.number;
+      node.querySelector(".player-caption small").textContent = clean(player.team) + " · #" + player.number;
       return node;
     }));
     $("#camera-ball").className = "camera-ball";
@@ -165,6 +193,7 @@
     if (!selected) return;
     event.stopImmediatePropagation();
     selected = null;
+    renderToken++;
     panel.classList.add("hidden");
     relevantSections.forEach(section => section.classList.remove("hidden"));
   }, true);
