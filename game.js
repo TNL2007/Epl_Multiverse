@@ -43,9 +43,9 @@
       callout: "⚡ DANGER: ARSENAL BREAK", caption: "ARSENAL COUNTER-ATTACK",
       options: [["press", "Close him down now", "Win it early · Risk the gap"], ["cover", "Drop off and protect the box", "Stay compact · Let them advance"], ["foul", "Stop the break with a foul", "Break the rhythm · Risk a card"]],
       models: {
-        press: { outcomes: [["turnover", .44], ["chance-against", .56]] },
-        cover: { outcomes: [["defuse", .70], ["chance-against", .30]] },
-        foul: { outcomes: [["yellow", .60], ["red", .04], ["chance-against", .36]] }
+        press: { outcomes: [["turnover", .40], ["chance-against", .50], ["goal-against", .10]] },
+        cover: { outcomes: [["defuse", .68], ["chance-against", .24], ["goal-against", .08]] },
+        foul: { outcomes: [["yellow", .58], ["red", .04], ["chance-against", .33], ["goal-against", .05]] }
       }
     }
   ];
@@ -71,6 +71,7 @@
     decisionPanel.classList.remove("hidden");
     commentaryFeed.innerHTML = '<article class="commentary-entry"><time>67:42</time><p>Arsenal try to play out, but Liverpool snap into the press. Mac Allister wins it back in midfield.</p></article><article class="commentary-entry"><time>67:55</time><p>Diaz drives forward and finds Salah out on the right. Liverpool have numbers here.</p></article><article class="commentary-entry featured"><time>68:14</time><p><strong>Here comes Salah.</strong> Núñez is making the run through the middle — this is a big moment.</p></article>';
     renderTimelines();
+    lastCommentary = "Here comes Salah. Núñez is making the run through the middle — this is a big moment.";
     choiceButtons.forEach(button => button.disabled = false);
   }
 
@@ -321,6 +322,7 @@
       turnover: { label: "BALL WON", tag: "PRESSURE REWARDED", headline: "Liverpool win it back!", body: "The midfield gets across in time. Saka is forced to check back and Liverpool regain possession before Arsenal can reach the box.", commentary: "Liverpool swarm Saka… they win it back! That could be a crucial tackle.", momentumDelta: 8, winDelta: 2, ripple: 42 },
       defuse: { label: "DANGER DEFUSED", tag: "SAFE DEFENDING", headline: "Liverpool hold their shape", body: "The back line stays compact. Saka runs out of room, and Arsenal are forced to recycle the ball.", commentary: "Liverpool stay patient… Saka has nowhere to go. The danger passes.", momentumDelta: 3, winDelta: 1, ripple: 30 },
       "chance-against": { label: "ARSENAL CHANCE", tag: "DANGER", headline: "Arsenal find a way through", body: "Saka gets a yard on the defender and slides a dangerous ball across the face of goal. Liverpool scramble it away.", commentary: "Saka gets through… across the six-yard box! Liverpool just about survive.", momentumDelta: -10, winDelta: -8, ripple: 65 },
+      "goal-against": { label: "ARSENAL GOAL", tag: "GOAL · ARSENAL", headline: "Arsenal punish the space", body: "Saka draws the defender and squares it across the box. Arsenal finish the move and turn the match on its head.", commentary: "Saka drives into the area… squares it… Arsenal score! Liverpool have a mountain to climb.", momentumDelta: -20, winDelta: -18, ripple: 94 },
       yellow: { label: "YELLOW CARD", tag: "BOOKED", headline: "The break is stopped — and the referee reaches for a card", body: "Liverpool halt the counter, but the referee has no hesitation. A yellow card, and Arsenal have a free kick in a dangerous area.", commentary: "The foul stops the break… and there's the yellow. Liverpool have to be careful now.", momentumDelta: -2, winDelta: -2, ripple: 38 },
       red: { label: "RED CARD", tag: "SENT OFF", headline: "Liverpool are down to ten", body: "The referee judges the challenge to have denied a clear goal-scoring opportunity. A red card changes the final minutes completely.", commentary: "The referee goes to his pocket… it's red! Liverpool will finish with ten.", momentumDelta: -14, winDelta: -15, ripple: 92 }
     }[outcome];
@@ -329,6 +331,7 @@
 
   function applyOutcome(outcome) {
     if (outcome === "goal") state.home += 1;
+    if (outcome === "goal-against") state.away += 1;
     updateWinProbability();
   }
 
@@ -446,10 +449,11 @@
   }
 
   function rewind() {
-    state = { ...originalMatch, phase: 0, decisions: [] };
+    state = { ...originalMatch, phase: 0, decisions: [], isFinal: false };
     activeBranch = null;
     completed = false;
     updateScore();
+    updateWinProbability();
     updateClock();
     updateMomentum(0);
     $("#win-chance").textContent = state.winChance + "%";
