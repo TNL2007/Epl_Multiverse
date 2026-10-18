@@ -460,7 +460,7 @@
     $("#win-chance").textContent = state.winChance + "%";
     $("#match-state").textContent = "Level";
     updateDecision();
-    addCommentary("Back to 68:14. Choose a different action to create another timeline.", scenarios[0].clock, false);
+    addCommentary("Back to 72:00. Choose a different action to create another timeline.", scenarios[0].clock, false);
   }
 
   function clamp(value, min, max) { return Math.max(min, Math.min(max, value)); }
