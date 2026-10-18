@@ -545,7 +545,7 @@
     const pageItems = archiveVisibleMatches.slice(archivePageNumber * ARCHIVE_PAGE_SIZE, (archivePageNumber + 1) * ARCHIVE_PAGE_SIZE);
     const finalCount = season.matches.filter(matchHasFinalScore).length;
     const missingCount = season.matches.length - finalCount;
-    archiveTotal.textContent = season.matches.length.toLocaleString("en-GB") + " fixtures";
+    archiveTotal.textContent = archiveData.reduce((sum, item) => sum + item.matches.length, 0).toLocaleString("en-GB") + " fixtures · 5 seasons";
     archiveStatus.textContent = season.season.replace("-", "/") + " · " + finalCount + " final scores · " + missingCount + " without a score in this snapshot";
     archivePageLabel.textContent = (archivePageNumber + 1) + " / " + pageCount;
     archivePrev.disabled = archivePageNumber === 0;
@@ -560,7 +560,6 @@
       const row = document.createElement("button");
       row.type = "button";
       row.className = "archive-row";
-      row.setAttribute("role", "listitem");
       const date = document.createElement("span");
       date.className = "archive-date";
       date.textContent = formatArchiveDate(match.date);
