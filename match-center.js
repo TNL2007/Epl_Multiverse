@@ -35,7 +35,7 @@
   const photos = {
     "Mohamed Salah": ["https://commons.wikimedia.org/wiki/Special:FilePath/Mo_Salah.jpg?width=320", "https://commons.wikimedia.org/wiki/File:Mo_Salah.jpg", "Eric The Fish · CC BY 2.0"],
     "Darwin Núñez": ["https://commons.wikimedia.org/wiki/Special:FilePath/Darwin_N%C3%BA%C3%B1ez_(cropped).jpg?width=320", "https://commons.wikimedia.org/wiki/File:Darwin_N%C3%BA%C3%B1ez_(cropped).jpg", "Steffen Prößdorf · CC BY-SA 4.0"],
-    "Trent Alexander-Arnold": ["https://commons.wikimedia.org/wiki/Special:FilePath/Trent_Alexander-Arnold_2018_(cropped).jpg?width=320", "https://commons.wikimedia.org/wiki/File:Trent_Alexander-Arnold_2018_(cropped).jpg", "Indopug · CC BY-SA 3.0"],
+    "Trent Alexander-Arnold": ["https://commons.wikimedia.org/wiki/Special:FilePath/Trent_Alexander-Arnold_2018_(cropped).jpg?width=320", "https://commons.wikimedia.org/wiki/File:Trent_Alexander-Arnold_2018_(cropped).jpg", "Anton Zaitsev · via soccer.ru · CC BY-SA 3.0"],
     "Bukayo Saka": ["https://commons.wikimedia.org/wiki/Special:FilePath/RC_Lens_-_Arsenal_FC_(03-10-2023)_16_(cropped).jpg?width=320", "https://commons.wikimedia.org/wiki/File:RC_Lens_-_Arsenal_FC_(03-10-2023)_16_(cropped).jpg", "Supporterhéninois · CC0"],
     "William Saliba": ["https://commons.wikimedia.org/wiki/Special:FilePath/1_william_saliba_arsenal_2025_(cropped).jpg?width=320", "https://commons.wikimedia.org/wiki/File:1_william_saliba_arsenal_2025_(cropped).jpg", "Chensiyuan · CC BY-SA 4.0"],
     "David Raya": ["https://commons.wikimedia.org/wiki/Special:FilePath/David_Raya,_Brentford_F.C._footballer,_July_2021.jpg?width=320", "https://commons.wikimedia.org/wiki/File:David_Raya,_Brentford_F.C._footballer,_July_2021.jpg", "Ardfern · CC BY-SA 4.0"]
@@ -92,6 +92,7 @@
     node.style.top = y + "%";
     node.setAttribute("role", "img");
     node.setAttribute("aria-label", number + " · " + name + " · " + teams[teamKey].name + " · " + role);
+    node.tabIndex = 0;
     node.title = number + " · " + name + " (" + role + ")";
     const shirt = document.createElement("span");
     shirt.textContent = number;
