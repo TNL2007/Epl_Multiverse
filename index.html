@@ -24,15 +24,20 @@
       <div>
         <p class="eyebrow">PREMIER LEAGUE · COUNTERFACTUAL MATCHDAY</p>
         <h1>One moment. <em>Infinite outcomes.</em></h1>
-        <p class="subheading">Take control of a pivotal Liverpool attack, then explore how one decision changes the match.</p>
+        <p class="subheading">Replay a documented Premier League match, then explore how one decision changes the story.</p>
       </div>
-      <div class="match-meta"><span class="live-pill"><i></i> LIVE SIM</span><span>Anfield · 68’</span></div>
+      <div class="match-meta"><span class="live-pill"><i></i> REPLAY</span><span>Anfield · 23 Dec 2023</span></div>
     </section>
 
     <section class="scoreboard" aria-label="Match score">
       <div class="team team-home"><span class="team-crest">L</span><div><strong>LIVERPOOL</strong><small>HOME</small></div></div>
       <div class="score-wrap"><span class="score" id="home-score">1</span><span class="score-separator">:</span><span class="score" id="away-score">1</span><span class="match-minute" id="match-minute">68:14</span></div>
       <div class="team team-away"><div><strong>ARSENAL</strong><small>AWAY</small></div><span class="team-crest away-crest">A</span></div>
+    </section>
+
+    <section class="season-context" aria-label="Historical season data">
+      <div class="context-source"><span class="data-mark">DATA</span><div><strong id="historical-match">Loading 2023/24 Premier League results…</strong><small id="data-status">LOADING INCLUDED OPEN DATA</small></div></div>
+      <div class="context-teams"><span id="season-liverpool">Liverpool · —</span><span id="season-arsenal">Arsenal · —</span></div>
     </section>
 
     <section class="game-grid">
@@ -74,19 +79,19 @@
         <section class="timeline-card">
           <div class="section-heading"><div><p class="eyebrow">YOUR MULTIVERSE</p><h2>Match timelines</h2></div><span class="branch-count" id="branch-count">1 timeline</span></div>
           <div class="timeline-list" id="timeline-list" aria-live="polite"></div>
-          <p class="timeline-footnote">Each branch starts from the same moment. Outcomes are simulated, so replay to see how a different choice changes the story.</p>
+          <p class="timeline-footnote">The historical 1–1 is the trunk. Every new run is a simulated alternate timeline; odds use season scoring rates.</p>
         </section>
       </div>
 
       <aside class="side-column">
         <section class="commentary-card">
-          <div class="section-heading"><div><p class="eyebrow">FROM THE COMMENTARY BOX</p><h2>Match commentary</h2></div><span class="sound-icon">◖))</span></div>
+          <div class="section-heading"><div><p class="eyebrow">FROM THE COMMENTARY BOX</p><h2>Match commentary</h2></div><button class="voice-toggle" id="voice-toggle" type="button" aria-pressed="false">▶ Listen</button></div>
           <div class="commentary-feed" id="commentary-feed" aria-live="polite">
             <article class="commentary-entry"><time>67:42</time><p>Arsenal try to play out, but Liverpool snap into the press. Mac Allister wins it back in midfield.</p></article>
             <article class="commentary-entry"><time>67:55</time><p>Diaz drives forward and finds Salah out on the right. Liverpool have numbers here.</p></article>
             <article class="commentary-entry featured"><time>68:14</time><p><strong>Here comes Salah.</strong> Núñez is making the run through the middle — this is a big moment.</p></article>
           </div>
-          <div class="commentary-footer"><span class="pulse"></span> AI-ASSISTED · GROUNDED IN MATCH EVENTS</div>
+          <div class="commentary-footer"><span class="pulse"></span> EVENT-BASED COMMENTARY · OPTIONAL BROWSER VOICE</div>
         </section>
 
         <section class="momentum-card">
@@ -106,7 +111,7 @@
         </section>
       </aside>
     </section>
-    <footer class="site-footer"><span>PROTOTYPE · PROBABILITIES ARE ILLUSTRATIVE</span><span>Built for the EPL Multiverse project</span></footer>
+    <footer class="site-footer"><span>SIMULATED EVENTS · SEASON-LEVEL ODDS FROM INCLUDED 2023/24 RESULTS</span><a href="https://github.com/openfootball/football.json/blob/master/2023-24/en.1.json" target="_blank" rel="noreferrer">DATA: OPENFOOTBALL · CC0</a></footer>
   </main>
   <script src="game.js"></script>
 </body>
