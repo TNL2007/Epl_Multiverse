@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0a1110">
   <title>Multiverse Match | EPL Multiverse</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=archive-20261018-1">
 </head>
 <body>
   <main class="app-shell">
@@ -111,8 +111,26 @@
         </section>
       </aside>
     </section>
-    <footer class="site-footer"><span>SIMULATED EVENTS · SEASON-LEVEL ODDS FROM INCLUDED 2023/24 RESULTS</span><a href="https://github.com/openfootball/football.json/blob/master/2023-24/en.1.json" target="_blank" rel="noreferrer">DATA: OPENFOOTBALL · CC0</a></footer>
+    <section class="archive-card" id="match-archive" aria-label="Premier League match archive">
+      <div class="archive-heading">
+        <div><p class="eyebrow">THE EPL ARCHIVE</p><h2>Every match, 2022/23 onward</h2><p>Browse season fixtures and recorded scores. Choose a match to inspect its available result data.</p></div>
+        <span class="archive-total" id="archive-total">Loading archive…</span>
+      </div>
+      <div class="archive-controls">
+        <label>Season<select id="archive-season" aria-label="Choose Premier League season"></select></label>
+        <label class="archive-search-label">Find a team or matchday<input id="archive-search" type="search" placeholder="e.g. Leeds or Matchday 7" autocomplete="off"></label>
+        <label>Show<select id="archive-status-filter" aria-label="Filter archive matches">
+          <option value="all">All fixtures</option><option value="completed">With final score</option><option value="upcoming">Upcoming</option><option value="missing">No score in snapshot</option>
+        </select></label>
+      </div>
+      <p class="archive-status" id="archive-status" aria-live="polite">Loading season files…</p>
+      <div class="archive-list" id="archive-list" role="list" aria-label="Matches"></div>
+      <div class="archive-pagination"><button id="archive-prev" type="button" disabled>← Previous</button><span id="archive-page" aria-live="polite">1 / 1</span><button id="archive-next" type="button" disabled>Next →</button></div>
+      <div class="archive-selection hidden" id="archive-selection" aria-live="polite"><strong id="archive-selection-title"></strong><span id="archive-selection-copy"></span></div>
+      <p class="archive-footnote">Source snapshot: OpenFootball, CC0. Results and fixtures only—this archive does not contain minute-by-minute events. Event replays will be added only where a suitable data source is available.</p>
+    </section>
+    <footer class="site-footer"><span>SIMULATED EVENTS · EPL ARCHIVE 2022/23–2026/27</span><a href="https://github.com/openfootball/football.json/blob/master/2023-24/en.1.json" target="_blank" rel="noreferrer">DATA: OPENFOOTBALL · CC0</a></footer>
   </main>
-  <script src="game.js?v=02c4873"></script>
+  <script src="game.js?v=archive-20261018-1"></script>
 </body>
 </html>
