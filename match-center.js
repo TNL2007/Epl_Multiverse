@@ -360,7 +360,7 @@
   }
   let phase = 0;
   const scenes = [
-    { through: ["Darwin Núñez", 82, 47, ["Mohamed Salah","Darwin Núñez","William Saliba","David Raya"]], shoot: ["David Raya", 95, 50, ["Mohamed Salah","David Raya"]], switch: ["Luis Díaz", 58, 77, ["Mohamed Salah","Luis Díaz"]] },
+    { through: ["Trent Alexander-Arnold", 88, 44, ["Mohamed Salah","Trent Alexander-Arnold"]], shoot: ["David Raya", 95, 50, ["Mohamed Salah","David Raya"]], switch: ["Luis Díaz", 58, 77, ["Mohamed Salah","Luis Díaz"]] },
     { cross: ["Virgil van Dijk", 92, 46, ["Trent Alexander-Arnold","Virgil van Dijk","David Raya"]], short: ["Dominik Szoboszlai", 53, 40, ["Trent Alexander-Arnold","Dominik Szoboszlai"]], recycle: ["Wataru Endo", 42, 53, ["Trent Alexander-Arnold","Wataru Endo"]] },
     { press: ["Bukayo Saka", 54, 21, ["Bukayo Saka","Virgil van Dijk"]], cover: ["Bukayo Saka", 54, 21, ["Bukayo Saka","Virgil van Dijk"]], foul: ["Bukayo Saka", 54, 21, ["Bukayo Saka","Virgil van Dijk"]] }
   ];
