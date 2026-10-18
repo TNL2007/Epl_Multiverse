@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0a1110">
   <title>Multiverse Match | EPL Multiverse</title>
-  <link rel="stylesheet" href="styles.css?v=archive-20261018-1">
+  <link rel="stylesheet" href="styles.css?v=fixture-sim-1">
   <link rel="stylesheet" href="match-center.css?v=matchcenter-20261018-7">
 </head>
 <body>
@@ -40,6 +40,24 @@
       <p class="archive-footnote">Source snapshot: OpenFootball, CC0. Results and fixtures only—this archive does not contain minute-by-minute events. Event replays will be added only where a suitable data source is available.</p>
     </section>
 
+
+    <section class="fixture-simulator hidden" id="fixture-simulator" aria-live="polite" aria-labelledby="fixture-sim-title">
+      <div class="fixture-sim-heading"><div><p class="eyebrow">GENERATED MATCH SIMULATION · NOT A HISTORICAL REPLAY</p><h2 id="fixture-sim-title">Choose a fixture to play</h2><p id="fixture-sim-reference">The score below will be generated from kickoff. It does not recreate recorded events or lineups.</p></div><button class="fixture-reset" id="fixture-reset" type="button">↻ Restart</button></div>
+      <div class="fixture-sim-score" aria-label="Simulated score">
+        <strong id="fixture-home-name">Home</strong><b><span id="fixture-home-score">0</span><i>–</i><span id="fixture-away-score">0</span></b><strong id="fixture-away-name">Away</strong><small id="fixture-sim-minute">0′</small>
+      </div>
+      <div class="fixture-sim-pitch" aria-label="Illustrative pitch animation">
+        <span class="sim-halfway"></span><span class="sim-circle"></span><span class="sim-player sim-home-player">H</span><span class="sim-player sim-away-player">A</span><span class="sim-ball" id="fixture-sim-ball"></span>
+      </div>
+      <p class="fixture-sim-label">Illustrative positions only · no real lineup or tracking data</p>
+      <p class="fixture-sim-commentary" id="fixture-sim-commentary">Choose a tactic to simulate the next phase.</p>
+      <div class="fixture-sim-actions" id="fixture-sim-actions">
+        <button type="button" data-tactic="press">Press high <small>More pressure · more space behind</small></button>
+        <button type="button" data-tactic="build">Build patiently <small>Lower risk · fewer quick chances</small></button>
+        <button type="button" data-tactic="counter">Counter quickly <small>Attack space · risk losing possession</small></button>
+      </div>
+      <div class="fixture-sim-log" id="fixture-sim-log" aria-live="polite"></div>
+    </section>
 
     <section class="match-heading">
       <div>
@@ -134,7 +152,8 @@
     </section>
     <footer class="site-footer"><span>SIMULATED EVENTS · EPL ARCHIVE 2022/23–2026/27</span><a href="https://github.com/openfootball/football.json/blob/master/2023-24/en.1.json" target="_blank" rel="noreferrer">DATA: OPENFOOTBALL · CC0</a></footer>
   </main>
-  <script src="game.js?v=matchcenter-20261018-7"></script>
+  <script src="game.js?v=fixture-sim-1"></script>
+  <script src="fixture-simulator.js?v=fixture-sim-1"></script>
   <script src="match-center.js?v=matchcenter-20261018-7"></script>
   <script src="momentum-filter.js?v=kalman-prototype-2"></script>
 </body>
