@@ -217,7 +217,7 @@
   function updateWinProbability() {
     const probabilities = matchProbabilities();
     state.winChance = Math.round(probabilities.homeWin * 100);
-    updateWinProbability();
+    $("#win-chance").textContent = state.winChance + "%";
   }
 
   function expectedTableRipple() {
