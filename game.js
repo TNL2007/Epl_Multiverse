@@ -69,9 +69,9 @@
     updateImpact(null);
     resultPanel.classList.add("hidden");
     decisionPanel.classList.remove("hidden");
-    commentaryFeed.innerHTML = '<article class="commentary-entry"><time>67:42</time><p>Arsenal try to play out, but Liverpool snap into the press. Mac Allister wins it back in midfield.</p></article><article class="commentary-entry"><time>67:55</time><p>Diaz drives forward and finds Salah out on the right. Liverpool have numbers here.</p></article><article class="commentary-entry featured"><time>68:14</time><p><strong>Here comes Salah.</strong> Núñez is making the run through the middle — this is a big moment.</p></article>';
+    commentaryFeed.innerHTML = '<article class="commentary-entry"><time>REAL</time><p>At 1–1, Darwin Núñez has just replaced Cody Gakpo in Liverpool’s 67th-minute triple change.</p></article><article class="commentary-entry featured"><time>68:14</time><p><strong>Counterfactual fork.</strong> Choose what Salah does next. This possession and its commentary are simulated, not historical match events.</p></article>';
     renderTimelines();
-    lastCommentary = "Here comes Salah. Núñez is making the run through the middle — this is a big moment.";
+    lastCommentary = "Choose a simulated alternate action from the 68th minute.";
     choiceButtons.forEach(button => button.disabled = false);
   }
 
@@ -88,8 +88,8 @@
     decisionPanel.querySelector(".decision-copy").textContent = scenario.copy;
     $("#chance-callout").innerHTML = scenario.callout;
     $(".pitch-caption").textContent = scenario.caption;
-    $("#ball").style.left = state.phase === 2 ? "78%" : state.phase === 1 ? "89%" : "64%";
-    $("#ball").style.top = state.phase === 2 ? "42%" : state.phase === 1 ? "21%" : "56%";
+    $("#ball").style.left = state.phase === 2 ? "54%" : state.phase === 1 ? "89%" : "69%";
+    $("#ball").style.top = state.phase === 2 ? "21%" : state.phase === 1 ? "21%" : "25%";
     const phaseNumber = String(state.phase + 1).padStart(2, "0");
     decisionPanel.querySelector(".decision-number").innerHTML = phaseNumber + ' <i>/ 03</i>';
     choiceButtons.forEach((button, index) => {
@@ -381,7 +381,7 @@
       fill.style.background = "linear-gradient(270deg,#8da7ca,#5f82ad)";
     }
     $("#momentum-value").textContent = (state.momentum > 0 ? "+" : "") + state.momentum;
-    $("#momentum-note").textContent = state.momentum > 20 ? "Liverpool are turning the pressure up. The crowd can feel it." : state.momentum < -10 ? "Arsenal are finding space and shifting the pressure back." : "The match is finely balanced. One moment could swing it either way.";
+    $("#momentum-note").textContent = state.momentum > 20 ? "Simulated pressure has swung towards Liverpool after your choice." : state.momentum < -10 ? "Simulated pressure has swung towards Arsenal after your choice." : "Simulated pressure is balanced; this is a scenario meter, not recorded match data.";
   }
 
   function updateImpact(result) {
