@@ -1494,7 +1494,7 @@
           "id": "moment-1",
           "minute": "6′",
           "title": "Jean-Philippe Mateta — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(كريستال بالاس) جان ماتيتاتم التصدي في الزاوية الأرضية اليسرى.",
+          "summary": "Jean-Philippe Mateta's shot was saved.",
           "source": 0,
           "players": [
             "Jean-Philippe Mateta"
@@ -1538,7 +1538,7 @@
           "id": "moment-2",
           "minute": "7′",
           "title": "Justin Devenny — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليسرى(كريستال بالاس) جاستن ديفينيتم التصدي. تمريرة حاسمة بواسطة جيفرسون ليرما في الزاوية الأرضية اليسرى.",
+          "summary": "Justin Devenny's shot was saved.",
           "source": 0,
           "players": [
             "Justin Devenny",
@@ -1584,7 +1584,7 @@
           "id": "moment-3",
           "minute": "19′",
           "title": "Marc Guéhi — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء ضربة رأسية(كريستال بالاس) مارك جويهيتم التصدي. تمريرة حاسمة بواسطة ماكسينك لاكرويكس بعرضية في الزاوية الأرضية اليسرى.",
+          "summary": "Marc Guéhi's shot was saved.",
           "source": 0,
           "players": [
             "Marc Guéhi",
@@ -1630,7 +1630,7 @@
           "id": "moment-4",
           "minute": "32′",
           "title": "Charly Alcaraz — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(إيفرتون) كارلوس ألكارازتم التصدي. تمريرة حاسمة بواسطة بيتو تمريرة بضربة رأسية في منتصف المرمى.",
+          "summary": "Charly Alcaraz's shot was saved.",
           "source": 0,
           "players": [
             "Charly Alcaraz",
@@ -1676,7 +1676,7 @@
           "id": "moment-5",
           "minute": "42′",
           "title": "Beto — Goal",
-          "summary": "هدف! كريستال بالاس 0, إيفرتون 1. بيتو (إيفرتون) تسديدة بالقدم اليمنى من منتصف منطقة الجزاء إلى منتصف المرمى. تمريرة حاسمة بواسطة كارلوس ألكاراز بعد هجمة مرتدة.",
+          "summary": "Beto scored.",
           "source": 0,
           "players": [
             "Beto",
@@ -1722,7 +1722,7 @@
           "id": "moment-6",
           "minute": "47′",
           "title": "Jean-Philippe Mateta — Goal",
-          "summary": "هدف! كريستال بالاس 1, إيفرتون 1. جان ماتيتا (كريستال بالاس) تسديدة بالقدم اليسرى من منتصف منطقة الجزاء إلى الزاوية الأرضية اليمنى. تمريرة حاسمة بواسطة مارك جويهي بتمريرة بينية بعد ضربة ركنية.",
+          "summary": "Jean-Philippe Mateta scored.",
           "source": 0,
           "players": [
             "Jean-Philippe Mateta",
@@ -1768,7 +1768,7 @@
           "id": "moment-7",
           "minute": "54′",
           "title": "Jesper Lindstrøm — Big chance saved",
-          "summary": "تم التصدي للمحاولة من الجهة اليمنى من منطقة الجزاء تسديدة بالقدم اليسرى(إيفرتون) جيسبير ليندستورمتم التصدي. تمريرة حاسمة بواسطة كارلوس ألكاراز في الزاوية الأرضية اليسرى.",
+          "summary": "Jesper Lindstrøm's shot was saved.",
           "source": 0,
           "players": [
             "Jesper Lindstrøm",
@@ -1814,7 +1814,7 @@
           "id": "moment-8",
           "minute": "80′",
           "title": "Charly Alcaraz — Goal",
-          "summary": "هدف! كريستال بالاس 1, إيفرتون 2. كارلوس ألكاراز (إيفرتون) تسديدة بالقدم اليمنى من منتصف منطقة الجزاء إلى الزاوية الأرضية اليمنى بعد ضربة ثابتة.",
+          "summary": "Charly Alcaraz scored.",
           "source": 0,
           "players": [
             "Charly Alcaraz"
@@ -5234,7 +5234,7 @@
           "id": "moment-1",
           "minute": "15′",
           "title": "Luis Díaz — Goal",
-          "summary": "هدف! ليفربول 1, ولفرهامبتون 0. لويس دياز (ليفربول) بواسطة الجسم من منتصف منطقة الجزاء إلى منتصف المرمى بعد هجمة مرتدة.",
+          "summary": "Luis Díaz scored.",
           "source": 0,
           "players": [
             "Luis Díaz"
@@ -5278,7 +5278,7 @@
           "id": "moment-2",
           "minute": "17′",
           "title": "Nélson Semedo — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليسرى(ولفرهامبتون) نيلسون سيميدوتم التصدي في سقف المرمى.",
+          "summary": "Nélson Semedo's shot was saved.",
           "source": 0,
           "players": [
             "Nélson Semedo"
@@ -5322,7 +5322,7 @@
           "id": "moment-3",
           "minute": "23′",
           "title": "Diogo Jota — Shot blocked",
-          "summary": "تسديدة تم اعتراضها. ديوجو جوتا (ليفربول) تسديدة بالقدم اليمنى من منتصف منطقة الجزاء تم اعتراض التسديدة.",
+          "summary": "Diogo Jota's shot was blocked.",
           "source": 0,
           "players": [
             "Diogo Jota"
@@ -5366,7 +5366,7 @@
           "id": "moment-4",
           "minute": "32′",
           "title": "Diogo Jota — Big chance saved",
-          "summary": "تم التصدي للمحاولة من زاوية صعبة في الجهة اليمنى تسديدة بالقدم اليمنى(ليفربول) ديوجو جوتاتم التصدي في الزاوية الأرضية اليمنى.",
+          "summary": "Diogo Jota's shot was saved.",
           "source": 0,
           "players": [
             "Diogo Jota"
@@ -5410,7 +5410,7 @@
           "id": "moment-5",
           "minute": "45′+2′",
           "title": "Pablo Sarabia — Shot blocked",
-          "summary": "تسديدة تم اعتراضها. بابلو سارابيا (ولفرهامبتون) تسديدة بالقدم اليسرى من خارج منطقة الجزاء تم اعتراض التسديدة. تمريرة حاسمة بواسطة ريان آيت نوري.",
+          "summary": "Pablo Sarabia's shot was blocked.",
           "source": 0,
           "players": [
             "Pablo Sarabia",
@@ -5456,7 +5456,7 @@
           "id": "moment-6",
           "minute": "46′",
           "title": "Matheus Cunha — Shot blocked",
-          "summary": "تسديدة تم اعتراضها. ماتيوس كونيا (ولفرهامبتون) تسديدة بالقدم اليمنى من منتصف منطقة الجزاء تم اعتراض التسديدة. تمريرة حاسمة بواسطة جين بيليجاردي.",
+          "summary": "Matheus Cunha's shot was blocked.",
           "source": 0,
           "players": [
             "Matheus Cunha",
@@ -5502,7 +5502,7 @@
           "id": "moment-7",
           "minute": "50′",
           "title": "Marshall Munetsi — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليسرى(ولفرهامبتون) مارشال مونيتسيتم التصدي. تمريرة حاسمة بواسطة جين بيليجاردي بتمريرة بينية في الزاوية الأرضية اليسرى.",
+          "summary": "Marshall Munetsi's shot was saved.",
           "source": 0,
           "players": [
             "Marshall Munetsi",
@@ -5548,7 +5548,7 @@
           "id": "moment-8",
           "minute": "67′",
           "title": "Matheus Cunha — Goal",
-          "summary": "هدف! ليفربول 2, ولفرهامبتون 1. ماتيوس كونيا (ولفرهامبتون) تسديدة بالقدم اليسرى من خارج منطقة الجزاء إلى الزاوية الأرضية اليسرى. تمريرة حاسمة بواسطة جين بيليجاردي.",
+          "summary": "Matheus Cunha scored.",
           "source": 0,
           "players": [
             "Matheus Cunha",
@@ -5851,7 +5851,7 @@
           "id": "moment-1",
           "minute": "10′",
           "title": "Rasmus Højlund — Big chance saved",
-          "summary": "تم التصدي للمحاولة من الجهة اليمنى من منطقة الجزاء تسديدة بالقدم اليسرى(مانشستر يونايتد) راسموس هوجلوندتم التصدي. تمريرة حاسمة بواسطة هاري ماجواير في منتصف المرمى.",
+          "summary": "Rasmus Højlund's shot was saved.",
           "source": 0,
           "players": [
             "Rasmus Højlund",
@@ -5897,7 +5897,7 @@
           "id": "moment-2",
           "minute": "13′",
           "title": "Lucas Bergvall — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليسرى(توتنهام) لوكاس بيرغفالتم التصدي في منتصف المرمى.",
+          "summary": "Lucas Bergvall's shot was saved.",
           "source": 0,
           "players": [
             "Lucas Bergvall"
@@ -5941,7 +5941,7 @@
           "id": "moment-3",
           "minute": "13′",
           "title": "James Maddison — Goal",
-          "summary": "هدف! توتنهام 1, مانشستر يونايتد 0. جيمس ماديسون (توتنهام) تسديدة بالقدم اليمنى من مسافة قريبة جداً إلى الزاوية الأرضية اليمنى.",
+          "summary": "James Maddison scored.",
           "source": 0,
           "players": [
             "James Maddison"
@@ -5985,7 +5985,7 @@
           "id": "moment-4",
           "minute": "26′",
           "title": "Mathys Tel — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليسرى(توتنهام) ماتيس تيلتم التصدي. تمريرة حاسمة بواسطة سون هيونغ-مين في الزاوية الأرضية اليسرى.",
+          "summary": "Mathys Tel's shot was saved.",
           "source": 0,
           "players": [
             "Mathys Tel",
@@ -6031,7 +6031,7 @@
           "id": "moment-5",
           "minute": "49′",
           "title": "Mathys Tel — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليمنى(توتنهام) ماتيس تيلتم التصدي. تمريرة حاسمة بواسطة كيفين دانسو في منتصف المرمى.",
+          "summary": "Mathys Tel's shot was saved.",
           "source": 0,
           "players": [
             "Mathys Tel",
@@ -6077,7 +6077,7 @@
           "id": "moment-6",
           "minute": "55′",
           "title": "Alejandro Garnacho — Big chance saved",
-          "summary": "تم التصدي للمحاولة من الجهة اليمنى من منطقة الجزاء تسديدة بالقدم اليمنى(مانشستر يونايتد) أليخاندرو جارناشوتم التصدي. تمريرة حاسمة بواسطة جوشوا زيركزي بتمريرة بينية في الزاوية الأرضية اليمنى.",
+          "summary": "Alejandro Garnacho's shot was saved.",
           "source": 0,
           "players": [
             "Alejandro Garnacho",
@@ -6123,7 +6123,7 @@
           "id": "moment-7",
           "minute": "58′",
           "title": "Alejandro Garnacho — Big chance saved",
-          "summary": "تم التصدي للمحاولة من الجهة اليسرى من منطقة الجزاء تسديدة بالقدم اليمنى(مانشستر يونايتد) أليخاندرو جارناشوتم التصدي في الزاوية الأرضية اليسرى.",
+          "summary": "Alejandro Garnacho's shot was saved.",
           "source": 0,
           "players": [
             "Alejandro Garnacho"
@@ -6167,7 +6167,7 @@
           "id": "moment-8",
           "minute": "68′",
           "title": "Djed Spence — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(توتنهام) ديوب سبينستم التصدي. تمريرة حاسمة بواسطة رودريجو بنتانكور في سقف المرمى.",
+          "summary": "Djed Spence's shot was saved.",
           "source": 0,
           "players": [
             "Djed Spence",
@@ -6464,7 +6464,7 @@
           "id": "moment-1",
           "minute": "5′",
           "title": "Diogo Jota — Shot blocked",
-          "summary": "تسديدة تم اعتراضها. ديوجو جوتا (ليفربول) تسديدة بالقدم اليمنى من منتصف منطقة الجزاء تم اعتراض التسديدة. تمريرة حاسمة بواسطة محمد صلاح.",
+          "summary": "Diogo Jota's shot was blocked.",
           "source": 0,
           "players": [
             "Diogo Jota",
@@ -6510,7 +6510,7 @@
           "id": "moment-2",
           "minute": "27′",
           "title": "Alexis Mac Allister — Shot blocked",
-          "summary": "تسديدة تم اعتراضها. أليكسيز ماك أليستر (ليفربول) تسديدة بالقدم اليمنى من خارج منطقة الجزاء تم اعتراض التسديدة. تمريرة حاسمة بواسطة دومينيك سوبوسلاي.",
+          "summary": "Alexis Mac Allister's shot was blocked.",
           "source": 0,
           "players": [
             "Alexis Mac Allister",
@@ -6556,7 +6556,7 @@
           "id": "moment-3",
           "minute": "29′",
           "title": "Mohamed Salah — Goal",
-          "summary": "هدف! أستون فيلا 0, ليفربول 1. محمد صلاح (ليفربول) تسديدة بالقدم اليسرى من منتصف منطقة الجزاء إلى أعلى منتصف المرمى. تمريرة حاسمة بواسطة ديوجو جوتا.",
+          "summary": "Mohamed Salah scored.",
           "source": 0,
           "players": [
             "Mohamed Salah",
@@ -6602,7 +6602,7 @@
           "id": "moment-4",
           "minute": "38′",
           "title": "Youri Tielemans — Goal",
-          "summary": "هدف! أستون فيلا 1, ليفربول 1. يوري تيليمانس (أستون فيلا) تسديدة بالقدم اليسرى من منتصف منطقة الجزاء إلى الزاوية الأرضية اليمنى بعد ضربة ثابتة.",
+          "summary": "Youri Tielemans scored.",
           "source": 0,
           "players": [
             "Youri Tielemans"
@@ -6646,7 +6646,7 @@
           "id": "moment-5",
           "minute": "45′+3′",
           "title": "Ollie Watkins — Goal",
-          "summary": "هدف! أستون فيلا 2, ليفربول 1. أولي واتكينس (أستون فيلا) ضربة رأسية من منتصف منطقة الجزاء إلى الزاوية الأرضية اليمنى. تمريرة حاسمة بواسطة لوكاس دين بعرضية.",
+          "summary": "Ollie Watkins scored.",
           "source": 0,
           "players": [
             "Ollie Watkins",
@@ -6692,7 +6692,7 @@
           "id": "moment-6",
           "minute": "57′",
           "title": "Dominik Szoboszlai — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليمنى(ليفربول) دومينيك سوبوسلايتم التصدي. تمريرة حاسمة بواسطة ترينت أليكساندر آرنولد في سقف المرمى.",
+          "summary": "Dominik Szoboszlai's shot was saved.",
           "source": 0,
           "players": [
             "Dominik Szoboszlai",
@@ -6738,7 +6738,7 @@
           "id": "moment-7",
           "minute": "61′",
           "title": "Trent Alexander-Arnold — Goal",
-          "summary": "هدف! أستون فيلا 2, ليفربول 2. ترينت أليكساندر آرنولد (ليفربول) تسديدة بالقدم اليمنى من الجهة اليمنى من منطقة الجزاء إلى منتصف المرمى. تمريرة حاسمة بواسطة محمد صلاح بعد هجمة مرتدة.",
+          "summary": "Trent Alexander-Arnold scored.",
           "source": 0,
           "players": [
             "Trent Alexander-Arnold",
@@ -6784,7 +6784,7 @@
           "id": "moment-8",
           "minute": "90′+4′",
           "title": "Matty Cash — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(أستون فيلا) ماتي كاشتم التصدي في الزاوية الأرضية اليمنى.",
+          "summary": "Matty Cash's shot was saved.",
           "source": 0,
           "players": [
             "Matty Cash"
@@ -7085,7 +7085,7 @@
           "id": "moment-1",
           "minute": "3′",
           "title": "Woyo Coulibaly — Big chance saved",
-          "summary": "تم التصدي للمحاولة من زاوية صعبة في الجهة اليمنى تسديدة بالقدم اليسرى(ليستر سيتي) وويّو كوليباليتم التصدي في الزاوية الأرضية اليمنى.",
+          "summary": "Woyo Coulibaly's shot was saved.",
           "source": 0,
           "players": [
             "Woyo Coulibaly"
@@ -7129,7 +7129,7 @@
           "id": "moment-2",
           "minute": "4′",
           "title": "Jamie Vardy — Big chance saved",
-          "summary": "تم التصدي للمحاولة من الجهة اليسرى من منطقة الجزاء تسديدة بالقدم اليسرى(ليستر سيتي) جيمي فارديتم التصدي. تمريرة حاسمة بواسطة بلال الخنوس بتمريرة بينية في منتصف المرمى.",
+          "summary": "Jamie Vardy's shot was saved.",
           "source": 0,
           "players": [
             "Jamie Vardy",
@@ -7175,7 +7175,7 @@
           "id": "moment-3",
           "minute": "17′",
           "title": "Yoane Wissa — Goal",
-          "summary": "هدف! ليستر سيتي 0, برينتفورد 1. يون ويسا (برينتفورد) تسديدة بالقدم اليسرى من منتصف منطقة الجزاء إلى الزاوية الأرضية اليسرى. تمريرة حاسمة بواسطة ميكيل دامسجارد بتمريرة بينية.",
+          "summary": "Yoane Wissa scored.",
           "source": 0,
           "players": [
             "Yoane Wissa",
@@ -7221,7 +7221,7 @@
           "id": "moment-4",
           "minute": "19′",
           "title": "Jamie Vardy — Big chance saved",
-          "summary": "تم التصدي للمحاولة من الجهة اليسرى من منطقة الجزاء تسديدة بالقدم اليسرى(ليستر سيتي) جيمي فارديتم التصدي. تمريرة حاسمة بواسطة بلال الخنوس في منتصف المرمى.",
+          "summary": "Jamie Vardy's shot was saved.",
           "source": 0,
           "players": [
             "Jamie Vardy",
@@ -7267,7 +7267,7 @@
           "id": "moment-5",
           "minute": "27′",
           "title": "Bryan Mbeumo — Goal",
-          "summary": "هدف! ليستر سيتي 0, برينتفورد 2. براين مبيمو (برينتفورد) تسديدة بالقدم اليسرى من الجهة اليمنى من منطقة الجزاء إلى الزاوية الأرضية اليسرى. تمريرة حاسمة بواسطة ميكيل دامسجارد بعد هجمة مرتدة.",
+          "summary": "Bryan Mbeumo scored.",
           "source": 0,
           "players": [
             "Bryan Mbeumo",
@@ -7313,7 +7313,7 @@
           "id": "moment-6",
           "minute": "32′",
           "title": "Christian Nørgaard — Goal",
-          "summary": "هدف! ليستر سيتي 0, برينتفورد 3. كريستيان نورغارد (برينتفورد) ضربة رأسية من مسافة قريبة جداً إلى منتصف المرمى. تمريرة حاسمة بواسطة براين مبيمو بعرضية بعد ضربة ثابتة.",
+          "summary": "Christian Nørgaard scored.",
           "source": 0,
           "players": [
             "Christian Nørgaard",
@@ -7359,7 +7359,7 @@
           "id": "moment-7",
           "minute": "69′",
           "title": "Yehor Yarmoliuk — Big chance saved",
-          "summary": "تم التصدي للمحاولة من الجهة اليمنى من داخل منطقة الـست ياردات ضربة رأسية(برينتفورد) إيهور يارموليوكتم التصدي. تمريرة حاسمة بواسطة براين مبيمو بعرضية في سقف المرمى.",
+          "summary": "Yehor Yarmoliuk's shot was saved.",
           "source": 0,
           "players": [
             "Yehor Yarmoliuk",
@@ -7405,7 +7405,7 @@
           "id": "moment-8",
           "minute": "89′",
           "title": "Fábio Carvalho — Goal",
-          "summary": "هدف! ليستر سيتي 0, برينتفورد 4. فابيو كارفالو (برينتفورد) تسديدة بالقدم اليمنى من منتصف منطقة الجزاء إلى الزاوية الأرضية اليسرى.",
+          "summary": "Fábio Carvalho scored.",
           "source": 0,
           "players": [
             "Fábio Carvalho"
@@ -7706,7 +7706,7 @@
           "id": "moment-1",
           "minute": "2′",
           "title": "Marcus Tavernier — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليسرى(بورنموث) ماركوس تافيرنيرتم التصدي. تمريرة حاسمة بواسطة ريان كريستي في سقف المرمى.",
+          "summary": "Marcus Tavernier's shot was saved.",
           "source": 0,
           "players": [
             "Marcus Tavernier",
@@ -7752,7 +7752,7 @@
           "id": "moment-2",
           "minute": "9′",
           "title": "Jean-Ricner Bellegarde — Big chance saved",
-          "summary": "تم التصدي للمحاولة من الجهة اليمنى من منطقة الجزاء تسديدة بالقدم اليمنى(ولفرهامبتون) جين بيليجارديتم التصدي في الزاوية الأرضية اليمنى.",
+          "summary": "Jean-Ricner Bellegarde's shot was saved.",
           "source": 0,
           "players": [
             "Jean-Ricner Bellegarde"
@@ -7796,7 +7796,7 @@
           "id": "moment-3",
           "minute": "12′",
           "title": "Matheus Cunha — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليسرى(ولفرهامبتون) ماتيوس كونياتم التصدي. تمريرة حاسمة بواسطة ريان آيت نوري في الزاوية الأرضية اليسرى.",
+          "summary": "Matheus Cunha's shot was saved.",
           "source": 0,
           "players": [
             "Matheus Cunha",
@@ -7842,7 +7842,7 @@
           "id": "moment-4",
           "minute": "16′",
           "title": "Justin Kluivert — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليسرى(بورنموث) جاستين كلويفرتتم التصدي. تمريرة حاسمة بواسطة أنطوان سيمينيو بتمريرة بينية في منتصف المرمى.",
+          "summary": "Justin Kluivert's shot was saved.",
           "source": 0,
           "players": [
             "Justin Kluivert",
@@ -7888,7 +7888,7 @@
           "id": "moment-5",
           "minute": "31′",
           "title": "Illia Zabarnyi — Red card",
-          "summary": "إيليا زابارنيي (بورنموث) تحصّل على بطاقة حمراء.",
+          "summary": "Illia Zabarnyi was sent off.",
           "source": 0,
           "players": [
             "Illia Zabarnyi"
@@ -7932,7 +7932,7 @@
           "id": "moment-6",
           "minute": "34′",
           "title": "Dango Ouattara — Big chance saved",
-          "summary": "تم التصدي للمحاولة من الجهة اليسرى من منطقة الجزاء تسديدة بالقدم اليسرى(بورنموث) دانغو فيصل أوتاراتم التصدي. تمريرة حاسمة بواسطة ريان كريستي في الزاوية الأرضية اليسرى.",
+          "summary": "Dango Ouattara's shot was saved.",
           "source": 0,
           "players": [
             "Dango Ouattara",
@@ -7978,7 +7978,7 @@
           "id": "moment-7",
           "minute": "36′",
           "title": "Matheus Cunha — Goal",
-          "summary": "هدف! بورنموث 0, ولفرهامبتون 1. ماتيوس كونيا (ولفرهامبتون) تسديدة بالقدم اليمنى من منتصف منطقة الجزاء إلى الزاوية الأرضية اليسرى. تمريرة حاسمة بواسطة مارشال مونيتسي.",
+          "summary": "Matheus Cunha scored.",
           "source": 0,
           "players": [
             "Matheus Cunha",
@@ -8024,7 +8024,7 @@
           "id": "moment-8",
           "minute": "56′",
           "title": "Nélson Semedo — Big chance saved",
-          "summary": "تم التصدي للمحاولة من الجهة اليمنى من منطقة الجزاء تسديدة بالقدم اليمنى(ولفرهامبتون) نيلسون سيميدوتم التصدي. تمريرة حاسمة بواسطة ماتيوس كونيا بتمريرة بينية في منتصف المرمى.",
+          "summary": "Nélson Semedo's shot was saved.",
           "source": 0,
           "players": [
             "Nélson Semedo",
@@ -9571,7 +9571,7 @@
           "id": "moment-1",
           "minute": "6′",
           "title": "Beto — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء ضربة رأسية(إيفرتون) بيتوتم التصدي. تمريرة حاسمة بواسطة جاك هاريسون بعرضية في منتصف المرمى.",
+          "summary": "Beto's shot was saved.",
           "source": 0,
           "players": [
             "Beto",
@@ -9661,7 +9661,7 @@
           "id": "moment-3",
           "minute": "19′",
           "title": "Beto — Goal",
-          "summary": "هدف! إيفرتون 1, مانشستر يونايتد 0. بيتو (إيفرتون) تسديدة بالقدم اليسرى من منتصف منطقة الجزاء إلى أعلى منتصف المرمى. تمريرة حاسمة بواسطة أبدولاي دوكوري تمريرة بضربة رأسية بعد ضربة ركنية.",
+          "summary": "Beto scored.",
           "source": 0,
           "players": [
             "Beto",
@@ -9707,7 +9707,7 @@
           "id": "moment-4",
           "minute": "32′",
           "title": "Jack Harrison — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليمنى(إيفرتون) جاك هاريسونتم التصدي. تمريرة حاسمة بواسطة بيتو في منتصف المرمى.",
+          "summary": "Jack Harrison's shot was saved.",
           "source": 0,
           "players": [
             "Jack Harrison",
@@ -9753,7 +9753,7 @@
           "id": "moment-5",
           "minute": "33′",
           "title": "Abdoulaye Doucouré — Goal",
-          "summary": "هدف! إيفرتون 2, مانشستر يونايتد 0. أبدولاي دوكوري (إيفرتون) ضربة رأسية من مسافة قريبة جداً إلى منتصف المرمى بعد هجمة مرتدة.",
+          "summary": "Abdoulaye Doucouré scored.",
           "source": 0,
           "players": [
             "Abdoulaye Doucouré"
@@ -9797,7 +9797,7 @@
           "id": "moment-6",
           "minute": "47′",
           "title": "Jarrad Branthwaite — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء ضربة رأسية(إيفرتون) جاراد برانثويتتم التصدي. تمريرة حاسمة بواسطة جاك هاريسون بعرضية في منتصف المرمى.",
+          "summary": "Jarrad Branthwaite's shot was saved.",
           "source": 0,
           "players": [
             "Jarrad Branthwaite",
@@ -9843,7 +9843,7 @@
           "id": "moment-7",
           "minute": "72′",
           "title": "Bruno Fernandes — Goal",
-          "summary": "هدف! إيفرتون 2, مانشستر يونايتد 1. برونو فيرنانديش (مانشستر يونايتد) من ضربة حرة مباشرة بـ تسديدة بالقدم اليمنى إلى الزاوية الأرضية اليمنى.",
+          "summary": "Bruno Fernandes scored.",
           "source": 0,
           "players": [
             "Bruno Fernandes"
@@ -9887,7 +9887,7 @@
           "id": "moment-8",
           "minute": "80′",
           "title": "Manuel Ugarte — Goal",
-          "summary": "هدف! إيفرتون 2, مانشستر يونايتد 2. مانويل يوغارتي (مانشستر يونايتد) تسديدة بالقدم اليسرى من منتصف منطقة الجزاء إلى الزاوية الأرضية اليسرى بعد ضربة ثابتة.",
+          "summary": "Manuel Ugarte scored.",
           "source": 0,
           "players": [
             "Manuel Ugarte"

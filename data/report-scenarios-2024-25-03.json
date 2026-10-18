@@ -2129,7 +2129,7 @@
           "id": "moment-1",
           "minute": "10′",
           "title": "Bruno Guimarães — Shot blocked",
-          "summary": "تسديدة تم اعتراضها. برونو غويماريس (نيوكاسل) تسديدة بالقدم اليمنى من منتصف منطقة الجزاء تم اعتراض التسديدة.",
+          "summary": "Bruno Guimarães's shot was blocked.",
           "source": 0,
           "players": [
             "Bruno Guimarães"
@@ -2173,7 +2173,7 @@
           "id": "moment-2",
           "minute": "15′",
           "title": "Dominic Calvert-Lewin — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(إيفرتون) دومينيك كالفيرت ليوينتم التصدي. تمريرة حاسمة بواسطة أشلي يونج في منتصف المرمى.",
+          "summary": "Dominic Calvert-Lewin's shot was saved.",
           "source": 0,
           "players": [
             "Dominic Calvert-Lewin",
@@ -2219,7 +2219,7 @@
           "id": "moment-3",
           "minute": "17′",
           "title": "Jacob Murphy — Big chance saved",
-          "summary": "تم التصدي للمحاولة من الجهة اليمنى من منطقة الجزاء تسديدة بالقدم اليمنى(نيوكاسل) جيمس ميرفيتم التصدي. تمريرة حاسمة بواسطة كيران تريبيير في الزاوية الأرضية اليمنى.",
+          "summary": "Jacob Murphy's shot was saved.",
           "source": 0,
           "players": [
             "Jacob Murphy",
@@ -2265,7 +2265,7 @@
           "id": "moment-4",
           "minute": "27′",
           "title": "Orel Mangala — Shot blocked",
-          "summary": "تسديدة تم اعتراضها. أوريل مانجالا (إيفرتون) تسديدة بالقدم اليمنى من خارج منطقة الجزاء تم اعتراض التسديدة. تمريرة حاسمة بواسطة دوايت ماكنيل.",
+          "summary": "Orel Mangala's shot was blocked.",
           "source": 0,
           "players": [
             "Orel Mangala",
@@ -2311,7 +2311,7 @@
           "id": "moment-5",
           "minute": "35′",
           "title": "Anthony Gordon — Penalty saved",
-          "summary": "تصدي لركلة الجزاء أنتوني غوردون (نيوكاسل) فشل في استغلال الفرصة العظيمة, تسديدة بالقدم اليمنى saved في الزاوية الأرضية اليمنى.",
+          "summary": "Anthony Gordon's penalty was saved.",
           "source": 0,
           "players": [
             "Anthony Gordon"
@@ -2355,7 +2355,7 @@
           "id": "moment-6",
           "minute": "48′",
           "title": "Sandro Tonali — Shot blocked",
-          "summary": "تسديدة تم اعتراضها. ساندرو تونالي (نيوكاسل) تسديدة بالقدم اليسرى من منتصف منطقة الجزاء تم اعتراض التسديدة. تمريرة حاسمة بواسطة جويلينتون تمريرة بضربة رأسية.",
+          "summary": "Sandro Tonali's shot was blocked.",
           "source": 0,
           "players": [
             "Sandro Tonali",
@@ -2401,7 +2401,7 @@
           "id": "moment-7",
           "minute": "66′",
           "title": "Sandro Tonali — Shot blocked",
-          "summary": "تسديدة تم اعتراضها. ساندرو تونالي (نيوكاسل) تسديدة بالقدم اليمنى من الجهة اليمنى من داخل منطقة الـست ياردات تم اعتراض التسديدة. تمريرة حاسمة بواسطة لويس هول بعرضية.",
+          "summary": "Sandro Tonali's shot was blocked.",
           "source": 0,
           "players": [
             "Sandro Tonali",
@@ -2447,7 +2447,7 @@
           "id": "moment-8",
           "minute": "67′",
           "title": "Dominic Calvert-Lewin — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليمنى(إيفرتون) دومينيك كالفيرت ليوينتم التصدي. تمريرة حاسمة بواسطة دوايت ماكنيل في منتصف المرمى.",
+          "summary": "Dominic Calvert-Lewin's shot was saved.",
           "source": 0,
           "players": [
             "Dominic Calvert-Lewin",
@@ -4607,7 +4607,7 @@
           "id": "moment-1",
           "minute": "5′",
           "title": "Marcus Rashford — Big chance saved",
-          "summary": "تم التصدي للمحاولة من الجهة اليسرى من منطقة الجزاء تسديدة بالقدم اليمنى(مانشستر يونايتد) ماركوس راشفوردتم التصدي في منتصف المرمى.",
+          "summary": "Marcus Rashford's shot was saved.",
           "source": 0,
           "players": [
             "Marcus Rashford"
@@ -4651,7 +4651,7 @@
           "id": "moment-2",
           "minute": "32′",
           "title": "Youri Tielemans — Shot blocked",
-          "summary": "تسديدة تم اعتراضها. يوري تيليمانس (أستون فيلا) تسديدة بالقدم اليمنى من الجهة اليمنى من منطقة الجزاء تم اعتراض التسديدة.",
+          "summary": "Youri Tielemans's shot was blocked.",
           "source": 0,
           "players": [
             "Youri Tielemans"
@@ -4695,7 +4695,7 @@
           "id": "moment-3",
           "minute": "39′",
           "title": "Alejandro Garnacho — Big chance saved",
-          "summary": "تم التصدي للمحاولة من الجهة اليسرى من منطقة الجزاء تسديدة بالقدم اليمنى(مانشستر يونايتد) أليخاندرو جارناشوتم التصدي. تمريرة حاسمة بواسطة ماركوس راشفورد في الزاوية الأرضية اليسرى.",
+          "summary": "Alejandro Garnacho's shot was saved.",
           "source": 0,
           "players": [
             "Alejandro Garnacho",
@@ -4741,7 +4741,7 @@
           "id": "moment-4",
           "minute": "40′",
           "title": "Leon Bailey — Shot blocked",
-          "summary": "تسديدة تم اعتراضها. ليون بايلي (أستون فيلا) تسديدة بالقدم اليسرى من خارج منطقة الجزاء تم اعتراض التسديدة. تمريرة حاسمة بواسطة روس باركلي.",
+          "summary": "Leon Bailey's shot was blocked.",
           "source": 0,
           "players": [
             "Leon Bailey",
@@ -4787,7 +4787,7 @@
           "id": "moment-5",
           "minute": "48′",
           "title": "Kobbie Mainoo — Shot blocked",
-          "summary": "تسديدة تم اعتراضها. كوبي ماينو (مانشستر يونايتد) تسديدة بالقدم اليمنى من خارج منطقة الجزاء تم اعتراض التسديدة. تمريرة حاسمة بواسطة كريستيان إريكسن.",
+          "summary": "Kobbie Mainoo's shot was blocked.",
           "source": 0,
           "players": [
             "Kobbie Mainoo",
@@ -4833,7 +4833,7 @@
           "id": "moment-6",
           "minute": "49′",
           "title": "Marcus Rashford — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(مانشستر يونايتد) ماركوس راشفوردتم التصدي. تمريرة حاسمة بواسطة كوبي ماينو في سقف المرمى.",
+          "summary": "Marcus Rashford's shot was saved.",
           "source": 0,
           "players": [
             "Marcus Rashford",
@@ -4879,7 +4879,7 @@
           "id": "moment-7",
           "minute": "56′",
           "title": "Youri Tielemans — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(أستون فيلا) يوري تيليمانستم التصدي. تمريرة حاسمة بواسطة ليون بايلي في أعلى الزاوية اليمنى.",
+          "summary": "Youri Tielemans's shot was saved.",
           "source": 0,
           "players": [
             "Youri Tielemans",
@@ -4925,7 +4925,7 @@
           "id": "moment-8",
           "minute": "77′",
           "title": "Antony — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليسرى(مانشستر يونايتد) أنتونيتم التصدي. تمريرة حاسمة بواسطة ديوجو دالوت في أعلى الزاوية اليسرى.",
+          "summary": "Antony's shot was saved.",
           "source": 0,
           "players": [
             "Antony",
@@ -5228,7 +5228,7 @@
           "id": "moment-1",
           "minute": "3′",
           "title": "Dejan Kulusevski — Shot blocked",
-          "summary": "تسديدة تم اعتراضها. ديان كولوسيفسكي (توتنهام) تسديدة بالقدم اليسرى من الجهة اليمنى من منطقة الجزاء تم اعتراض التسديدة. تمريرة حاسمة بواسطة برينان جونسون.",
+          "summary": "Dejan Kulusevski's shot was blocked.",
           "source": 0,
           "players": [
             "Dejan Kulusevski",
@@ -5274,7 +5274,7 @@
           "id": "moment-2",
           "minute": "23′",
           "title": "Brennan Johnson — Goal",
-          "summary": "هدف! برايتون 0, توتنهام 1. برينان جونسون (توتنهام) تسديدة بالقدم اليسرى من منتصف منطقة الجزاء إلى الزاوية الأرضية اليسرى. تمريرة حاسمة بواسطة دومينيك سولانكي بتمريرة بينية.",
+          "summary": "Brennan Johnson scored.",
           "source": 0,
           "players": [
             "Brennan Johnson",
@@ -5320,7 +5320,7 @@
           "id": "moment-3",
           "minute": "37′",
           "title": "James Maddison — Goal",
-          "summary": "هدف! برايتون 0, توتنهام 2. جيمس ماديسون (توتنهام) تسديدة بالقدم اليمنى من منتصف منطقة الجزاء إلى الزاوية الأرضية اليمنى. تمريرة حاسمة بواسطة تيمو ويرنر.",
+          "summary": "James Maddison scored.",
           "source": 0,
           "players": [
             "James Maddison",
@@ -5366,7 +5366,7 @@
           "id": "moment-4",
           "minute": "48′",
           "title": "Yankuba Minteh — Goal",
-          "summary": "هدف! برايتون 1, توتنهام 2. يانكوبا مينتيه (برايتون) تسديدة بالقدم اليسرى من منتصف منطقة الجزاء إلى الزاوية الأرضية اليمنى.",
+          "summary": "Yankuba Minteh scored.",
           "source": 0,
           "players": [
             "Yankuba Minteh"
@@ -5410,7 +5410,7 @@
           "id": "moment-5",
           "minute": "56′",
           "title": "Kaoru Mitoma — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليسرى(برايتون) كاورو ميتوماتم التصدي. تمريرة حاسمة بواسطة داني ويلبيك في الزاوية الأرضية اليسرى.",
+          "summary": "Kaoru Mitoma's shot was saved.",
           "source": 0,
           "players": [
             "Kaoru Mitoma",
@@ -5456,7 +5456,7 @@
           "id": "moment-6",
           "minute": "58′",
           "title": "Georginio Rutter — Goal",
-          "summary": "هدف! برايتون 2, توتنهام 2. جورجيني ريتر (برايتون) تسديدة بالقدم اليسرى من منتصف منطقة الجزاء إلى الزاوية الأرضية اليمنى. تمريرة حاسمة بواسطة كاورو ميتوما.",
+          "summary": "Georginio Rutter scored.",
           "source": 0,
           "players": [
             "Georginio Rutter",
@@ -5502,7 +5502,7 @@
           "id": "moment-7",
           "minute": "66′",
           "title": "Danny Welbeck — Goal",
-          "summary": "هدف! برايتون 3, توتنهام 2. داني ويلبيك (برايتون) ضربة رأسية من مسافة قريبة جداً إلى الزاوية الأرضية اليسرى.",
+          "summary": "Danny Welbeck scored.",
           "source": 0,
           "players": [
             "Danny Welbeck"
@@ -5546,7 +5546,7 @@
           "id": "moment-8",
           "minute": "83′",
           "title": "Destiny Udogie — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليمنى(توتنهام) أينوما يودوجيتم التصدي في الزاوية الأرضية اليسرى.",
+          "summary": "Destiny Udogie's shot was saved.",
           "source": 0,
           "players": [
             "Destiny Udogie"
@@ -5847,7 +5847,7 @@
           "id": "moment-1",
           "minute": "12′",
           "title": "Ryan Yates — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء ضربة رأسية(نوتنغهام فورست) ريان ياتيستم التصدي. تمريرة حاسمة بواسطة كالوم هدسون أودوي بعرضية في منتصف المرمى.",
+          "summary": "Ryan Yates's shot was saved.",
           "source": 0,
           "players": [
             "Ryan Yates",
@@ -5893,7 +5893,7 @@
           "id": "moment-2",
           "minute": "39′",
           "title": "Murillo — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليسرى(نوتنغهام فورست) موريليوتم التصدي في منتصف المرمى.",
+          "summary": "Murillo's shot was saved.",
           "source": 0,
           "players": [
             "Murillo"
@@ -5937,7 +5937,7 @@
           "id": "moment-3",
           "minute": "42′",
           "title": "Enzo Fernández — Big chance saved",
-          "summary": "تم التصدي للمحاولة من الجهة اليسرى من منطقة الجزاء تسديدة بالقدم اليسرى(تشيلسي) إنزو فرنانديزتم التصدي في سقف المرمى.",
+          "summary": "Enzo Fernández's shot was saved.",
           "source": 0,
           "players": [
             "Enzo Fernández"
@@ -5981,7 +5981,7 @@
           "id": "moment-4",
           "minute": "44′",
           "title": "Nicolas Jackson — Big chance saved",
-          "summary": "تم التصدي للمحاولة من مسافة قريبة جداً تسديدة بالقدم اليمنى(تشيلسي) نيكولاس جاكسونتم التصدي. تمريرة حاسمة بواسطة كول بالمير في الزاوية الأرضية اليمنى.",
+          "summary": "Nicolas Jackson's shot was saved.",
           "source": 0,
           "players": [
             "Nicolas Jackson",
@@ -6027,7 +6027,7 @@
           "id": "moment-5",
           "minute": "48′",
           "title": "Morgan Gibbs-White — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء ضربة رأسية(نوتنغهام فورست) مورجان جيبس وايتتم التصدي في منتصف المرمى.",
+          "summary": "Morgan Gibbs-White's shot was saved.",
           "source": 0,
           "players": [
             "Morgan Gibbs-White"
@@ -6071,7 +6071,7 @@
           "id": "moment-6",
           "minute": "49′",
           "title": "Chris Wood — Goal",
-          "summary": "هدف! تشيلسي 0, نوتنغهام فورست 1. كريستوفر وود (نوتنغهام فورست) تسديدة بالقدم اليمنى من منتصف منطقة الجزاء إلى الزاوية الأرضية اليمنى. تمريرة حاسمة بواسطة نيكولا ميلنكوفيتش تمريرة بضربة رأسية بعد ضربة ثابتة.",
+          "summary": "Chris Wood scored.",
           "source": 0,
           "players": [
             "Chris Wood",
@@ -6117,7 +6117,7 @@
           "id": "moment-7",
           "minute": "54′",
           "title": "Elliot Anderson — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليمنى(نوتنغهام فورست) إليوت أنديرسونتم التصدي. تمريرة حاسمة بواسطة كالوم هدسون أودوي في سقف المرمى.",
+          "summary": "Elliot Anderson's shot was saved.",
           "source": 0,
           "players": [
             "Elliot Anderson",
@@ -6163,7 +6163,7 @@
           "id": "moment-8",
           "minute": "57′",
           "title": "Noni Madueke — Goal",
-          "summary": "هدف! تشيلسي 1, نوتنغهام فورست 1. شوكوونونسو ماديوكي (تشيلسي) تسديدة بالقدم اليسرى من الجهة اليمنى من منطقة الجزاء إلى الزاوية الأرضية اليسرى. تمريرة حاسمة بواسطة كول بالمير.",
+          "summary": "Noni Madueke scored.",
           "source": 0,
           "players": [
             "Noni Madueke",
@@ -7087,7 +7087,7 @@
           "id": "moment-1",
           "minute": "5′",
           "title": "Raúl Jiménez — Goal",
-          "summary": "هدف! فولهام 1, أستون فيلا 0. راؤول خيمينيز (فولهام) تسديدة بالقدم اليسرى من منتصف منطقة الجزاء إلى الزاوية الأرضية اليمنى. تمريرة حاسمة بواسطة بيرند لينو.",
+          "summary": "Raúl Jiménez scored.",
           "source": 0,
           "players": [
             "Raúl Jiménez",
@@ -7133,7 +7133,7 @@
           "id": "moment-2",
           "minute": "9′",
           "title": "Morgan Rogers — Goal",
-          "summary": "هدف! فولهام 1, أستون فيلا 1. مورغان روجرز (أستون فيلا) تسديدة بالقدم اليمنى من خارج منطقة الجزاء إلى الزاوية الأرضية اليسرى. تمريرة حاسمة بواسطة جاكوب رمزي.",
+          "summary": "Morgan Rogers scored.",
           "source": 0,
           "players": [
             "Morgan Rogers",
@@ -7179,7 +7179,7 @@
           "id": "moment-3",
           "minute": "18′",
           "title": "Ollie Watkins — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليسرى(أستون فيلا) أولي واتكينستم التصدي. تمريرة حاسمة بواسطة يوري تيليمانس في الزاوية الأرضية اليمنى.",
+          "summary": "Ollie Watkins's shot was saved.",
           "source": 0,
           "players": [
             "Ollie Watkins",
@@ -7225,7 +7225,7 @@
           "id": "moment-4",
           "minute": "27′",
           "title": "Andreas Pereira — Penalty saved",
-          "summary": "تصدي لركلة الجزاء أندرياس بيريرا (فولهام) فشل في استغلال الفرصة العظيمة, تسديدة بالقدم اليمنى saved في الزاوية الأرضية اليمنى.",
+          "summary": "Andreas Pereira's penalty was saved.",
           "source": 0,
           "players": [
             "Andreas Pereira"
@@ -7269,7 +7269,7 @@
           "id": "moment-5",
           "minute": "58′",
           "title": "Jacob Ramsey — Big chance saved",
-          "summary": "تم التصدي للمحاولة من الجهة اليسرى من منطقة الجزاء تسديدة بالقدم اليسرى(أستون فيلا) جاكوب رمزيتم التصدي في منتصف المرمى.",
+          "summary": "Jacob Ramsey's shot was saved.",
           "source": 0,
           "players": [
             "Jacob Ramsey"
@@ -7313,7 +7313,7 @@
           "id": "moment-6",
           "minute": "59′",
           "title": "Ollie Watkins — Goal",
-          "summary": "هدف! فولهام 1, أستون فيلا 2. أولي واتكينس (أستون فيلا) ضربة رأسية من منتصف منطقة الجزاء إلى أعلى الزاوية اليسرى. تمريرة حاسمة بواسطة يوري تيليمانس بعرضية بعد ضربة ركنية.",
+          "summary": "Ollie Watkins scored.",
           "source": 0,
           "players": [
             "Ollie Watkins",
@@ -7359,7 +7359,7 @@
           "id": "moment-7",
           "minute": "64′",
           "title": "Joachim Andersen — Red card",
-          "summary": "جواكيم أندرسِن (فولهام) تحصّل على بطاقة حمراء.",
+          "summary": "Joachim Andersen was sent off.",
           "source": 0,
           "players": [
             "Joachim Andersen"
@@ -7403,7 +7403,7 @@
           "id": "moment-8",
           "minute": "69′",
           "title": "Issa Diop — Own goal",
-          "summary": "هدف ذاتي بـ عيسى ديوب, فولهام. فولهام 1, أستون فيلا 3.",
+          "summary": "Issa Diop scored an own goal.",
           "source": 0,
           "players": [
             "Issa Diop"
@@ -10192,7 +10192,7 @@
           "id": "moment-1",
           "minute": "11′",
           "title": "Mohammed Kudus — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليمنى(وست هام) محمد كودوستم التصدي. تمريرة حاسمة بواسطة جارود بووين بعرضية في منتصف المرمى.",
+          "summary": "Mohammed Kudus's shot was saved.",
           "source": 0,
           "players": [
             "Mohammed Kudus",
@@ -10238,7 +10238,7 @@
           "id": "moment-2",
           "minute": "18′",
           "title": "Mohammed Kudus — Goal",
-          "summary": "هدف! توتنهام 0, وست هام 1. محمد كودوس (وست هام) تسديدة بالقدم اليمنى من منتصف منطقة الجزاء إلى أعلى الزاوية اليسرى.",
+          "summary": "Mohammed Kudus scored.",
           "source": 0,
           "players": [
             "Mohammed Kudus"
@@ -10282,7 +10282,7 @@
           "id": "moment-3",
           "minute": "34′",
           "title": "Pedro Porro — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(توتنهام) بيدرو بوروتم التصدي. تمريرة حاسمة بواسطة جيمس ماديسون في منتصف المرمى.",
+          "summary": "Pedro Porro's shot was saved.",
           "source": 0,
           "players": [
             "Pedro Porro",
@@ -10328,7 +10328,7 @@
           "id": "moment-4",
           "minute": "36′",
           "title": "Dejan Kulusevski — Goal",
-          "summary": "هدف! توتنهام 1, وست هام 1. ديان كولوسيفسكي (توتنهام) تسديدة بالقدم اليسرى من منتصف منطقة الجزاء إلى الزاوية الأرضية اليسرى. تمريرة حاسمة بواسطة جيمس ماديسون بعد هجمة مرتدة.",
+          "summary": "Dejan Kulusevski scored.",
           "source": 0,
           "players": [
             "Dejan Kulusevski",
@@ -10374,7 +10374,7 @@
           "id": "moment-5",
           "minute": "52′",
           "title": "Yves Bissouma — Goal",
-          "summary": "هدف! توتنهام 2, وست هام 1. يفيس بيسوما (توتنهام) تسديدة بالقدم اليمنى من منتصف منطقة الجزاء إلى الزاوية الأرضية اليسرى. تمريرة حاسمة بواسطة أينوما يودوجي.",
+          "summary": "Yves Bissouma scored.",
           "source": 0,
           "players": [
             "Yves Bissouma",
@@ -10420,7 +10420,7 @@
           "id": "moment-6",
           "minute": "55′",
           "title": "Son Heung-Min — Big chance saved",
-          "summary": "تم التصدي للمحاولة من الجهة اليمنى من منطقة الجزاء تسديدة بالقدم اليسرى(توتنهام) سون هيونغ-مينتم التصدي. تمريرة حاسمة بواسطة ديان كولوسيفسكي في منتصف المرمى.",
+          "summary": "Son Heung-Min's shot was saved.",
           "source": 0,
           "players": [
             "Son Heung-Min",
@@ -10466,7 +10466,7 @@
           "id": "moment-7",
           "minute": "55′",
           "title": "Alphonse Areola — Own goal",
-          "summary": "هدف ذاتي بـ ألفونس أريولا, وست هام. توتنهام 3, وست هام 1.",
+          "summary": "Alphonse Areola scored an own goal.",
           "source": 0,
           "players": [
             "Alphonse Areola"
@@ -10510,7 +10510,7 @@
           "id": "moment-8",
           "minute": "60′",
           "title": "Son Heung-Min — Goal",
-          "summary": "هدف! توتنهام 4, وست هام 1. سون هيونغ-مين (توتنهام) تسديدة بالقدم اليسرى من الجهة اليسرى من منطقة الجزاء إلى الزاوية الأرضية اليسرى. تمريرة حاسمة بواسطة بابي سار بعد هجمة مرتدة.",
+          "summary": "Son Heung-Min scored.",
           "source": 0,
           "players": [
             "Son Heung-Min",

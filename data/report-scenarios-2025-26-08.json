@@ -17031,7 +17031,7 @@
           "id": "moment-1",
           "minute": "3′",
           "title": "Will Hughes — Shot blocked",
-          "summary": "تسديدة تم اعتراضها. ويل هيوز (كريستال بالاس) تسديدة بالقدم اليسرى من منتصف منطقة الجزاء تم اعتراض التسديدة. تمريرة حاسمة بواسطة ييريمي بينو.",
+          "summary": "Will Hughes's shot was blocked.",
           "source": 0,
           "players": [
             "Will Hughes",
@@ -17077,7 +17077,7 @@
           "id": "moment-2",
           "minute": "3′",
           "title": "Jefferson Lerma — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(كريستال بالاس) جيفرسون ليرماتم التصدي في منتصف المرمى.",
+          "summary": "Jefferson Lerma's shot was saved.",
           "source": 0,
           "players": [
             "Jefferson Lerma"
@@ -17121,7 +17121,7 @@
           "id": "moment-3",
           "minute": "5′",
           "title": "Morgan Gibbs-White — Goal",
-          "summary": "هدف! نوتنغهام فورست 1, كريستال بالاس 0. مورجان جيبس وايت (نوتنغهام فورست) تسديدة بالقدم اليمنى من منتصف منطقة الجزاء إلى الزاوية الأرضية اليسرى.",
+          "summary": "Morgan Gibbs-White scored.",
           "source": 0,
           "players": [
             "Morgan Gibbs-White"
@@ -17165,7 +17165,7 @@
           "id": "moment-4",
           "minute": "13′",
           "title": "Daniel Muñoz — Shot blocked",
-          "summary": "تسديدة تم اعتراضها. دانييل مونوز (كريستال بالاس) تسديدة بالقدم اليمنى من الجهة اليمنى من منطقة الجزاء تم اعتراض التسديدة. تمريرة حاسمة بواسطة تيريك ميتشيل بعرضية.",
+          "summary": "Daniel Muñoz's shot was blocked.",
           "source": 0,
           "players": [
             "Daniel Muñoz",
@@ -17211,7 +17211,7 @@
           "id": "moment-5",
           "minute": "23′",
           "title": "Igor Jesus — Shot blocked",
-          "summary": "تسديدة تم اعتراضها. ايغور جيسوس (نوتنغهام فورست) تسديدة بالقدم اليمنى من الجهة اليمنى من منطقة الجزاء تم اعتراض التسديدة. تمريرة حاسمة بواسطة مورجان جيبس وايت.",
+          "summary": "Igor Jesus's shot was blocked.",
           "source": 0,
           "players": [
             "Igor Jesus",
@@ -17257,7 +17257,7 @@
           "id": "moment-6",
           "minute": "45′",
           "title": "Jefferson Lerma — Shot blocked",
-          "summary": "تسديدة تم اعتراضها. جيفرسون ليرما (كريستال بالاس) ضربة رأسية من الجهة اليسرى من داخل منطقة الـست ياردات تم اعتراض التسديدة. تمريرة حاسمة بواسطة ويل هيوز بعرضية.",
+          "summary": "Jefferson Lerma's shot was blocked.",
           "source": 0,
           "players": [
             "Jefferson Lerma",
@@ -17303,7 +17303,7 @@
           "id": "moment-7",
           "minute": "45′",
           "title": "Neco Williams — Red card",
-          "summary": "نيكو ويليامز (نوتنغهام فورست) تحصّل على بطاقة حمراء.",
+          "summary": "Neco Williams was sent off.",
           "source": 0,
           "players": [
             "Neco Williams"
@@ -17347,7 +17347,7 @@
           "id": "moment-8",
           "minute": "45′+6′",
           "title": "Will Hughes — Shot blocked",
-          "summary": "تسديدة تم اعتراضها. ويل هيوز (كريستال بالاس) تسديدة بالقدم اليسرى من خارج منطقة الجزاء تم اعتراض التسديدة. تمريرة حاسمة بواسطة ييريمي بينو.",
+          "summary": "Will Hughes's shot was blocked.",
           "source": 0,
           "players": [
             "Will Hughes",

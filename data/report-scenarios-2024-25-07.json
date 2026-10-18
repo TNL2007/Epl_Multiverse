@@ -4609,7 +4609,7 @@
           "id": "moment-1",
           "minute": "4′",
           "title": "Alexander Isak — Goal",
-          "summary": "هدف! مانشستر يونايتد 0, نيوكاسل 1. أليكساندر إيزاك (نيوكاسل) ضربة رأسية من مسافة قريبة جداً إلى الزاوية الأرضية اليمنى.",
+          "summary": "Alexander Isak scored.",
           "source": 0,
           "players": [
             "Alexander Isak"
@@ -4653,7 +4653,7 @@
           "id": "moment-2",
           "minute": "12′",
           "title": "Alexander Isak — Shot blocked",
-          "summary": "تسديدة تم اعتراضها. أليكساندر إيزاك (نيوكاسل) تسديدة بالقدم اليمنى من خارج منطقة الجزاء تم اعتراض التسديدة. تمريرة حاسمة بواسطة جويلينتون.",
+          "summary": "Alexander Isak's shot was blocked.",
           "source": 0,
           "players": [
             "Alexander Isak",
@@ -4699,7 +4699,7 @@
           "id": "moment-3",
           "minute": "17′",
           "title": "Alexander Isak — Big chance saved",
-          "summary": "تم التصدي للمحاولة من الجهة اليمنى من منطقة الجزاء تسديدة بالقدم اليمنى(نيوكاسل) أليكساندر إيزاكتم التصدي. تمريرة حاسمة بواسطة برونو غويماريس في منتصف المرمى.",
+          "summary": "Alexander Isak's shot was saved.",
           "source": 0,
           "players": [
             "Alexander Isak",
@@ -4745,7 +4745,7 @@
           "id": "moment-4",
           "minute": "19′",
           "title": "Joelinton — Goal",
-          "summary": "هدف! مانشستر يونايتد 0, نيوكاسل 2. جويلينتون (نيوكاسل) بواسطة الجسم من مسافة قريبة جداً إلى الزاوية الأرضية اليسرى. تمريرة حاسمة بواسطة أنتوني غوردون بعرضية.",
+          "summary": "Joelinton scored.",
           "source": 0,
           "players": [
             "Joelinton",
@@ -4791,7 +4791,7 @@
           "id": "moment-5",
           "minute": "26′",
           "title": "Lewis Hall — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(نيوكاسل) لويس هولتم التصدي. تمريرة حاسمة بواسطة أليكساندر إيزاك في سقف المرمى.",
+          "summary": "Lewis Hall's shot was saved.",
           "source": 0,
           "players": [
             "Lewis Hall",
@@ -4837,7 +4837,7 @@
           "id": "moment-6",
           "minute": "26′",
           "title": "Sandro Tonali — Shot blocked",
-          "summary": "تسديدة تم اعتراضها. ساندرو تونالي (نيوكاسل) تسديدة بالقدم اليمنى من خارج منطقة الجزاء تم اعتراض التسديدة. تمريرة حاسمة بواسطة فابيان شار.",
+          "summary": "Sandro Tonali's shot was blocked.",
           "source": 0,
           "players": [
             "Sandro Tonali",
@@ -4883,7 +4883,7 @@
           "id": "moment-7",
           "minute": "30′",
           "title": "Lewis Hall — Shot blocked",
-          "summary": "تسديدة تم اعتراضها. لويس هول (نيوكاسل) تسديدة بالقدم اليسرى من خارج منطقة الجزاء تم اعتراض التسديدة. تمريرة حاسمة بواسطة كيران تريبيير.",
+          "summary": "Lewis Hall's shot was blocked.",
           "source": 0,
           "players": [
             "Lewis Hall",
@@ -4929,7 +4929,7 @@
           "id": "moment-8",
           "minute": "51′",
           "title": "Noussair Mazraoui — Shot blocked",
-          "summary": "تسديدة تم اعتراضها. نصير مزراوي (مانشستر يونايتد) تسديدة بالقدم اليمنى من خارج منطقة الجزاء تم اعتراض التسديدة.",
+          "summary": "Noussair Mazraoui's shot was blocked.",
           "source": 0,
           "players": [
             "Noussair Mazraoui"
@@ -5849,7 +5849,7 @@
           "id": "moment-1",
           "minute": "8′",
           "title": "Dango Ouattara — Big chance saved",
-          "summary": "تم التصدي للمحاولة من مسافة قريبة جداً تسديدة بالقدم اليمنى(بورنموث) دانغو فيصل أوتاراتم التصدي. تمريرة حاسمة بواسطة دين دوني هويسين تمريرة بضربة رأسية في منتصف المرمى.",
+          "summary": "Dango Ouattara's shot was saved.",
           "source": 0,
           "players": [
             "Dango Ouattara",
@@ -5895,7 +5895,7 @@
           "id": "moment-2",
           "minute": "28′",
           "title": "Evanilson — Shot blocked",
-          "summary": "تسديدة تم اعتراضها. إفانيلسون (بورنموث) تسديدة بالقدم اليسرى من الجهة اليسرى من منطقة الجزاء تم اعتراض التسديدة.",
+          "summary": "Evanilson's shot was blocked.",
           "source": 0,
           "players": [
             "Evanilson"
@@ -5939,7 +5939,7 @@
           "id": "moment-3",
           "minute": "29′",
           "title": "Justin Kluivert — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليمنى(بورنموث) جاستين كلويفرتتم التصدي. تمريرة حاسمة بواسطة أنطوان سيمينيو بتمريرة بينية في منتصف المرمى.",
+          "summary": "Justin Kluivert's shot was saved.",
           "source": 0,
           "players": [
             "Justin Kluivert",
@@ -5985,7 +5985,7 @@
           "id": "moment-4",
           "minute": "45′+1′",
           "title": "Antoine Semenyo — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء ضربة رأسية(بورنموث) أنطوان سيمينيوتم التصدي. تمريرة حاسمة بواسطة ميلوش كيركز بعرضية في أعلى الزاوية اليمنى.",
+          "summary": "Antoine Semenyo's shot was saved.",
           "source": 0,
           "players": [
             "Antoine Semenyo",
@@ -6031,7 +6031,7 @@
           "id": "moment-5",
           "minute": "47′",
           "title": "Antoine Semenyo — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليسرى(بورنموث) أنطوان سيمينيوتم التصدي في الزاوية الأرضية اليمنى.",
+          "summary": "Antoine Semenyo's shot was saved.",
           "source": 0,
           "players": [
             "Antoine Semenyo"
@@ -6075,7 +6075,7 @@
           "id": "moment-6",
           "minute": "49′",
           "title": "Evanilson — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء ضربة رأسية(بورنموث) إفانيلسونتم التصدي. تمريرة حاسمة بواسطة ريان كريستي بعرضية في سقف المرمى.",
+          "summary": "Evanilson's shot was saved.",
           "source": 0,
           "players": [
             "Evanilson",
@@ -6121,7 +6121,7 @@
           "id": "moment-7",
           "minute": "63′",
           "title": "Dango Ouattara — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(بورنموث) دانغو فيصل أوتاراتم التصدي في الزاوية الأرضية اليسرى.",
+          "summary": "Dango Ouattara's shot was saved.",
           "source": 0,
           "players": [
             "Dango Ouattara"
@@ -6165,7 +6165,7 @@
           "id": "moment-8",
           "minute": "77′",
           "title": "David Brooks — Goal",
-          "summary": "هدف! بورنموث 1, إيفرتون 0. ديفيد بروكس (بورنموث) تسديدة بالقدم اليسرى من منتصف منطقة الجزاء إلى الزاوية الأرضية اليسرى. تمريرة حاسمة بواسطة ميلوش كيركز بعرضية.",
+          "summary": "David Brooks scored.",
           "source": 0,
           "players": [
             "David Brooks",
@@ -9575,7 +9575,7 @@
           "id": "moment-1",
           "minute": "4′",
           "title": "Dominic Solanke — Goal",
-          "summary": "هدف! توتنهام 1, نيوكاسل 0. دومينيك سولانكي (توتنهام) ضربة رأسية من منتصف منطقة الجزاء إلى الزاوية الأرضية اليمنى. تمريرة حاسمة بواسطة بيدرو بورو بعرضية.",
+          "summary": "Dominic Solanke scored.",
           "source": 0,
           "players": [
             "Dominic Solanke",
@@ -9621,7 +9621,7 @@
           "id": "moment-2",
           "minute": "6′",
           "title": "Anthony Gordon — Goal",
-          "summary": "هدف! توتنهام 1, نيوكاسل 1. أنتوني غوردون (نيوكاسل) تسديدة بالقدم اليسرى من الجهة اليسرى من منطقة الجزاء إلى الزاوية الأرضية اليمنى. تمريرة حاسمة بواسطة برونو غويماريس.",
+          "summary": "Anthony Gordon scored.",
           "source": 0,
           "players": [
             "Anthony Gordon",
@@ -9667,7 +9667,7 @@
           "id": "moment-3",
           "minute": "11′",
           "title": "Pape Matar Sarr — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(توتنهام) بابي سارتم التصدي في منتصف المرمى.",
+          "summary": "Pape Matar Sarr's shot was saved.",
           "source": 0,
           "players": [
             "Pape Matar Sarr"
@@ -9711,7 +9711,7 @@
           "id": "moment-4",
           "minute": "21′",
           "title": "Anthony Gordon — Big chance saved",
-          "summary": "تم التصدي للمحاولة من الجهة اليسرى من منطقة الجزاء تسديدة بالقدم اليسرى(نيوكاسل) أنتوني غوردونتم التصدي. تمريرة حاسمة بواسطة أليكساندر إيزاك في الزاوية الأرضية اليسرى.",
+          "summary": "Anthony Gordon's shot was saved.",
           "source": 0,
           "players": [
             "Anthony Gordon",
@@ -9757,7 +9757,7 @@
           "id": "moment-5",
           "minute": "38′",
           "title": "Alexander Isak — Goal",
-          "summary": "هدف! توتنهام 1, نيوكاسل 2. أليكساندر إيزاك (نيوكاسل) تسديدة بالقدم اليمنى من مسافة قريبة جداً إلى منتصف المرمى. تمريرة حاسمة بواسطة جيمس ميرفي.",
+          "summary": "Alexander Isak scored.",
           "source": 0,
           "players": [
             "Alexander Isak",
@@ -9803,7 +9803,7 @@
           "id": "moment-6",
           "minute": "55′",
           "title": "Pape Matar Sarr — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(توتنهام) بابي سارتم التصدي. تمريرة حاسمة بواسطة ديان كولوسيفسكي في الزاوية الأرضية اليمنى.",
+          "summary": "Pape Matar Sarr's shot was saved.",
           "source": 0,
           "players": [
             "Pape Matar Sarr",
@@ -9849,7 +9849,7 @@
           "id": "moment-7",
           "minute": "90′+5′",
           "title": "Harvey Barnes — Big chance saved",
-          "summary": "تم التصدي للمحاولة من الجهة اليسرى من منطقة الجزاء تسديدة بالقدم اليمنى(نيوكاسل) هارفي لويس بارنزتم التصدي. تمريرة حاسمة بواسطة جوزيف ويلوك تمريرة بضربة رأسية في الزاوية الأرضية اليسرى.",
+          "summary": "Harvey Barnes's shot was saved.",
           "source": 0,
           "players": [
             "Harvey Barnes",
@@ -9895,7 +9895,7 @@
           "id": "moment-8",
           "minute": "90′+7′",
           "title": "Dominic Solanke — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء ضربة رأسية(توتنهام) دومينيك سولانكيتم التصدي. تمريرة حاسمة بواسطة بيدرو بورو بعرضية في منتصف المرمى.",
+          "summary": "Dominic Solanke's shot was saved.",
           "source": 0,
           "players": [
             "Dominic Solanke",

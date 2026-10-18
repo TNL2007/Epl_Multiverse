@@ -115,6 +115,30 @@ def minute_text(row):
     return value.replace("'", "′") if value else "—"
 
 
+def contains_arabic(value: str) -> bool:
+    return any("\u0600" <= char <= "\u06ff" for char in value)
+
+
+def english_event_summary(kind: str, actors: list[str], label: str) -> str:
+    """Keep Arabic-localized feed text out of the English-language scenario UI."""
+    actor = actors[0] if actors else "The player"
+    summaries = {
+        "goal": f"{actor} scored.",
+        "penalty scored": f"{actor} scored a penalty.",
+        "own goal": f"{actor} scored an own goal.",
+        "penalty missed": f"{actor} missed a penalty.",
+        "penalty saved": f"{actor}'s penalty was saved.",
+        "attempt saved": f"{actor}'s shot was saved.",
+        "attempt post": f"{actor}'s shot hit the woodwork.",
+        "attempt off target": f"{actor}'s shot went off target.",
+        "red card": f"{actor} was sent off.",
+        "second yellow": f"{actor} received a second yellow card and was sent off.",
+        "attempt blocked": f"{actor}'s shot was blocked.",
+        "substitution": f"A substitution involving {actor} was recorded.",
+    }
+    return summaries.get(kind, f"{actor}: {label.lower()}.")
+
+
 def action_set(kind, actors):
     passer = actors[0] if actors else "the ball carrier"
     if "penalty" in kind:
@@ -174,8 +198,8 @@ def scenario_rows(commentary, by_id):
     for n, (_, _, row, kind, label, actors, ids, comment) in enumerate(selected, 1):
         lead = actors[0] if actors else ""
         # The official play-by-play text is retained as evidence; UI copy stays compact.
-        summary = comment[:240].rstrip()
-        if len(comment) > 240:
+        summary = english_event_summary(kind, actors, label) if contains_arabic(comment) else comment[:240].rstrip()
+        if len(comment) > 240 and not contains_arabic(comment):
             summary = summary.rsplit(" ", 1)[0] + "…"
         title = f"{lead} — {label}" if lead else label
         result.append({

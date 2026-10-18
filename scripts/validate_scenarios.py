@@ -36,6 +36,8 @@ for key, record in records.items():
     if not record.get("sources"):
         problems.append(f"{key}: no source link")
     for moment in record.get("moments", []):
+        if any("\u0600" <= char <= "\u06ff" for char in moment.get("summary", "")):
+            problems.append(f"{key}/{moment.get('id')}: summary contains Arabic text")
         if len(moment.get("actions", [])) != 4:
             problems.append(f"{key}/{moment.get('id')}: expected four choices")
         for player_name in moment.get("players", []):

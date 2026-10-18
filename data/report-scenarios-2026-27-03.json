@@ -260,7 +260,7 @@
           "id": "moment-1",
           "minute": "44′",
           "title": "Keane Lewis-Potter — Goal",
-          "summary": "هدف! برينتفورد 1, ليفربول 0. كين لويس بوتير (برينتفورد) ضربة رأسية من منتصف منطقة الجزاء إلى أعلى الزاوية اليمنى. تمريرة حاسمة بواسطة تياغو.",
+          "summary": "Keane Lewis-Potter scored.",
           "source": 0,
           "players": [
             "Keane Lewis-Potter",
@@ -306,7 +306,7 @@
           "id": "moment-2",
           "minute": "45′+8′",
           "title": "Yehor Yarmoliuk — Red card",
-          "summary": "إيهور يارموليوك (برينتفورد) تحصّل على بطاقة حمراء لسلوك عنيف.",
+          "summary": "Yehor Yarmoliuk was sent off.",
           "source": 0,
           "players": [
             "Yehor Yarmoliuk"
@@ -350,7 +350,7 @@
           "id": "moment-3",
           "minute": "53′",
           "title": "Jaidon Anthony — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليمنى(برينتفورد) جايدون أنتونيتم التصدي في الزاوية الأرضية اليمنى.",
+          "summary": "Jaidon Anthony's shot was saved.",
           "source": 0,
           "players": [
             "Jaidon Anthony"
@@ -394,7 +394,7 @@
           "id": "moment-4",
           "minute": "59′",
           "title": "Alexis Mac Allister — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(ليفربول) أليكسيز ماك أليسترتم التصدي. تمريرة حاسمة بواسطة ميلوش كيركز في أعلى الزاوية اليمنى.",
+          "summary": "Alexis Mac Allister's shot was saved.",
           "source": 0,
           "players": [
             "Alexis Mac Allister",
@@ -440,7 +440,7 @@
           "id": "moment-5",
           "minute": "62′",
           "title": "Víctor Muñoz — Goal",
-          "summary": "هدف! برينتفورد 1, ليفربول 1. فيكتور مونيوز (ليفربول) تسديدة بالقدم اليسرى من الجهة اليمنى من منطقة الجزاء إلى الزاوية الأرضية اليسرى. تمريرة حاسمة بواسطة فلوريان ويرتز بعد هجمة مرتدة.",
+          "summary": "Víctor Muñoz scored.",
           "source": 0,
           "players": [
             "Víctor Muñoz",
@@ -486,7 +486,7 @@
           "id": "moment-6",
           "minute": "70′",
           "title": "Alexander Isak — Goal",
-          "summary": "هدف! برينتفورد 1, ليفربول 2. أليكساندر إيزاك (ليفربول) تسديدة بالقدم اليسرى من مسافة قريبة جداً إلى الزاوية الأرضية اليمنى. تمريرة حاسمة بواسطة برادلي باركولا تمريرة بضربة رأسية.",
+          "summary": "Alexander Isak scored.",
           "source": 0,
           "players": [
             "Alexander Isak",
@@ -532,7 +532,7 @@
           "id": "moment-7",
           "minute": "72′",
           "title": "Víctor Muñoz — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(ليفربول) فيكتور مونيوزتم التصدي. تمريرة حاسمة بواسطة تريماوريس نيوني في منتصف المرمى.",
+          "summary": "Víctor Muñoz's shot was saved.",
           "source": 0,
           "players": [
             "Víctor Muñoz",
@@ -578,7 +578,7 @@
           "id": "moment-8",
           "minute": "90′+4′",
           "title": "Lewis Koumas — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(ليفربول) لويس كوماستم التصدي. تمريرة حاسمة بواسطة فيرجيل فان دايك في منتصف المرمى.",
+          "summary": "Lewis Koumas's shot was saved.",
           "source": 0,
           "players": [
             "Lewis Koumas",
@@ -881,7 +881,7 @@
           "id": "moment-1",
           "minute": "15′",
           "title": "Cole Palmer — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليسرى(تشيلسي) كول بالميرتم التصدي. تمريرة حاسمة بواسطة بيدرو نيتو في الزاوية الأرضية اليمنى.",
+          "summary": "Cole Palmer's shot was saved.",
           "source": 0,
           "players": [
             "Cole Palmer",
@@ -927,7 +927,7 @@
           "id": "moment-2",
           "minute": "26′",
           "title": "Merlin Röhl — Big chance saved",
-          "summary": "تم التصدي للمحاولة من الجهة اليمنى من منطقة الجزاء تسديدة بالقدم اليمنى(إيفرتون) ميرلين رولتم التصدي. تمريرة حاسمة بواسطة كيرنان ديوسبري هول في منتصف المرمى.",
+          "summary": "Merlin Röhl's shot was saved.",
           "source": 0,
           "players": [
             "Merlin Röhl",
@@ -973,7 +973,7 @@
           "id": "moment-3",
           "minute": "27′",
           "title": "Thierno Barry — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء ضربة رأسية(إيفرتون) ثيرنو باريتم التصدي. تمريرة حاسمة بواسطة جاك جريليش بعرضية في منتصف المرمى.",
+          "summary": "Thierno Barry's shot was saved.",
           "source": 0,
           "players": [
             "Thierno Barry",
@@ -1019,7 +1019,7 @@
           "id": "moment-4",
           "minute": "30′",
           "title": "Jack Grealish — Big chance saved",
-          "summary": "تم التصدي للمحاولة من الجهة اليسرى من منطقة الجزاء تسديدة بالقدم اليمنى(إيفرتون) جاك جريليشتم التصدي. تمريرة حاسمة بواسطة جيمس تاركوفسكي في سقف المرمى.",
+          "summary": "Jack Grealish's shot was saved.",
           "source": 0,
           "players": [
             "Jack Grealish",
@@ -1065,7 +1065,7 @@
           "id": "moment-5",
           "minute": "37′",
           "title": "Thierno Barry — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليمنى(إيفرتون) ثيرنو باريتم التصدي. تمريرة حاسمة بواسطة فيتالي ميكولينكو في منتصف المرمى.",
+          "summary": "Thierno Barry's shot was saved.",
           "source": 0,
           "players": [
             "Thierno Barry",
@@ -1111,7 +1111,7 @@
           "id": "moment-6",
           "minute": "45′+1′",
           "title": "Pedro Neto — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليسرى(تشيلسي) بيدرو نيتوتم التصدي. تمريرة حاسمة بواسطة كول بالمير في سقف المرمى.",
+          "summary": "Pedro Neto's shot was saved.",
           "source": 0,
           "players": [
             "Pedro Neto",
@@ -1157,7 +1157,7 @@
           "id": "moment-7",
           "minute": "46′",
           "title": "Pedro Neto — Goal",
-          "summary": "هدف! إيفرتون 0, تشيلسي 1. بيدرو نيتو (تشيلسي) تسديدة بالقدم اليسرى من منتصف منطقة الجزاء إلى الزاوية الأرضية اليمنى.",
+          "summary": "Pedro Neto scored.",
           "source": 0,
           "players": [
             "Pedro Neto"
@@ -1201,7 +1201,7 @@
           "id": "moment-8",
           "minute": "90′",
           "title": "Pedro Neto — Goal",
-          "summary": "هدف! إيفرتون 0, تشيلسي 2. بيدرو نيتو (تشيلسي) تسديدة بالقدم اليسرى من منتصف منطقة الجزاء إلى الزاوية الأرضية اليسرى بعد ضربة ثابتة.",
+          "summary": "Pedro Neto scored.",
           "source": 0,
           "players": [
             "Pedro Neto"
@@ -1502,7 +1502,7 @@
           "id": "moment-1",
           "minute": "3′",
           "title": "Alex Iwobi — Shot blocked",
-          "summary": "تسديدة تم اعتراضها. أليكس أيوبي (فولهام) تسديدة بالقدم اليمنى من الجهة اليسرى من منطقة الجزاء تم اعتراض التسديدة. تمريرة حاسمة بواسطة جوشوا كينغ.",
+          "summary": "Alex Iwobi's shot was blocked.",
           "source": 0,
           "players": [
             "Alex Iwobi",
@@ -1548,7 +1548,7 @@
           "id": "moment-2",
           "minute": "23′",
           "title": "Oscar Bobb — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليسرى(فولهام) أوسكار بوبتم التصدي في الزاوية الأرضية اليسرى.",
+          "summary": "Oscar Bobb's shot was saved.",
           "source": 0,
           "players": [
             "Oscar Bobb"
@@ -1592,7 +1592,7 @@
           "id": "moment-3",
           "minute": "33′",
           "title": "Alex Iwobi — Goal",
-          "summary": "هدف! فولهام 1, هال سيتي 0. أليكس أيوبي (فولهام) تسديدة بالقدم اليمنى من منتصف منطقة الجزاء إلى الزاوية الأرضية اليمنى. تمريرة حاسمة بواسطة ساندر بيرج.",
+          "summary": "Alex Iwobi scored.",
           "source": 0,
           "players": [
             "Alex Iwobi",
@@ -1638,7 +1638,7 @@
           "id": "moment-4",
           "minute": "42′",
           "title": "Josh King — Big chance saved",
-          "summary": "تم التصدي للمحاولة من زاوية صعبة في الجهة اليمنى تسديدة بالقدم اليمنى(فولهام) جوشوا كينغتم التصدي. تمريرة حاسمة بواسطة أوسكار بوب في منتصف المرمى.",
+          "summary": "Josh King's shot was saved.",
           "source": 0,
           "players": [
             "Josh King",
@@ -1684,7 +1684,7 @@
           "id": "moment-5",
           "minute": "53′",
           "title": "Josh King — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليمنى(فولهام) جوشوا كينغتم التصدي. تمريرة حاسمة بواسطة شيا تشارلز في منتصف المرمى.",
+          "summary": "Josh King's shot was saved.",
           "source": 0,
           "players": [
             "Josh King",
@@ -1730,7 +1730,7 @@
           "id": "moment-6",
           "minute": "58′",
           "title": "Alex Iwobi — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليمنى(فولهام) أليكس أيوبيتم التصدي. تمريرة حاسمة بواسطة جونزالو غارسيا تمريرة بضربة رأسية في منتصف المرمى.",
+          "summary": "Alex Iwobi's shot was saved.",
           "source": 0,
           "players": [
             "Alex Iwobi",
@@ -1776,7 +1776,7 @@
           "id": "moment-7",
           "minute": "90′+3′",
           "title": "Tom Cairney — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليسرى(فولهام) توم كاينريتم التصدي. تمريرة حاسمة بواسطة سيزار بالاسيوس في الزاوية الأرضية اليمنى.",
+          "summary": "Tom Cairney's shot was saved.",
           "source": 0,
           "players": [
             "Tom Cairney",
@@ -1822,7 +1822,7 @@
           "id": "moment-8",
           "minute": "90′+4′",
           "title": "Ryan Sessegnon — Red card",
-          "summary": "ريان سيسينيون (فولهام) تحصّل على بطاقة حمراء.",
+          "summary": "Ryan Sessegnon was sent off.",
           "source": 0,
           "players": [
             "Ryan Sessegnon"
@@ -2123,7 +2123,7 @@
           "id": "moment-1",
           "minute": "17′",
           "title": "Rúben Dias — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(مانشستر سيتي) روبن دياشتم التصدي. تمريرة حاسمة بواسطة ماتيو كوفاتشيتش في سقف المرمى.",
+          "summary": "Rúben Dias's shot was saved.",
           "source": 0,
           "players": [
             "Rúben Dias",
@@ -2169,7 +2169,7 @@
           "id": "moment-2",
           "minute": "19′",
           "title": "Phil Foden — Goal",
-          "summary": "هدف! مانشستر سيتي 1, إبسويتش تاون 0. فيليب فودين (مانشستر سيتي) تسديدة بالقدم اليسرى من منتصف منطقة الجزاء إلى منتصف المرمى. تمريرة حاسمة بواسطة جيريمي دوكو بعد هجمة مرتدة.",
+          "summary": "Phil Foden scored.",
           "source": 0,
           "players": [
             "Phil Foden",
@@ -2215,7 +2215,7 @@
           "id": "moment-3",
           "minute": "21′",
           "title": "Daizen Maeda — Goal",
-          "summary": "هدف! مانشستر سيتي 1, إبسويتش تاون 1. دايزن مايدا (إبسويتش تاون) تسديدة بالقدم اليسرى من منتصف منطقة الجزاء إلى الزاوية الأرضية اليمنى. تمريرة حاسمة بواسطة عبدول واتارا.",
+          "summary": "Daizen Maeda scored.",
           "source": 0,
           "players": [
             "Daizen Maeda",
@@ -2261,7 +2261,7 @@
           "id": "moment-4",
           "minute": "34′",
           "title": "Erling Haaland — Goal",
-          "summary": "هدف! مانشستر سيتي 2, إبسويتش تاون 1. إيرلينج هالاند (مانشستر سيتي) ضربة رأسية من منتصف منطقة الجزاء إلى الزاوية الأرضية اليسرى. تمريرة حاسمة بواسطة ماتيو كوفاتشيتش بعرضية.",
+          "summary": "Erling Haaland scored.",
           "source": 0,
           "players": [
             "Erling Haaland",
@@ -2307,7 +2307,7 @@
           "id": "moment-5",
           "minute": "43′",
           "title": "Rúben Dias — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(مانشستر سيتي) روبن دياشتم التصدي. تمريرة حاسمة بواسطة مارك جويهي في أعلى الزاوية اليمنى.",
+          "summary": "Rúben Dias's shot was saved.",
           "source": 0,
           "players": [
             "Rúben Dias",
@@ -2353,7 +2353,7 @@
           "id": "moment-6",
           "minute": "69′",
           "title": "Erling Haaland — Goal",
-          "summary": "هدف! مانشستر سيتي 3, إبسويتش تاون 1. إيرلينج هالاند (مانشستر سيتي) تسديدة بالقدم اليسرى من منتصف منطقة الجزاء إلى منتصف المرمى. تمريرة حاسمة بواسطة إليمان ندياي بعد هجمة مرتدة.",
+          "summary": "Erling Haaland scored.",
           "source": 0,
           "players": [
             "Erling Haaland",
@@ -2399,7 +2399,7 @@
           "id": "moment-7",
           "minute": "80′",
           "title": "Zian Flemming — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليسرى(إبسويتش تاون) زيان فليمنغتم التصدي. تمريرة حاسمة بواسطة جاكوب غريفز تمريرة بضربة رأسية في الزاوية الأرضية اليسرى.",
+          "summary": "Zian Flemming's shot was saved.",
           "source": 0,
           "players": [
             "Zian Flemming",
@@ -2445,7 +2445,7 @@
           "id": "moment-8",
           "minute": "85′",
           "title": "Enzo Fernández — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليمنى(مانشستر سيتي) إنزو فرنانديزتم التصدي. تمريرة حاسمة بواسطة إيرلينج هالاند في الزاوية الأرضية اليسرى.",
+          "summary": "Enzo Fernández's shot was saved.",
           "source": 0,
           "players": [
             "Enzo Fernández",
@@ -2748,7 +2748,7 @@
           "id": "moment-1",
           "minute": "7′",
           "title": "Harvey Barnes — Shot blocked",
-          "summary": "تسديدة تم اعتراضها. هارفي لويس بارنز (نيوكاسل) تسديدة بالقدم اليمنى من خارج منطقة الجزاء تم اعتراض التسديدة.",
+          "summary": "Harvey Barnes's shot was blocked.",
           "source": 0,
           "players": [
             "Harvey Barnes"
@@ -2792,7 +2792,7 @@
           "id": "moment-2",
           "minute": "9′",
           "title": "Nicolas Jackson — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليمنى(أستون فيلا) نيكولاس جاكسونتم التصدي. تمريرة حاسمة بواسطة أليسون إدوارد في منتصف المرمى.",
+          "summary": "Nicolas Jackson's shot was saved.",
           "source": 0,
           "players": [
             "Nicolas Jackson",
@@ -2838,7 +2838,7 @@
           "id": "moment-3",
           "minute": "16′",
           "title": "Johan Manzambi — Shot blocked",
-          "summary": "تسديدة تم اعتراضها. يوهان مانزامبي (أستون فيلا) تسديدة بالقدم اليسرى من الجهة اليمنى من منطقة الجزاء تم اعتراض التسديدة. تمريرة حاسمة بواسطة نيكولاس جاكسون.",
+          "summary": "Johan Manzambi's shot was blocked.",
           "source": 0,
           "players": [
             "Johan Manzambi",
@@ -2884,7 +2884,7 @@
           "id": "moment-4",
           "minute": "23′",
           "title": "Yoane Wissa — Shot blocked",
-          "summary": "تسديدة تم اعتراضها. يون ويسا (نيوكاسل) ضربة رأسية من منتصف منطقة الجزاء تم اعتراض التسديدة. تمريرة حاسمة بواسطة هارفي لويس بارنز بعرضية.",
+          "summary": "Yoane Wissa's shot was blocked.",
           "source": 0,
           "players": [
             "Yoane Wissa",
@@ -2930,7 +2930,7 @@
           "id": "moment-5",
           "minute": "26′",
           "title": "Yoane Wissa — Shot blocked",
-          "summary": "تسديدة تم اعتراضها. يون ويسا (نيوكاسل) تسديدة بالقدم اليمنى من خارج منطقة الجزاء تم اعتراض التسديدة.",
+          "summary": "Yoane Wissa's shot was blocked.",
           "source": 0,
           "players": [
             "Yoane Wissa"
@@ -2974,7 +2974,7 @@
           "id": "moment-6",
           "minute": "36′",
           "title": "Johan Manzambi — Goal",
-          "summary": "هدف! نيوكاسل 0, أستون فيلا 1. يوهان مانزامبي (أستون فيلا) ضربة رأسية من مسافة قريبة جداً إلى الزاوية الأرضية اليسرى. تمريرة حاسمة بواسطة جواو جوميز بعرضية.",
+          "summary": "Johan Manzambi scored.",
           "source": 0,
           "players": [
             "Johan Manzambi",
@@ -3020,7 +3020,7 @@
           "id": "moment-7",
           "minute": "49′",
           "title": "Sven Botman — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليسرى(نيوكاسل) سفين بوتمانتم التصدي في أعلى الزاوية اليمنى.",
+          "summary": "Sven Botman's shot was saved.",
           "source": 0,
           "players": [
             "Sven Botman"
@@ -3064,7 +3064,7 @@
           "id": "moment-8",
           "minute": "74′",
           "title": "Ross Barkley — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(أستون فيلا) روس باركليتم التصدي في الزاوية الأرضية اليسرى.",
+          "summary": "Ross Barkley's shot was saved.",
           "source": 0,
           "players": [
             "Ross Barkley"

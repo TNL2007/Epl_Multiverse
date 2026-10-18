@@ -17051,7 +17051,7 @@
           "id": "moment-1",
           "minute": "2′",
           "title": "Sandro Tonali — Goal",
-          "summary": "هدف! نيوكاسل 1, تشيلسي 0. ساندرو تونالي (نيوكاسل) تسديدة بالقدم اليسرى من مسافة قريبة جداً إلى أعلى منتصف المرمى. تمريرة حاسمة بواسطة جيمس ميرفي بعرضية.",
+          "summary": "Sandro Tonali scored.",
           "source": 0,
           "players": [
             "Sandro Tonali",
@@ -17097,7 +17097,7 @@
           "id": "moment-2",
           "minute": "19′",
           "title": "Alexander Isak — Big chance saved",
-          "summary": "تم التصدي للمحاولة من الجهة اليمنى من منطقة الجزاء تسديدة بالقدم اليمنى(نيوكاسل) أليكساندر إيزاكتم التصدي. تمريرة حاسمة بواسطة سفين بوتمان تمريرة بضربة رأسية في أعلى الزاوية اليمنى.",
+          "summary": "Alexander Isak's shot was saved.",
           "source": 0,
           "players": [
             "Alexander Isak",
@@ -17143,7 +17143,7 @@
           "id": "moment-3",
           "minute": "26′",
           "title": "Harvey Barnes — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليسرى(نيوكاسل) هارفي لويس بارنزتم التصدي في منتصف المرمى.",
+          "summary": "Harvey Barnes's shot was saved.",
           "source": 0,
           "players": [
             "Harvey Barnes"
@@ -17187,7 +17187,7 @@
           "id": "moment-4",
           "minute": "36′",
           "title": "Nicolas Jackson — Red card",
-          "summary": "نيكولاس جاكسون (تشيلسي) تحصّل على بطاقة حمراء.",
+          "summary": "Nicolas Jackson was sent off.",
           "source": 0,
           "players": [
             "Nicolas Jackson"
@@ -17231,7 +17231,7 @@
           "id": "moment-5",
           "minute": "44′",
           "title": "Dan Burn — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء ضربة رأسية(نيوكاسل) دان بيرنتم التصدي. تمريرة حاسمة بواسطة هارفي لويس بارنز بعرضية في الزاوية الأرضية اليسرى.",
+          "summary": "Dan Burn's shot was saved.",
           "source": 0,
           "players": [
             "Dan Burn",
@@ -17277,7 +17277,7 @@
           "id": "moment-6",
           "minute": "45′",
           "title": "Alexander Isak — Big chance saved",
-          "summary": "تم التصدي للمحاولة من الجهة اليمنى من داخل منطقة الـست ياردات تسديدة بالقدم اليسرى(نيوكاسل) أليكساندر إيزاكتم التصدي في الزاوية الأرضية اليمنى.",
+          "summary": "Alexander Isak's shot was saved.",
           "source": 0,
           "players": [
             "Alexander Isak"
@@ -17321,7 +17321,7 @@
           "id": "moment-7",
           "minute": "49′",
           "title": "Cole Palmer — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليسرى(تشيلسي) كول بالميرتم التصدي. تمريرة حاسمة بواسطة مويسيس كايسيدو في الزاوية الأرضية اليمنى.",
+          "summary": "Cole Palmer's shot was saved.",
           "source": 0,
           "players": [
             "Cole Palmer",
@@ -17367,7 +17367,7 @@
           "id": "moment-8",
           "minute": "90′",
           "title": "Bruno Guimarães — Goal",
-          "summary": "هدف! نيوكاسل 2, تشيلسي 0. برونو غويماريس (نيوكاسل) تسديدة بالقدم اليمنى من خارج منطقة الجزاء إلى أعلى الزاوية اليمنى. تمريرة حاسمة بواسطة دان بيرن بعد ضربة ثابتة.",
+          "summary": "Bruno Guimarães scored.",
           "source": 0,
           "players": [
             "Bruno Guimarães",

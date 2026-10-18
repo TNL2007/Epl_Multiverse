@@ -11460,7 +11460,7 @@
           "id": "moment-1",
           "minute": "3′",
           "title": "Amad Diallo — Shot blocked",
-          "summary": "تسديدة تم اعتراضها. أماد ديالو (مانشستر يونايتد) تسديدة بالقدم اليسرى من الجهة اليمنى من منطقة الجزاء تم اعتراض التسديدة. تمريرة حاسمة بواسطة براين مبيمو.",
+          "summary": "Amad Diallo's shot was blocked.",
           "source": 0,
           "players": [
             "Amad Diallo",
@@ -11506,7 +11506,7 @@
           "id": "moment-2",
           "minute": "10′",
           "title": "Bruno Fernandes — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(مانشستر يونايتد) برونو فيرنانديشتم التصدي. تمريرة حاسمة بواسطة ماتيوس كونيا في الزاوية الأرضية اليسرى.",
+          "summary": "Bruno Fernandes's shot was saved.",
           "source": 0,
           "players": [
             "Bruno Fernandes",
@@ -11552,7 +11552,7 @@
           "id": "moment-3",
           "minute": "13′",
           "title": "Josh King — Big chance saved",
-          "summary": "تم التصدي للمحاولة من الجهة اليسرى من منطقة الجزاء تسديدة بالقدم اليمنى(فولهام) جوشوا كينغتم التصدي. تمريرة حاسمة بواسطة ريان سيسينيون بتمريرة بينية في الزاوية الأرضية اليمنى.",
+          "summary": "Josh King's shot was saved.",
           "source": 0,
           "players": [
             "Josh King",
@@ -11598,7 +11598,7 @@
           "id": "moment-4",
           "minute": "14′",
           "title": "Matheus Cunha — Big chance saved",
-          "summary": "تم التصدي للمحاولة من منتصف منطقة الجزاء تسديدة بالقدم اليسرى(مانشستر يونايتد) ماتيوس كونياتم التصدي. تمريرة حاسمة بواسطة التاي بايندير في الزاوية الأرضية اليمنى.",
+          "summary": "Matheus Cunha's shot was saved.",
           "source": 0,
           "players": [
             "Matheus Cunha",
@@ -11644,7 +11644,7 @@
           "id": "moment-5",
           "minute": "16′",
           "title": "Alex Iwobi — Big chance saved",
-          "summary": "تم التصدي للمحاولة من خارج منطقة الجزاء تسديدة بالقدم اليمنى(فولهام) أليكس أيوبيتم التصدي في الزاوية الأرضية اليسرى.",
+          "summary": "Alex Iwobi's shot was saved.",
           "source": 0,
           "players": [
             "Alex Iwobi"
@@ -11688,7 +11688,7 @@
           "id": "moment-6",
           "minute": "48′",
           "title": "Amad Diallo — Big chance saved",
-          "summary": "تم التصدي للمحاولة من الجهة اليمنى من منطقة الجزاء تسديدة بالقدم اليسرى(مانشستر يونايتد) أماد ديالوتم التصدي. تمريرة حاسمة بواسطة ميسون ماونت في أعلى الزاوية اليمنى.",
+          "summary": "Amad Diallo's shot was saved.",
           "source": 0,
           "players": [
             "Amad Diallo",
@@ -11734,7 +11734,7 @@
           "id": "moment-7",
           "minute": "58′",
           "title": "Rodrigo Muniz — Own goal",
-          "summary": "هدف ذاتي بـ رودريجو مونيز, فولهام. فولهام 0, مانشستر يونايتد 1.",
+          "summary": "Rodrigo Muniz scored an own goal.",
           "source": 0,
           "players": [
             "Rodrigo Muniz"
@@ -11778,7 +11778,7 @@
           "id": "moment-8",
           "minute": "73′",
           "title": "Emile Smith Rowe — Goal",
-          "summary": "هدف! فولهام 1, مانشستر يونايتد 1. إميل سميث رو (فولهام) تسديدة بالقدم اليمنى من مسافة قريبة جداً إلى الزاوية الأرضية اليسرى. تمريرة حاسمة بواسطة أليكس أيوبي بتمريرة بينية.",
+          "summary": "Emile Smith Rowe scored.",
           "source": 0,
           "players": [
             "Emile Smith Rowe",
