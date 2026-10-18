@@ -43,8 +43,8 @@
   };
 
   const startersAt68 = {
-    liverpool: teams.liverpool.starters.filter(player => !["Cody Gakpo", "Luis Díaz", "Curtis Jones"].includes(player[1]))
-      .concat([[9, "Darwin Núñez", "CF", 80, 49], [19, "Harvey Elliott", "CM", 58, 69], [38, "Ryan Gravenberch", "CM", 55, 31]]),
+    liverpool: teams.liverpool.starters.filter(player => !["Cody Gakpo", "Luis Díaz", "Curtis Jones", "Kostas Tsimikas"].includes(player[1]))
+      .concat([[2, "Joe Gomez", "LB", 26, 83], [9, "Darwin Núñez", "CF", 80, 49], [19, "Harvey Elliott", "CM", 58, 69], [38, "Ryan Gravenberch", "CM", 55, 31]]),
     arsenal: teams.arsenal.starters
   };
   const events = [
