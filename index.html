@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a1110">
+  <title>Multiverse Match | EPL Multiverse</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="Multiverse Match home">
+        <span class="brand-mark" aria-hidden="true">M</span>
+        <span><strong>MULTIVERSE</strong><small>FOOTBALL SIMULATOR</small></span>
+      </a>
+      <div class="topbar-right">
+        <span class="status-dot"></span><span>SIMULATION MODE</span>
+        <button class="icon-button" id="reset-button" type="button" title="Start a new match" aria-label="Start a new match">↻</button>
+      </div>
+    </header>
+
+    <section class="match-heading">
+      <div>
+        <p class="eyebrow">PREMIER LEAGUE · COUNTERFACTUAL MATCHDAY</p>
+        <h1>One moment. <em>Infinite outcomes.</em></h1>
+        <p class="subheading">Take control of a pivotal Liverpool attack, then explore how one decision changes the match.</p>
+      </div>
+      <div class="match-meta"><span class="live-pill"><i></i> LIVE SIM</span><span>Anfield · 68’</span></div>
+    </section>
+
+    <section class="scoreboard" aria-label="Match score">
+      <div class="team team-home"><span class="team-crest">L</span><div><strong>LIVERPOOL</strong><small>HOME</small></div></div>
+      <div class="score-wrap"><span class="score" id="home-score">1</span><span class="score-separator">:</span><span class="score" id="away-score">1</span><span class="match-minute" id="match-minute">68:14</span></div>
+      <div class="team team-away"><div><strong>ARSENAL</strong><small>AWAY</small></div><span class="team-crest away-crest">A</span></div>
+    </section>
+
+    <section class="game-grid">
+      <div class="main-column">
+        <section class="pitch-card" aria-label="Tactical match view">
+          <div class="pitch-toolbar"><span><i class="live-dot"></i> MATCH VIEW</span><span class="pitch-note">ATTACKING FROM LEFT TO RIGHT</span></div>
+          <div class="pitch" id="pitch">
+            <div class="pitch-lines" aria-hidden="true"><span class="halfway"></span><span class="center-circle"></span><span class="center-spot"></span><span class="box box-left"></span><span class="box box-right"></span><span class="six-yard six-left"></span><span class="six-yard six-right"></span><span class="goal goal-left"></span><span class="goal goal-right"></span></div>
+            <div class="player red p-salah" id="salah"><span>11</span><small>SALAH</small></div>
+            <div class="player red p-nunez" id="nunez"><span>9</span><small>NÚÑEZ</small></div>
+            <div class="player red p-mid" id="midfielder"><span>8</span><small>SZOBOSZLAI</small></div>
+            <div class="player white p-def1"><span>4</span></div><div class="player white p-def2"><span>2</span></div>
+            <div class="player white p-def3"><span>6</span></div><div class="player white p-def4"><span>5</span></div>
+            <div class="player white p-gk"><span>1</span></div>
+            <div class="ball" id="ball" aria-label="Ball"></div>
+            <div class="chance-callout" id="chance-callout"><span>⚡</span> BREAKING INTO THE BOX</div>
+            <div class="pitch-caption">LIVERPOOL COUNTER-ATTACK</div>
+          </div>
+          <div class="pitch-legend"><span><i class="legend-player red"></i> LIVERPOOL</span><span><i class="legend-player white"></i> ARSENAL</span><span><i class="legend-ball"></i> BALL</span><span class="legend-hint">PLAYER POSITIONS ARE ILLUSTRATIVE</span></div>
+        </section>
+
+        <section class="decision-card" id="decision-panel">
+          <div class="decision-heading"><div><p class="eyebrow">YOUR DECISION · 68’</p><h2>Salah has space on the right</h2></div><span class="decision-number">01 <i>/ 03</i></span></div>
+          <p class="decision-copy">Núñez is attacking the near channel. The keeper is set, but the back line is scrambling. What should Mo do?</p>
+          <div class="choices" id="choices">
+            <button class="choice" data-choice="through-ball"><span class="choice-icon">↗</span><span class="choice-text"><strong>Slip Núñez through</strong><small>High reward · Tight angle</small></span><span class="choice-arrow">→</span></button>
+            <button class="choice" data-choice="shoot"><span class="choice-icon">◎</span><span class="choice-text"><strong>Take the shot himself</strong><small>Good position · Keeper ready</small></span><span class="choice-arrow">→</span></button>
+            <button class="choice" data-choice="switch"><span class="choice-icon">⇄</span><span class="choice-text"><strong>Switch play to the left</strong><small>Keep the ball · Reset the attack</small></span><span class="choice-arrow">→</span></button>
+          </div>
+        </section>
+
+        <section class="result-card hidden" id="result-panel" aria-live="polite">
+          <div class="result-topline"><span class="eyebrow">THE MOMENT</span><span class="result-tag" id="result-tag">CHANCE MISSED</span></div>
+          <h2 id="result-headline">Salah slips Núñez in…</h2>
+          <p id="result-description"></p>
+          <div class="result-actions"><button class="primary-button" id="continue-button" type="button">Continue match <span>→</span></button><button class="text-button" id="rewind-button" type="button">↶ Rewind to decision</button></div>
+        </section>
+
+        <section class="timeline-card">
+          <div class="section-heading"><div><p class="eyebrow">YOUR MULTIVERSE</p><h2>Match timelines</h2></div><span class="branch-count" id="branch-count">1 timeline</span></div>
+          <div class="timeline-list" id="timeline-list" aria-live="polite"></div>
+          <p class="timeline-footnote">Each branch starts from the same moment. Outcomes are simulated, so replay to see how a different choice changes the story.</p>
+        </section>
+      </div>
+
+      <aside class="side-column">
+        <section class="commentary-card">
+          <div class="section-heading"><div><p class="eyebrow">FROM THE COMMENTARY BOX</p><h2>Match commentary</h2></div><span class="sound-icon">◖))</span></div>
+          <div class="commentary-feed" id="commentary-feed" aria-live="polite">
+            <article class="commentary-entry"><time>67:42</time><p>Arsenal try to play out, but Liverpool snap into the press. Mac Allister wins it back in midfield.</p></article>
+            <article class="commentary-entry"><time>67:55</time><p>Diaz drives forward and finds Salah out on the right. Liverpool have numbers here.</p></article>
+            <article class="commentary-entry featured"><time>68:14</time><p><strong>Here comes Salah.</strong> Núñez is making the run through the middle — this is a big moment.</p></article>
+          </div>
+          <div class="commentary-footer"><span class="pulse"></span> AI-ASSISTED · GROUNDED IN MATCH EVENTS</div>
+        </section>
+
+        <section class="momentum-card">
+          <div class="section-heading"><div><p class="eyebrow">THE MATCH RHYTHM</p><h2>Momentum</h2></div><span class="momentum-value" id="momentum-value">+18</span></div>
+          <div class="momentum-bar"><span class="momentum-fill" id="momentum-fill"></span><span class="momentum-mid"></span></div>
+          <div class="momentum-labels"><span>ARSENAL</span><span>LIVERPOOL</span></div>
+          <p class="momentum-note" id="momentum-note">Liverpool are turning the pressure up. The crowd can feel it.</p>
+        </section>
+
+        <section class="impact-card">
+          <div class="section-heading"><div><p class="eyebrow">SEASON RIPPLE</p><h2>Ripple score</h2></div><span class="info-icon" title="Illustrative impact score for this prototype">i</span></div>
+          <div class="ripple-score"><strong id="ripple-score">—</strong><span> / 100</span></div>
+          <p id="ripple-caption">Make a decision to see how this moment could echo through the match.</p>
+          <div class="impact-divider"></div>
+          <div class="impact-row"><span>Liverpool win chance</span><strong id="win-chance">42%</strong></div>
+          <div class="impact-row"><span>Current match state</span><strong id="match-state">Level</strong></div>
+        </section>
+      </aside>
+    </section>
+    <footer class="site-footer"><span>PROTOTYPE · PROBABILITIES ARE ILLUSTRATIVE</span><span>Built for the EPL Multiverse project</span></footer>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>
