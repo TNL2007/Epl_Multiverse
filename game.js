@@ -514,7 +514,7 @@
   function matchArchiveState(match) {
     if (matchHasFinalScore(match)) return "completed";
     const today = new Date().toISOString().slice(0, 10);
-    return match.date > today ? "upcoming" : "missing";
+    return match.date > today ? "upcoming" : match.date === today ? "today" : "missing";
   }
 
   function formatArchiveDate(value) {
@@ -578,7 +578,7 @@
       round.textContent = match.round || "Fixture";
       const badge = document.createElement("i");
       badge.className = "archive-badge " + status;
-      badge.textContent = status === "completed" ? "FT" : status === "upcoming" ? "UPCOMING" : "NO SCORE";
+      badge.textContent = status === "completed" ? "FT" : status === "upcoming" ? "UPCOMING" : status === "today" ? "TODAY · NO SCORE" : "NO SCORE";
       meta.append(round, badge);
       row.append(date, teams, meta);
       row.addEventListener("click", () => showArchiveSelection(season, match, index));
@@ -590,7 +590,7 @@
     const score = matchHasFinalScore(match) ? " " + match.score.ft[0] + "–" + match.score.ft[1] + " " : " v ";
     $("#archive-selection-title").textContent = match.team1 + score + match.team2;
     const status = matchArchiveState(match);
-    const statusText = status === "completed" ? "Full-time score in the included dataset." : status === "upcoming" ? "Fixture is scheduled; no result is recorded yet." : "This fixture has no score in the current data snapshot.";
+    const statusText = status === "completed" ? "Full-time score in the included dataset." : status === "upcoming" ? "Fixture is scheduled; no result is recorded yet." : status === "today" ? "Today’s fixture; no final result is recorded in this snapshot yet." : "This fixture has no score in the current data snapshot.";
     $("#archive-selection-copy").textContent = season.season.replace("-", "/") + " · " + formatArchiveDate(match.date) + " · " + (match.round || "Premier League") + ". " + statusText + " This archive has scores, not a verified event timeline.";
     archiveSelection.classList.remove("hidden");
     archiveSelection.scrollIntoView({ behavior: "smooth", block: "nearest" });
