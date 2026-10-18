@@ -272,7 +272,7 @@
     }
     addCommentary(state.home === state.away ? "The referee brings it to a close. The points are shared." : state.home > state.away ? "Full time at Anfield. Liverpool take all three points." : "Full time. Arsenal leave Anfield with the win.", "90:00", true);
     $("#continue-button").textContent = "Play another timeline";
-    $("#continue-button").onclick = newMatch;
+    completed = true;
     $("#result-headline").textContent = "Full time";
     $("#result-description").textContent = state.home + "–" + state.away + ". Rewind any decision to explore another version of the match.";
     $("#result-tag").textContent = "MATCH COMPLETE";
@@ -294,7 +294,10 @@
   function clamp(value, min, max) { return Math.max(min, Math.min(max, value)); }
 
   choiceButtons.forEach(button => button.addEventListener("click", () => decide(button.dataset.choice)));
-  $("#continue-button").addEventListener("click", continueMatch);
+  $("#continue-button").addEventListener("click", () => {
+    if (state.phase >= 2 && $("#result-tag").textContent === "MATCH COMPLETE") newMatch();
+    else continueMatch();
+  });
   $("#rewind-button").addEventListener("click", rewind);
   $("#reset-button").addEventListener("click", newMatch);
   newMatch();
