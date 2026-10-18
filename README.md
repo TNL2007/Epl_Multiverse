@@ -1,14 +1,12 @@
 # EPL Multiverse
 
-A playable, browser-based alternate-timeline football match prototype. Replay Liverpool 1–1 Arsenal at Anfield (23 December 2023), make a decision at a key moment, and follow a simulated branch with event-based commentary and match/season context.
+A browser-based football match simulator with a searchable Premier League archive and counterfactual match prototype.
 
 ## Play
 
 **[Open EPL Multiverse](https://tnl2007.github.io/Epl_Multiverse/)**
 
-If the link is not live yet, enable GitHub Pages once: open **Settings → Pages**, set **Build and deployment → Source** to **GitHub Actions**, then push to `main` or run **Publish EPL Multiverse** under the repository’s Actions tab. The workflow publishes the static site automatically.
-
-To run it locally, serve the repository folder (the game fetches its bundled JSON data, so opening the HTML file directly may not work):
+The site is published with GitHub Pages. To run it locally, serve the repository folder so its bundled JSON files can load:
 
 ```sh
 python -m http.server 8000
@@ -16,19 +14,16 @@ python -m http.server 8000
 
 Then visit [http://localhost:8000](http://localhost:8000).
 
-## What is in this prototype
+## Match archive
 
-- A playable decision-and-rewind loop with alternate match timelines.
-- Event-driven text commentary and optional speech using a voice available in your browser.
-- A tactical pitch view, match momentum, and illustrative win-probability/ripple indicators.
-- Historical 2023/24 Premier League results bundled locally in `data/epl-2023-24-results.json`. The game derives season scoring rates and the final table from those match results.
+Browse 1,900 Premier League fixtures across 2022/23–2026/27, search by team or matchday, and filter completed results, upcoming fixtures, or fixtures without a score in the bundled snapshot.
 
-The match is a simulation, not a live-data product or a licensed 3D football game. The included public dataset contains historical match results and scores, not player tracking or ball-by-ball events. Specific in-match actions and alternate outcomes are illustrative. Probability and season-ripple figures are prototype estimates, not betting or forecasting advice.
+The archive snapshot was assembled on 18 October 2026. It contains 1,538 full-time scores. The 2022/23–2025/26 seasons have full season results in the source snapshot; the in-progress 2026/27 season contains the results currently available from that source and scheduled fixtures. A fixture with no score is not presented as a completed result. The latest season is a bundled snapshot, not a live feed; refreshes will follow as reliable data becomes available.
 
-## Data and attribution
+Historical fixture/result data: [openfootball/football.json](https://github.com/openfootball/football.json). Its dataset is dedicated to the public domain under [CC0 1.0](https://github.com/openfootball/football.json/blob/master/LICENSE.md). Each bundled season file links to its upstream source.
 
-Historical results: [openfootball/football.json — 2023/24 English Premier League](https://github.com/openfootball/football.json/blob/master/2023-24/en.1.json). The source project dedicates its data to the public domain under [CC0 1.0](https://github.com/openfootball/football.json/blob/master/LICENSE.md). This project includes a compact, derived copy of the season’s match results in `data/epl-2023-24-results.json`.
+## Counterfactual match prototype
 
-## Deployment
+The featured Liverpool–Arsenal scenario demonstrates the decision → outcome → commentary loop. Its alternate events are simulated. The bundled archive contains fixtures and scores—not player tracking or minute-by-minute event timelines—so it cannot verify details such as a specific penalty, save, or chance. Broader factual event replays need an appropriate event-data source and usage rights.
 
-GitHub Actions publishes the static site to GitHub Pages on pushes to `main`. If Pages is not configured for this repository yet, choose **GitHub Actions** as the Pages build source in repository Settings → Pages. The expected site address is [tnl2007.github.io/Epl_Multiverse](https://tnl2007.github.io/Epl_Multiverse/).
+Win probabilities and season-ripple figures are illustrative prototype estimates, not betting or forecasting advice.
