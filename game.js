@@ -93,6 +93,7 @@
       button.disabled = false;
     });
     completed = false;
+    $("#continue-button").onclick = null;
     resultPanel.classList.add("hidden");
     decisionPanel.classList.remove("hidden");
   }
@@ -168,7 +169,6 @@
 
   function applyOutcome(outcome) {
     if (outcome === "goal") state.home += 1;
-    if (outcome === "chance-against" && Math.random() < .16) { state.away += 1; }
     if (outcome === "red") state.winChance = Math.max(5, state.winChance - 15);
     else state.winChance = clamp(state.winChance + ({
       goal: 24, miss: -4, saved: 2, "cut-out": -5, build: 3, clearance: -1, turnover: 2, defuse: 1, "chance-against": -8, yellow: -2
@@ -265,7 +265,6 @@
   function continueMatch() {
     if (state.phase < 2) {
       state.phase += 1;
-      activeBranch = null;
       updateClock();
       updateDecision();
       addCommentary("The match moves on. Another decision is waiting to be made.", scenarios[state.phase].clock, false);
@@ -280,31 +279,16 @@
   }
 
   function rewind() {
-    if (state.phase === 0) {
-      state = { ...originalMatch, phase: 0, decisions: [] };
-      activeBranch = null;
-      updateScore();
-      updateClock();
-      updateMomentum(-state.momentum + originalMatch.momentum);
-      state.momentum = originalMatch.momentum;
-      state.winChance = originalMatch.winChance;
-      $("#win-chance").textContent = state.winChance + "%";
-      $("#match-state").textContent = "Level";
-      updateDecision();
-      return;
-    }
-    state.phase = Math.max(0, state.phase - 1);
-    state.home = originalMatch.home;
-    state.away = originalMatch.away;
-    state.winChance = originalMatch.winChance;
-    state.momentum = originalMatch.momentum;
-    state.decisions = [];
+    state = { ...originalMatch, phase: 0, decisions: [] };
     activeBranch = null;
+    completed = false;
     updateScore();
     updateClock();
     updateMomentum(0);
+    $("#win-chance").textContent = state.winChance + "%";
+    $("#match-state").textContent = "Level";
     updateDecision();
-    addCommentary("Rewound. Choose a different action and the match will branch from this moment.", scenarios[state.phase].clock, false);
+    addCommentary("Back to 68:14. Choose a different action to create another timeline.", scenarios[0].clock, false);
   }
 
   function clamp(value, min, max) { return Math.max(min, Math.min(max, value)); }
