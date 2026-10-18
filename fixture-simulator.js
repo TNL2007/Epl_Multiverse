@@ -1,138 +1,171 @@
 (() => {
-  const $ = (selector) => document.querySelector(selector);
+  const $ = selector => document.querySelector(selector);
   const panel = $("#fixture-simulator");
-  const homeName = $("#fixture-home-name");
-  const awayName = $("#fixture-away-name");
-  const homeScore = $("#fixture-home-score");
-  const awayScore = $("#fixture-away-score");
-  const minuteLabel = $("#fixture-sim-minute");
+  if (!panel) return;
+  const title = $("#fixture-sim-title");
+  const reference = $("#fixture-sim-reference");
+  const momentPicker = $("#scenario-moment-picker");
+  const workspace = $("#scenario-workspace");
+  const empty = $("#scenario-empty");
+  const reportLink = $("#scenario-report-link");
+  const actionsBox = $("#fixture-sim-actions");
   const commentary = $("#fixture-sim-commentary");
   const log = $("#fixture-sim-log");
-  const actions = [...document.querySelectorAll("#fixture-sim-actions button")];
-  const relevantSections = [$(".match-heading"), $(".scoreboard"), $(".season-context"), $(".game-grid")].filter(Boolean);
+  const camera = $("#scenario-camera");
+  const relevantSections = [$(".match-heading"), $(".scoreboard"), $(".season-context"), $(".game-grid"), $(".match-tabs"), $("#match-insights-panel")].filter(Boolean);
   let selected = null;
-  let simState = null;
+  let catalog = null;
+  let activeMoment = null;
 
-  function readableName(name) {
-    return (name || "Unknown team").replace(/ (FC|AFC)$/, "");
-  }
+  const clean = value => (value || "").replace(/ (FC|AFC)$/, "");
+  const keyFor = match => [match.date, match.team1, match.team2].join("|");
 
-  function isVerifiedLiverpoolArsenalFixture(match) {
-    return match.date === "2023-12-23" &&
-      match.team1 === "Liverpool FC" && match.team2 === "Arsenal FC";
-  }
-
-  function seasonRates(matches, team) {
-    const rows = (matches || []).filter(match =>
-      match.score && Array.isArray(match.score.ft) && match.score.ft.length === 2);
-    const scored = rows.reduce((sum, match) => sum +
-      (match.team1 === team ? match.score.ft[0] : match.team2 === team ? match.score.ft[1] : 0), 0);
-    const conceded = rows.reduce((sum, match) => sum +
-      (match.team1 === team ? match.score.ft[1] : match.team2 === team ? match.score.ft[0] : 0), 0);
-    const played = rows.filter(match => match.team1 === team || match.team2 === team).length;
-    return played ? { scored: scored / played, conceded: conceded / played } : { scored: 1.35, conceded: 1.35 };
-  }
-
-  function resetSimulation() {
-    if (!selected) return;
-    simState = { home: 0, away: 0, minute: 0, done: false };
-    homeScore.textContent = "0";
-    awayScore.textContent = "0";
-    minuteLabel.textContent = "0′";
-    log.replaceChildren();
-    commentary.textContent = "Kick-off. Choose a home-team approach to simulate the next ten-minute phase.";
-    actions.forEach(button => button.disabled = false);
-    $("#fixture-sim-ball").style.left = "25%";
-    $("#fixture-sim-ball").style.top = "64%";
-  }
-
-  function appendLog(message) {
-    const item = document.createElement("p");
-    item.textContent = message;
-    log.prepend(item);
-  }
-
-  function phaseProbabilities(tactic) {
-    const home = seasonRates(selected.matches, selected.match.team1);
-    const away = seasonRates(selected.matches, selected.match.team2);
-    const homeRate = (home.scored + away.conceded) / 2;
-    const awayRate = (away.scored + home.conceded) / 2;
-    const modifiers = tactic === "press" ? [1.16, 1.10] : tactic === "counter" ? [1.04, 1.14] : [1.0, .88];
-    const chance = rate => Math.max(.025, Math.min(.25, 1 - Math.exp(-rate * modifiers[0] / 9)));
-    const homeChance = chance(homeRate);
-    const awayChance = Math.max(.02, Math.min(.24, 1 - Math.exp(-awayRate * modifiers[1] / 9)));
-    return { homeChance, awayChance };
-  }
-
-  function simulatePhase(tactic) {
-    if (!selected || !simState || simState.done) return;
-    const probabilities = phaseProbabilities(tactic);
-    const roll = Math.random();
-    let event;
-    if (roll < probabilities.homeChance) {
-      simState.home++;
-      event = readableName(selected.match.team1) + " score in this generated simulation.";
-      $("#fixture-sim-ball").style.left = "89%";
-      $("#fixture-sim-ball").style.top = "48%";
-    } else if (roll < probabilities.homeChance + probabilities.awayChance) {
-      simState.away++;
-      event = readableName(selected.match.team2) + " score in this generated simulation.";
-      $("#fixture-sim-ball").style.left = "11%";
-      $("#fixture-sim-ball").style.top = "48%";
-    } else {
-      const phrases = {
-        press: "The high press forces a hurried clearance; no goal in this phase.",
-        build: "The patient move finds a shooting lane, but the chance goes unfinished.",
-        counter: "A quick break opens space at the other end, but the defence recovers."
-      };
-      event = phrases[tactic];
-      $("#fixture-sim-ball").style.left = tactic === "counter" ? "70%" : "61%";
-      $("#fixture-sim-ball").style.top = tactic === "press" ? "27%" : "68%";
-    }
-    simState.minute = Math.min(90, simState.minute + 10);
-    homeScore.textContent = simState.home;
-    awayScore.textContent = simState.away;
-    minuteLabel.textContent = simState.minute + "′";
-    commentary.textContent = event + " Score: " + simState.home + "–" + simState.away + ".";
-    appendLog(simState.minute + "′ · " + event);
-    if (simState.minute >= 90) {
-      simState.done = true;
-      actions.forEach(button => button.disabled = true);
-      commentary.textContent += " Full time in the generated run; this is not the recorded match result.";
-      appendLog("90′ · Full time in this generated simulation.");
-    }
-  }
+  fetch("data/report-scenarios.json")
+    .then(response => { if (!response.ok) throw new Error("Scenario data unavailable"); return response.json(); })
+    .then(data => { catalog = data; })
+    .catch(() => { catalog = { matches: {} }; });
 
   function showFixture(detail) {
     selected = detail;
-    const match = detail.match;
-    if (isVerifiedLiverpoolArsenalFixture(match)) {
-      panel.classList.add("hidden");
-      relevantSections.forEach(section => section.classList.remove("hidden"));
-      $("#reset-button").click();
-      return;
-    }
+    activeMoment = null;
     relevantSections.forEach(section => section.classList.add("hidden"));
     panel.classList.remove("hidden");
-    homeName.textContent = readableName(match.team1);
-    awayName.textContent = readableName(match.team2);
-    $("#fixture-sim-title").textContent = readableName(match.team1) + " vs " + readableName(match.team2);
-    const reference = detail.hasFinalScore
-      ? "Recorded full-time result: " + match.score.ft[0] + "–" + match.score.ft[1] + ". This alternate generated run starts from 0–0; it does not replay or change that historical result."
-      : detail.status === "upcoming" || detail.status === "today"
-        ? "No final score is recorded for this fixture in the archive snapshot. This generated run starts from 0–0; it is not a forecast."
-        : "No verified final score is present in the archive snapshot. This generated run starts from 0–0.";
-    $("#fixture-sim-reference").textContent = reference;
-    resetSimulation();
-    window.setTimeout(() => panel.scrollIntoView({ behavior: "smooth", block: "start" }), 140);
+    const match = detail.match;
+    title.textContent = clean(match.team1) + " vs " + clean(match.team2);
+    reference.textContent = (detail.hasFinalScore && match.score?.ft
+      ? "Recorded result " + match.score.ft[0] + "–" + match.score.ft[1] + " · "
+      : "") + "Choose a real moment documented in the match report, then choose what happens differently.";
+    momentPicker.replaceChildren();
+    workspace.classList.add("hidden");
+    log.replaceChildren();
+    empty.classList.add("hidden");
+    reportLink.replaceChildren();
+    renderWhenReady();
+    panel.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
-  document.addEventListener("fixture:selected", event => showFixture(event.detail));
-  actions.forEach(button => button.addEventListener("click", () => simulatePhase(button.dataset.tactic)));
-  $("#fixture-reset").addEventListener("click", resetSimulation);
-  $("#reset-button").addEventListener("click", event => {
-    if (!selected || isVerifiedLiverpoolArsenalFixture(selected.match)) return;
+  function renderWhenReady() {
+    if (!selected || !catalog) return;
+    const match = selected.match;
+    const record = catalog.matches[keyFor(match)];
+    if (!record) {
+      momentPicker.replaceChildren();
+      workspace.classList.add("hidden");
+      empty.textContent = "No Premier League report moments have been imported for this fixture yet. We’re keeping this match selectable, but won’t invent moments or players.";
+      empty.classList.remove("hidden");
+      return;
+    }
+    const sourceLinks = (record.sources || []).map(source => {
+      const link = document.createElement("a");
+      link.href = source.url; link.target = "_blank"; link.rel = "noreferrer";
+      link.textContent = source.label;
+      return link;
+    });
+    sourceLinks.forEach(link => reportLink.append(link));
+    momentPicker.replaceChildren(...record.moments.map((moment, index) => {
+      const button = document.createElement("button");
+      button.type = "button"; button.className = "scenario-moment";
+      button.innerHTML = '<span class="scenario-minute"></span><span class="scenario-moment-copy"><strong></strong><small></small></span><span class="scenario-chevron">→</span>';
+      button.querySelector(".scenario-minute").textContent = moment.minute;
+      button.querySelector("strong").textContent = moment.title;
+      button.querySelector("small").textContent = moment.summary;
+      button.addEventListener("click", () => selectMoment(record, moment, button));
+      if (index === 0 && !activeMoment) queueMicrotask(() => selectMoment(record, moment, button));
+      return button;
+    }));
+  }
+
+  function selectMoment(record, moment, button) {
+    activeMoment = moment;
+    momentPicker.querySelectorAll(".scenario-moment").forEach(item => item.classList.toggle("active", item === button));
+    workspace.classList.remove("hidden");
+    empty.classList.add("hidden");
+    log.replaceChildren();
+    commentary.textContent = moment.minute + " · " + moment.summary;
+    const source = record.sources?.[moment.source];
+    const sourceText = document.createElement("span");
+    sourceText.textContent = "Source: " + (source?.label || "Premier League report");
+    const momentSource = document.createElement("a");
+    momentSource.href = source?.url || "#"; momentSource.target = "_blank"; momentSource.rel = "noreferrer";
+    momentSource.textContent = "Read report";
+    log.replaceChildren(sourceText, momentSource);
+    renderPlayers(record, moment);
+    actionsBox.replaceChildren(...moment.actions.map(action => {
+      const actionButton = document.createElement("button");
+      actionButton.type = "button";
+      actionButton.dataset.action = action.type;
+      actionButton.innerHTML = '<span class="action-symbol"></span><span class="action-label"></span><small></small>';
+      actionButton.querySelector(".action-symbol").textContent = iconFor(action.type);
+      actionButton.querySelector(".action-label").textContent = action.label;
+      actionButton.querySelector("small").textContent = action.detail;
+      actionButton.addEventListener("click", () => chooseAction(record, moment, action, actionButton));
+      return actionButton;
+    }));
+  }
+
+  function iconFor(type) {
+    return ({ cross:"↗", pass:"➜", shoot:"◎", dribble:"↗", recycle:"↶", wide:"⇄", central:"↓" })[type] || "➜";
+  }
+
+  function renderPlayers(record, moment) {
+    const names = new Set(moment.players || []);
+    const participants = (record.players || []).filter(player => names.has(player.name));
+    const stage = $("#camera-action");
+    stage.replaceChildren(...participants.map((player, index) => {
+      const node = document.createElement("span");
+      node.className = "camera-player " + (player.team === "Liverpool" ? "home" : "away");
+      node.style.setProperty("--player-index", index);
+      node.innerHTML = '<b class="shirt-number"></b><span class="player-caption"><strong></strong><small></small></span>';
+      node.querySelector(".shirt-number").textContent = String(player.number);
+      node.querySelector(".player-caption strong").textContent = player.name;
+      node.querySelector(".player-caption small").textContent = player.team + " · #" + player.number;
+      return node;
+    }));
+    $("#camera-ball").className = "camera-ball";
+  }
+
+  function chooseAction(record, moment, action, button) {
+    actionsBox.querySelectorAll("button").forEach(item => item.classList.toggle("selected", item === button));
+    commentary.textContent = action.outcome;
+    log.querySelectorAll(".scenario-outcome").forEach(node => node.remove());
+    const result = document.createElement("p");
+    result.className = "scenario-outcome";
+    result.textContent = "Alternate timeline · " + action.label + ". This is a simulated branch from the report’s real moment.";
+    log.append(result);
+    const ball = $("#camera-ball");
+    ball.className = "camera-ball in-flight action-" + action.type;
+    camera.classList.remove("action-flash");
+    requestAnimationFrame(() => camera.classList.add("action-flash"));
+    const players = [...$("#camera-action").querySelectorAll(".camera-player")];
+    players.forEach((player, index) => {
+      const phase = (index + 1) / Math.max(players.length, 1);
+      player.style.setProperty("--move-x", (action.type === "shoot" ? 18 : action.type === "cross" ? 28 : action.type === "dribble" ? 12 : 20) * phase + "px");
+      player.style.setProperty("--move-y", (index % 2 ? -12 : 10) + "px");
+      player.classList.add("moving");
+    });
+  }
+
+  document.addEventListener("fixture:selected", event => {
+    const detail = event.detail;
+    const waitForData = () => catalog ? showFixture(detail) : window.setTimeout(waitForData, 100);
+    waitForData();
+  });
+
+  $("#fixture-reset")?.addEventListener("click", () => {
+    if (!selected) return;
+    activeMoment = null;
+    workspace.classList.add("hidden");
+    log.replaceChildren();
+    momentPicker.querySelectorAll(".scenario-moment").forEach(item => item.classList.remove("active"));
+    renderWhenReady();
+    panel.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+
+  $("#reset-button")?.addEventListener("click", event => {
+    if (!selected) return;
     event.stopImmediatePropagation();
-    resetSimulation();
+    selected = null;
+    panel.classList.add("hidden");
+    relevantSections.forEach(section => section.classList.remove("hidden"));
   }, true);
 })();

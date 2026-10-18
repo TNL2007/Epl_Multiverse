@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "coverageNote": "Only moments explicitly described in the linked Premier League report are included. The app must not invent moments for fixtures without an imported report record.",
+  "matches": {
+    "2023-12-23|Liverpool FC|Arsenal FC": {
+      "date": "2023-12-23",
+      "home": "Liverpool FC",
+      "away": "Arsenal FC",
+      "score": "1–1",
+      "season": "2023/24",
+      "players": [
+        {"name":"Mohamed Salah","number":11,"team":"Liverpool","role":"forward"},
+        {"name":"Trent Alexander-Arnold","number":66,"team":"Liverpool","role":"forward"},
+        {"name":"Darwin Núñez","number":9,"team":"Liverpool","role":"forward"},
+        {"name":"Dominik Szoboszlai","number":8,"team":"Liverpool","role":"midfielder"},
+        {"name":"Martin Ødegaard","number":8,"team":"Arsenal","role":"midfielder"},
+        {"name":"Gabriel Magalhães","number":6,"team":"Arsenal","role":"defender"},
+        {"name":"Oleksandr Zinchenko","number":35,"team":"Arsenal","role":"defender"},
+        {"name":"David Raya","number":22,"team":"Arsenal","role":"goalkeeper"}
+      ],
+      "sources": [
+        {"label":"Premier League match report","url":"https://www.premierleague.com/en/news/3835037"},
+        {"label":"Premier League match analysis","url":"https://www.premierleague.com/en/news/3835238"}
+      ],
+      "moments": [
+        {
+          "id":"arsenal-opener",
+          "minute":"4′",
+          "title":"Arsenal score from Ødegaard’s set piece",
+          "summary":"Martin Ødegaard’s delivery found Gabriel Magalhães, who headed Arsenal in front.",
+          "source":0,
+          "players":["Martin Ødegaard","Gabriel Magalhães","David Raya"],
+          "actions":[
+            {"type":"cross","label":"Deliver the cross","detail":"Attack the six-yard area","outcome":"The delivery reaches Gabriel in the box. This branch explores a different outcome for the header."},
+            {"type":"pass","label":"Play short","detail":"Keep the set piece on the ground","outcome":"Arsenal work a short routine and try to open a new crossing angle."},
+            {"type":"shoot","label":"Shoot from the second ball","detail":"Look for a loose clearance","outcome":"The ball is recycled to the edge of the area for a first-time attempt."},
+            {"type":"recycle","label":"Recycle possession","detail":"Reset rather than force it","outcome":"Arsenal retain the ball and rebuild the attack from a safer position."}
+          ]
+        },
+        {
+          "id":"salah-equaliser",
+          "minute":"29′",
+          "title":"Salah gets in behind and levels",
+          "summary":"Trent Alexander-Arnold’s long pass released Mohamed Salah, who moved inside Zinchenko and finished.",
+          "source":0,
+          "players":["Trent Alexander-Arnold","Mohamed Salah","Oleksandr Zinchenko","David Raya"],
+          "actions":[
+            {"type":"shoot","label":"Shoot early","detail":"Try before the defender recovers","outcome":"Salah takes the first-time route; the branch outcome is an illustrative alternate, not a replay of the real finish."},
+            {"type":"dribble","label":"Take on Zinchenko","detail":"Cut inside toward the box","outcome":"Salah carries the ball inside and forces the covering defenders to react."},
+            {"type":"pass","label":"Slip a runner through","detail":"Look for a teammate in the channel","outcome":"Salah releases a forward runner instead of taking on the shot himself."},
+            {"type":"recycle","label":"Hold up and reset","detail":"Wait for support to arrive","outcome":"Liverpool keep possession and bring more players into the attack."}
+          ]
+        },
+        {
+          "id":"second-half-change",
+          "minute":"68′",
+          "title":"Liverpool’s triple change reshapes the attack",
+          "summary":"Darwin Núñez, Harvey Elliott and Ryan Gravenberch came on. The Premier League analysis discusses Klopp moving Salah centrally after the change.",
+          "source":1,
+          "players":["Mohamed Salah","Darwin Núñez","Trent Alexander-Arnold","Oleksandr Zinchenko"],
+          "actions":[
+            {"type":"wide","label":"Keep Salah wide","detail":"Preserve the Salah–Zinchenko matchup","outcome":"Salah stays on the right and Liverpool keep attacking the one-v-one."},
+            {"type":"central","label":"Move Salah inside","detail":"Add a runner through the middle","outcome":"Salah moves centrally while the right side is occupied by a supporting runner."},
+            {"type":"cross","label":"Target Núñez early","detail":"Use the new striker’s movement","outcome":"Liverpool look for Núñez in the channel before Arsenal can settle."},
+            {"type":"recycle","label":"Keep the structure","detail":"Make the changes without forcing the shape","outcome":"Liverpool retain their width and wait for a clearer opening."}
+          ]
+        },
+        {
+          "id":"five-on-two-counter",
+          "minute":"Second half",
+          "title":"Liverpool’s five-on-two counter from an Arsenal corner",
+          "summary":"The Premier League report describes a Liverpool counter after an Arsenal corner; Alexander-Arnold struck the crossbar from close range.",
+          "source":0,
+          "players":["Mohamed Salah","Trent Alexander-Arnold","Darwin Núñez","David Raya"],
+          "actions":[
+            {"type":"pass","label":"Square it to Trent","detail":"Choose the real shot-maker","outcome":"Trent receives in the central lane and gets a close-range attempt away."},
+            {"type":"pass","label":"Release Núñez","detail":"Use the runner beyond the defence","outcome":"Núñez is sent into the space behind the retreating defenders."},
+            {"type":"dribble","label":"Carry the ball forward","detail":"Commit the last defender","outcome":"Salah drives at the remaining defender before choosing the final action."},
+            {"type":"shoot","label":"Go for goal yourself","detail":"Take the chance before the defence recovers","outcome":"Salah shoots rather than waiting for the supporting runners."}
+          ]
+        }
+      ]
+    }
+  }
+}
