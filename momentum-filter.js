@@ -54,7 +54,7 @@
     const title = document.createElement("h2");
     title.textContent = "Momentum as a hidden state";
     const intro = document.createElement("p");
-    intro.textContent = "A small state-space filter updates a latent Liverpool-pressure estimate from verified goal and major-chance observations. The line is the estimate; the shaded band reflects model uncertainty.";
+    intro.textContent = "A small state-space filter updates a latent Liverpool-pressure estimate from verified goal and major-chance observations. The line is the estimate; the uncertainty interval is shown below.";
     const chart = document.createElementNS("http://www.w3.org/2000/svg", "svg");
     chart.setAttribute("viewBox", "0 0 640 190");
     chart.setAttribute("role", "img");
