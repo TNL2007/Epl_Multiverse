@@ -38,7 +38,7 @@
     "Trent Alexander-Arnold": ["https://commons.wikimedia.org/wiki/Special:FilePath/Trent_Alexander-Arnold_2018_(cropped).jpg?width=320", "https://commons.wikimedia.org/wiki/File:Trent_Alexander-Arnold_2018_(cropped).jpg", "Indopug · CC BY-SA 3.0"],
     "Bukayo Saka": ["https://commons.wikimedia.org/wiki/Special:FilePath/RC_Lens_-_Arsenal_FC_(03-10-2023)_16_(cropped).jpg?width=320", "https://commons.wikimedia.org/wiki/File:RC_Lens_-_Arsenal_FC_(03-10-2023)_16_(cropped).jpg", "Supporterhéninois · CC0"],
     "William Saliba": ["https://commons.wikimedia.org/wiki/Special:FilePath/1_william_saliba_arsenal_2025_(cropped).jpg?width=320", "https://commons.wikimedia.org/wiki/File:1_william_saliba_arsenal_2025_(cropped).jpg", "Chensiyuan · CC BY-SA 4.0"],
-    "David Raya": ["https://commons.wikimedia.org/wiki/Special:FilePath/David_Raya,_Brentford_F.C._footballer,_July_2021.jpg?width=320", "https://commons.wikimedia.org/wiki/File:David_Raya,_Brentford_F.C._footballer,_July_2021.jpg", "Wikimedia Commons contributor · see file license"]
+    "David Raya": ["https://commons.wikimedia.org/wiki/Special:FilePath/David_Raya,_Brentford_F.C._footballer,_July_2021.jpg?width=320", "https://commons.wikimedia.org/wiki/File:David_Raya,_Brentford_F.C._footballer,_July_2021.jpg", "Ardfern · CC BY-SA 4.0"]
   };
 
   const startersAt68 = {
@@ -108,7 +108,7 @@
     const context = document.createElement("div");
     context.className = "play-context";
     context.innerHTML = '<span class="play-context-label">SIMULATED FORK · 68:14</span><div class="play-participants" id="play-participants"></div>';
-    pitch.append(context);
+    pitch.after(context);
     const disclaimer = document.createElement("span");
     disclaimer.className = "pitch-simulation-note";
     disclaimer.textContent = "68’ personnel · positions illustrative · this attack is simulated";
@@ -331,6 +331,7 @@
       movePlayer("Darwin Núñez", 82, 47); movePlayer("William Saliba", 78, 40);
     }
     drawParticipants(participants);
+    pitch.querySelectorAll(".match-player").forEach(player => player.classList.toggle("involved", participants.includes(player.dataset.name)));
     document.querySelector(".play-context-label").textContent = "SIMULATED FORK · " + ["68:14", "75:02", "82:31"][phase];
   }
   game.addEventListener("click", event => {
@@ -342,6 +343,7 @@
     }
     if (event.target.closest("#rewind-button, #reset-button")) {
       phase = 0; setBall(64, 56); drawParticipants(["Mohamed Salah", "Darwin Núñez"]);
+      pitch.querySelectorAll(".match-player").forEach(player => player.classList.toggle("involved", ["Mohamed Salah", "Darwin Núñez"].includes(player.dataset.name)));
       document.querySelector(".play-context-label").textContent = "SIMULATED FORK · 68:14";
     }
   }, true);
