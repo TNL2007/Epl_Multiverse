@@ -27,3 +27,11 @@ Historical fixture/result data: [openfootball/football.json](https://github.com/
 The featured Liverpool–Arsenal scenario demonstrates the decision → outcome → commentary loop. Its alternate events are simulated. The bundled archive contains fixtures and scores—not player tracking or minute-by-minute event timelines—so it cannot verify details such as a specific penalty, save, or chance. Broader factual event replays need an appropriate event-data source and usage rights.
 
 Win probabilities and season-ripple figures are illustrative prototype estimates, not betting or forecasting advice.
+
+## Match-centre prototype
+
+The Liverpool–Arsenal match centre now separates **verified match events** from the **simulated 68th-minute fork**. It includes the official starting XIs and shirt numbers, the 67th-minute substitutions, an animated illustrative pitch, sourced player portraits for participants, a real-event highlights timeline, and an Eye Test tab that presents a fan-style reading with a counterpoint.
+
+The pitch positions and alternate commentary are simulated; they are not tracking data or a historical play-by-play. The pressure meter and score probabilities are prototype estimates. The Ratings tab lets a fan enter personal ratings locally; it does not fabricate per-player statistical ratings because the bundled results archive has no event feed. A single score can miss off-ball work, role context and positioning. FotMob and Sofascore publish broad descriptions of their rating inputs, but not enough of their exact weighting to reproduce them faithfully. The Eye Test is an evidence-led viewpoint, not a claim of perfect neutrality.
+
+Team sheets and real match moments are checked against the linked Liverpool and Arsenal official reports in the app. Player photos link to their Wikimedia Commons file pages and license/credit information.
